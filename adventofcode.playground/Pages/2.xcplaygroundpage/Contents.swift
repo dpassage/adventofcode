@@ -13,6 +13,15 @@ struct Present {
         return 2*l*w + 2*w*h + 2*h*l + (dims[0] * dims[1])
     }
 
+    func ribbonNeeded() -> Int {
+        let dims = [l, w, h].sort()
+
+        let wrap = (dims[0] + dims[1]) * 2
+        let bow = dims.reduce(1, combine: *)
+
+        return wrap + bow
+    }
+
     init?(packageString: String) {
         let dimensions = packageString.characters
             .split("x")
@@ -26,17 +35,27 @@ struct Present {
     }
 }
 
+let testPresent = Present(packageString: "2x3x4")!
+testPresent.paperNeeded()
+testPresent.ribbonNeeded()
+
 let input = [#FileReference(fileReferenceLiteral: "presents.txt")#]
 
 let inputData = NSData(contentsOfURL: input)!
 
 let inputString = String(data: inputData, encoding: NSUTF8StringEncoding)!
 
-let packageStrings = inputString.characters.split("\n").map { String($0) }
+let presentStrings = inputString.characters.split("\n").map { String($0) }
 
-let packages = packageStrings.map { Present(packageString: $0) }
+let presents = presentStrings.map { Present(packageString: $0) }
     .filter { $0 != nil }.map { $0! }
+
+let totalPaper = presents
     .map { $0.paperNeeded() }
     .reduce(0, combine: +)
 
-print("\(packages)")
+let totalRibbon = presents
+    .map { $0.ribbonNeeded() }
+    .reduce(0, combine: +)
+
+print("paper: \(totalPaper) ribbon: \(totalRibbon)")
