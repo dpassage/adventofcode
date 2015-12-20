@@ -59,3 +59,5 @@ let totalRibbon = presents
     .reduce(0, combine: +)
 
 print("paper: \(totalPaper) ribbon: \(totalRibbon)")
+
+//: [Next](@next)

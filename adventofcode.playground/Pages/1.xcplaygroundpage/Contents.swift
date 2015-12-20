@@ -48,4 +48,3 @@ func basement(input: String) -> Int {
 }
 
 print(basement(inputString))
-
