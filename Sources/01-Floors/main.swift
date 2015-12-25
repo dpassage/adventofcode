@@ -1,4 +1,5 @@
-import Foundation
+
+import AdventLib
 
 func santa(input: String) -> Int {
     var answer: Int = 0
@@ -15,14 +16,6 @@ func santa(input: String) -> Int {
     }
     return answer
 }
-
-let inputFile = [#FileReference(fileReferenceLiteral: "input.txt")#]
-
-let inputData = NSData(contentsOfURL: inputFile)!
-
-let inputString = String(data: inputData, encoding: NSUTF8StringEncoding)!
-
-print(santa(inputString))
 
 func basement(input: String) -> Int {
     var answer: Int = 0
@@ -47,4 +40,10 @@ func basement(input: String) -> Int {
     return count
 }
 
-print(basement(inputString))
+let inputString = TextFile.standardInput().readString()
+
+if Process.arguments[1] == "--basement" {
+    print(basement(inputString))
+} else {
+    print(santa(inputString))
+}

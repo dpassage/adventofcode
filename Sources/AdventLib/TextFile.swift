@@ -19,4 +19,9 @@ public class TextFile {
         }
         return AnySequence<String>(inputString.characters.split("\n").map { String ($0) })
     }
+
+    public func readString() -> String {
+        let inputData = fileHandle.readDataToEndOfFile()
+        return String(data: inputData, encoding: NSUTF8StringEncoding) ?? ""
+    }
 }
