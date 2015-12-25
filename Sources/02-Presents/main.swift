@@ -1,6 +1,6 @@
-//: [Previous](@previous)
-
 import Foundation
+
+import AdventLib
 
 struct Present {
     let l: Int
@@ -35,17 +35,7 @@ struct Present {
     }
 }
 
-let testPresent = Present(packageString: "2x3x4")!
-testPresent.paperNeeded()
-testPresent.ribbonNeeded()
-
-let input = [#FileReference(fileReferenceLiteral: "presents.txt")#]
-
-let inputData = NSData(contentsOfURL: input)!
-
-let inputString = String(data: inputData, encoding: NSUTF8StringEncoding)!
-
-let presentStrings = inputString.characters.split("\n").map { String($0) }
+let presentStrings = TextFile.standardInput().readLines()
 
 let presents = presentStrings.map { Present(packageString: $0) }
     .filter { $0 != nil }.map { $0! }
