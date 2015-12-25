@@ -12,11 +12,11 @@ public class TextFile {
         self.fileHandle = fileHandle
     }
 
-    public func readLines() -> [String] {
+    public func readLines() -> AnySequence<String> {
         let inputData = fileHandle.readDataToEndOfFile()
         guard let inputString = String(data: inputData, encoding: NSUTF8StringEncoding) else {
-            return []
+            return AnySequence<String>([])
         }
-        return inputString.characters.split("\n").map { String ($0) }
+        return AnySequence<String>(inputString.characters.split("\n").map { String ($0) })
     }
 }
