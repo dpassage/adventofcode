@@ -1,10 +1,10 @@
 import Foundation
 
-class TextFile {
+public class TextFile {
 
     private let fileHandle: NSFileHandle
 
-    class func standardInput() -> TextFile {
+    public class func standardInput() -> TextFile {
         return TextFile(fileHandle: NSFileHandle.fileHandleWithStandardInput())
     }
 
@@ -12,7 +12,7 @@ class TextFile {
         self.fileHandle = fileHandle
     }
 
-    func readLines() -> [String] {
+    public func readLines() -> [String] {
         let inputData = fileHandle.readDataToEndOfFile()
         guard let inputString = String(data: inputData, encoding: NSUTF8StringEncoding) else {
             return []

@@ -1,4 +1,5 @@
 import Foundation
+import AdventLib
 
 struct Light {
     var x: Int
@@ -37,10 +38,7 @@ struct Command {
     }
 }
 
-let standardInput = NSFileHandle.fileHandleWithStandardInput()
-let inputData = standardInput.readDataToEndOfFile()
-let inputString = String(data: inputData, encoding: NSUTF8StringEncoding)!
-let commandStrings = inputString.characters.split("\n").map { String($0) }
+let commandStrings = TextFile.standardInput().readLines()
 
 let commands = commandStrings.map { Command(commandString: $0) }
 
@@ -66,5 +64,3 @@ for command in commands {
 
 let result = lights.reduce(0, combine: +)
 print(result)
-
-
