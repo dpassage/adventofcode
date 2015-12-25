@@ -1,12 +1,6 @@
-//: [Previous](@previous)
+import AdventLib
 
-import Foundation
-
-let input = [#FileReference(fileReferenceLiteral: "directions.txt")#]
-
-let inputData = NSData(contentsOfURL: input)!
-
-let inputString = String(data: inputData, encoding: NSUTF8StringEncoding)!
+let inputString = TextFile.standardInput().readString()
 
 func visits(directions: String) -> Int {
     var visitedHouses = Set<String>()
@@ -36,8 +30,6 @@ func visits(directions: String) -> Int {
 }
 
 let visitsResult = visits(inputString)
-
-print(visitsResult)
 
 func roboVisits(directions: String) -> Int {
     var visitedHouses = Set<String>()
@@ -89,9 +81,6 @@ func roboVisits(directions: String) -> Int {
     return visitedHouses.count
 }
 
-roboVisits("^v")
-roboVisits("^>v<")
-roboVisits("^v^v^v^v^v")
-roboVisits(inputString)
+let robo = roboVisits(inputString)
 
-//: [Next](@next)
+print("visits: \(visitsResult) roboVisits: \(robo)")

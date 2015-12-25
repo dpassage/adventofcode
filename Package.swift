@@ -9,6 +9,9 @@ let package = Package(
             name: "02-Presents",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "03-Visits",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "06-Lights",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
