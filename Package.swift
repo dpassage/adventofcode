@@ -24,6 +24,9 @@ let package = Package(
             name: "09-Routes",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "11-Passwords",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )

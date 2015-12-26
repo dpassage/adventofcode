@@ -1,7 +1,9 @@
 //: [Previous](@previous)
 
 import Foundation
+import AdventLib
 
+guard Process.arguments.count > 1 else { exit(1) }
 
 struct Password: CustomStringConvertible {
     var value: UInt64
@@ -44,11 +46,6 @@ struct Password: CustomStringConvertible {
     }
 }
 
-let whee = Password(value: 1)
-print(whee.text)
-whee.next()
-whee.next()
-
 func threeLetterStraight(input: String) -> Bool {
     let chars = Array<UnicodeScalar>(input.unicodeScalars)
     let length = chars.count
@@ -63,9 +60,6 @@ func threeLetterStraight(input: String) -> Bool {
     return false
 }
 
-threeLetterStraight(whee.description)
-threeLetterStraight("abcd")
-
 func noIOorL(input: String) -> Bool {
     for char in input.characters {
         guard char != "i" else { return false }
@@ -75,11 +69,22 @@ func noIOorL(input: String) -> Bool {
     return true
 }
 
-noIOorL("abbceffg")
-
 func hasTwoPairs(input: String) -> Bool {
-
+    let regex = try! Regex(pattern: "^.*([a-z])\\1{1}.*([a-z])\\2{1}.*$")
+    if let _ = regex.match(input) {
+        return true
+    }
     return false
 }
+func validPassword(input: String) -> Bool {
+    return threeLetterStraight(input) && noIOorL(input) && hasTwoPairs(input)
+}
 
+var input = Process.arguments[1]
+
+var password = Password(input: input)!
+while !validPassword(password.description) {
+    password = password.next()
+}
+print("next password is: \(password)")
 //: [Next](@next)
