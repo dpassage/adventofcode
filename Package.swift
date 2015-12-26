@@ -18,6 +18,9 @@ let package = Package(
             name: "06-Lights",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "07-Wires",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )
