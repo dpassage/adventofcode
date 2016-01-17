@@ -31,51 +31,42 @@ func visits(directions: String) -> Int {
 
 let visitsResult = visits(inputString)
 
+struct Position {
+    var x: Int
+    var y: Int
+
+    var description: String { return "\(x),\(y)" }
+
+    mutating func move(direction: Character) {
+        switch direction {
+        case "^":
+            y += 1
+        case "v":
+            y -= 1
+        case "<":
+            x -= 1
+        case ">":
+            x += 1
+        default:
+            break
+        }
+    }
+}
+
 func roboVisits(directions: String) -> Int {
     var visitedHouses = Set<String>()
-    var santaX = 0
-    var santaY = 0
-
-    var roboX = 0
-    var roboY = 0
-
+    var santa = Position(x: 0, y: 0)
+    var robo = Position(x: 0, y: 0)
     visitedHouses.insert("0,0")
     for (index, char) in directions.characters.enumerate() {
         if index % 2 == 0 {
-            switch char {
-            case "^":
-                santaY += 1
-            case "v":
-                santaY -= 1
-            case "<":
-                santaX -= 1
-            case ">":
-                santaX += 1
-
-            default:
-                break
-            }
-
-            let house = "\(santaX),\(santaY)"
+	    santa.move(char)
+            let house = santa.description
             visitedHouses.insert(house)
         } else {
-            switch char {
-            case "^":
-                roboY += 1
-            case "v":
-                roboY -= 1
-            case "<":
-                roboX -= 1
-            case ">":
-                roboX += 1
-
-            default:
-                break
-            }
-
-            let house = "\(roboX),\(roboY)"
+	    robo.move(char)
+            let house = robo.description
             visitedHouses.insert(house)
-
         }
     }
     return visitedHouses.count

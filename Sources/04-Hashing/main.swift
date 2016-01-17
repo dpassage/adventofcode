@@ -12,7 +12,7 @@ func md5(input: String) -> String {
 
     var digestHex = ""
     for i in 0..<encodedData.length {
-        digestHex += String(format: "%02x",UnsafePointer<UInt8>(encodedData.bytes)[i])
+        digestHex += String(format: "%02x", UnsafePointer<UInt8>(encodedData.bytes)[i])
     }
 
     return digestHex
@@ -41,7 +41,8 @@ func mine(input: String) -> (Int, String) {
 
         for i in 0..<10 {
             dispatch_group_async(group, queue, {
-                if let result = mineRange(input, start: number + (i * 1000), endBefore: number + ((i + 1) * 1000)) {
+                if let result = mineRange(input, start: number + (i * 1000),
+		    endBefore: number + ((i + 1) * 1000)) {
                     print(result)
                     exit(0)
                 }

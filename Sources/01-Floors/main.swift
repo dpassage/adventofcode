@@ -1,4 +1,3 @@
-
 import AdventLib
 
 func santa(input: String) -> Int {

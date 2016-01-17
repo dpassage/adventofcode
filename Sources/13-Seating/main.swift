@@ -78,7 +78,7 @@ func cost(route: [String]) -> Int {
     return result
 }
 
-let sortedRoutes = routes.map({ ($0,cost($0)) }).sort { (left, right) -> Bool in
+let sortedRoutes = routes.map({ ($0, cost($0)) }).sort { (left, right) -> Bool in
     left.1 < right.1
 }
 

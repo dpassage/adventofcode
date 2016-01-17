@@ -3,18 +3,18 @@ import Foundation
 import AdventLib
 
 struct Present {
-    let l: Int
-    let w: Int
-    let h: Int
+    let length: Int
+    let width: Int
+    let height: Int
 
     func paperNeeded() -> Int {
-        let dims = [l, w, h].sort()
+        let dims = [length, width, height].sort()
 
-        return 2*l*w + 2*w*h + 2*h*l + (dims[0] * dims[1])
+        return 2*length*width + 2*width*height + 2*height*length + (dims[0] * dims[1])
     }
 
     func ribbonNeeded() -> Int {
-        let dims = [l, w, h].sort()
+        let dims = [length, width, height].sort()
 
         let wrap = (dims[0] + dims[1]) * 2
         let bow = dims.reduce(1, combine: *)
@@ -29,9 +29,9 @@ struct Present {
             .map { Int($0)! }
         guard dimensions.count == 3 else { return nil }
 
-        l = dimensions[0]
-        w = dimensions[1]
-        h = dimensions[2]
+        length = dimensions[0]
+        width = dimensions[1]
+        height = dimensions[2]
     }
 }
 

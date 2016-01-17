@@ -11,20 +11,24 @@ struct Rectangle {
     var finish: Light
 }
 
+// swiftlint:disable type_name
 enum CommandMode: String {
     case On = "on"
     case Off = "off"
     case Toggle = "toggle"
 }
+// swiftlint:enable type_name
 
 struct Command {
     var rectangle: Rectangle
     var mode: CommandMode
     init?(commandString: String) {
 
-        let regex = try! NSRegularExpression(pattern: ".*(on|off|toggle)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)", options: [])
+        let regex = try! NSRegularExpression(pattern:
+	    ".*(on|off|toggle)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)", options: [])
         let command = commandString as NSString
-        guard let match = regex.matchesInString(commandString, options: [], range: NSRange(location: 0, length: command.length)).first else { return nil }
+        guard let match = regex.matchesInString(commandString, options: [],
+	      range: NSRange(location: 0, length: command.length)).first else { return nil }
 
         let mode = command.substringWithRange(match.rangeAtIndex(1))
         let firstX = Int(command.substringWithRange(match.rangeAtIndex(2)))!
