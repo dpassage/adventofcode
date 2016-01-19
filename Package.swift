@@ -39,6 +39,9 @@ let package = Package(
             name: "15-Cookie",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "16-Sues",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )
