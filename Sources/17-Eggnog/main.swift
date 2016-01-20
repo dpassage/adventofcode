@@ -4,7 +4,7 @@ import Foundation
 
 func findFits(buckets: [Int], capacity: Int) -> [[Int]] {
     print("findFits buckets: \(buckets) capacity: \(capacity)")
-    
+
     if buckets.count == 0 {
         return []
     }
@@ -47,3 +47,9 @@ print("buckets: \(buckets)")
 
 let result = findFits(buckets, capacity: capacity)
 print("combos: \(result.count)")
+
+let smallestComboSize = result.map { $0.count }.minElement()
+
+let smallestResults = result.filter { $0.count == smallestComboSize }
+
+print("smallest: \(smallestResults.count)")
