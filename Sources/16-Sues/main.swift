@@ -46,8 +46,19 @@ let targetSue = [
 
 nextSue: for (index, sue) in sues {
     for (name, value) in sue {
-        if value != targetSue[name] {
-            continue nextSue
+        switch name {
+        case "cats", "trees":
+            if value <= targetSue[name] {
+                continue nextSue
+            }
+        case "pomeranians", "goldfish":
+            if value >= targetSue[name] {
+                continue nextSue
+            }
+        default:
+            if value != targetSue[name] {
+                continue nextSue
+            }
         }
     }
     print("MATCH: \(index) \(sue)")
