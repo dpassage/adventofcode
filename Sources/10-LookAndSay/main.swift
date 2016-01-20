@@ -15,7 +15,7 @@ func lookAndSay(input: String) -> String {
 
     for char in chars {
         if char == last {
-            count++
+            count += 1
         } else {
             if last != "Q" {
                 result.appendContentsOf("\(count)\(last)")

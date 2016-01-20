@@ -12,13 +12,14 @@ func doCount(input: String) -> (Int, Int) {
         case " ", "\n":
             continue
         case "\"":
-            code++
+            code += 1
         case "\\":
-            code++; data++
+            code += 1
+            data += 1
             let after = gen.next()!
             switch after {
                 case "\\", "\"":
-                    code++
+                    code += 1
                 break
                 case "x":
                 gen.next()
@@ -28,7 +29,8 @@ func doCount(input: String) -> (Int, Int) {
                 break
             }
         default:
-            code++; data++
+            code += 1
+            data += 1
         }
     }
     return (code, data)
@@ -44,7 +46,8 @@ func reEncode(input: String) -> (Int, Int) {
             data += 1
             code += 2
         default:
-            code++; data++
+            code += 1
+            data += 1
         }
     }
 
