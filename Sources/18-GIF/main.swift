@@ -42,8 +42,20 @@ struct LifeGrid {
     private func validCoords(row row: Int, column: Int) -> Bool {
         return row >= 0 && row < rows && column >= 0 && column < columns
     }
+
+    private func corner(row row: Int, column: Int) -> Bool {
+        switch (row, column) {
+            case (0,0): return true
+            case (0, columns - 1): return true
+            case (rows - 1, 0): return true
+            case (rows - 1, columns - 1): return true
+            default: return false
+        }
+    }
+
     subscript(row: Int, column: Int) -> Bool {
         get {
+            if corner(row: row, column: column) { return true }
             return validCoords(row: row, column: column) && backingStore[toIndex(row: row, column: column)]
         }
         set(newValue) {
@@ -98,7 +110,14 @@ extension LifeGrid: CustomStringConvertible {
     }
 
     func totalLights() -> Int {
-        return backingStore.map { $0 ? 1 : 0 }.reduce(0, combine: +)
+        var result = 0
+
+        for row in 0..<rows {
+            for column in 0..<columns {
+                result += self[row, column] ? 1 : 0
+            }
+        }
+        return result
     }
 }
 
