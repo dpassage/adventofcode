@@ -1,5 +1,5 @@
 import Foundation
-
+import AdventLib
 
 struct LifeGrid {
     private var backingStore: Array<Bool>
@@ -12,14 +12,28 @@ struct LifeGrid {
         self.columns = columns
     }
 
-    // init(rows: Int, columns: Int, grid: String) {
-    //     init(rows, columns, repeatedValue: false)
-    //
-    //     var row = 0
-    //     var column = 0
-    //
-    //
-    // }
+    init(rows: Int, columns: Int, grid: String) {
+        self.init(rows: rows, columns: columns, repeatedValue: false)
+
+        var row = 0
+        var column = 0
+
+        for char in grid.characters {
+            switch char {
+            case "#":
+                self[row, column] = true
+                column += 1
+            case ".":
+                self[row, column] = false
+                column += 1
+            case "\n":
+                row += 1
+                column = 0
+            default:
+                break
+            }
+        }
+    }
 
     private func toIndex(row row: Int, column: Int) -> Int {
         return (row * columns) + column
@@ -88,9 +102,28 @@ extension LifeGrid: CustomStringConvertible {
     }
 }
 
-let start = LifeGrid(rows: 5, columns: 5, repeatedValue: true)
-print(start.totalLights())
-let next = start.runLife()
+guard Process.arguments.count > 3 else {
+    print("specifiy a size and count")
+    exit(1)
+}
 
-print(next)
-print(next.totalLights())
+guard let rows = Int(Process.arguments[1]),
+    columns = Int(Process.arguments[2]),
+    count = Int(Process.arguments[3]) else {
+    print("specify a size and count")
+    exit(1)
+}
+
+let gridString = TextFile.standardInput().readString()
+
+var start = LifeGrid(rows: rows, columns: columns, grid: gridString)
+
+print(start.totalLights())
+
+for _ in 0..<count {
+    let next = start.runLife()
+
+    print(next)
+    print(next.totalLights())
+    start = next
+}

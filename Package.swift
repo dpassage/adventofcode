@@ -45,6 +45,9 @@ let package = Package(
             name: "17-Eggnog",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "18-GIF",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )
