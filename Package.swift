@@ -48,6 +48,9 @@ let package = Package(
             name: "18-GIF",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "19-Molecules",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )
