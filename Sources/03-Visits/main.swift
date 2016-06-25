@@ -29,7 +29,7 @@ func visits(directions: String) -> Int {
     return visitedHouses.count
 }
 
-let visitsResult = visits(inputString)
+let visitsResult = visits(directions: inputString)
 
 struct Position {
     var x: Int
@@ -58,13 +58,13 @@ func roboVisits(directions: String) -> Int {
     var santa = Position(x: 0, y: 0)
     var robo = Position(x: 0, y: 0)
     visitedHouses.insert("0,0")
-    for (index, char) in directions.characters.enumerate() {
+    for (index, char) in directions.characters.enumerated() {
         if index % 2 == 0 {
-	    santa.move(char)
+	    santa.move(direction: char)
             let house = santa.description
             visitedHouses.insert(house)
         } else {
-	    robo.move(char)
+	    robo.move(direction: char)
             let house = robo.description
             visitedHouses.insert(house)
         }
@@ -72,6 +72,6 @@ func roboVisits(directions: String) -> Int {
     return visitedHouses.count
 }
 
-let robo = roboVisits(inputString)
+let robo = roboVisits(directions: inputString)
 
 print("visits: \(visitsResult) roboVisits: \(robo)")

@@ -22,15 +22,15 @@ func findFits(buckets: [Int], capacity: Int) -> [[Int]] {
         result.append([top])
     }
 
-    result.appendContentsOf(findFits(remaining, capacity: capacity))
+    result.append(contentsOf: findFits(buckets: remaining, capacity: capacity))
 
-    let recurse = findFits(remaining, capacity: capacity - top)
+    let recurse = findFits(buckets: remaining, capacity: capacity - top)
     let recurseWithTop = recurse.map { inner -> [Int] in
         var result = [top]
-        result.appendContentsOf(inner)
+        result.append(contentsOf: inner)
         return result
     }
-    result.appendContentsOf(recurseWithTop)
+    result.append(contentsOf: recurseWithTop)
     return result
 }
 
@@ -41,14 +41,14 @@ guard Process.arguments.count > 1 else {
 
 let capacity = Int(Process.arguments[1])!
 print("capacity: \(capacity)")
-let buckets = TextFile.standardInput().readLines().map { Int($0)! }.sort()
+let buckets = TextFile.standardInput().readLines().map { Int($0)! }.sorted()
 
 print("buckets: \(buckets)")
 
-let result = findFits(buckets, capacity: capacity)
+let result = findFits(buckets: buckets, capacity: capacity)
 print("combos: \(result.count)")
 
-let smallestComboSize = result.map { $0.count }.minElement()
+let smallestComboSize = result.map { $0.count }.min()
 
 let smallestResults = result.filter { $0.count == smallestComboSize }
 

@@ -18,7 +18,7 @@ func lookAndSay(input: String) -> String {
             count += 1
         } else {
             if last != "Q" {
-                result.appendContentsOf("\(count)\(last)")
+                result.append("\(count)\(last)")
             }
             last = char
             count = 1
@@ -29,7 +29,7 @@ func lookAndSay(input: String) -> String {
 }
 
 for i in 0..<iterations {
-    theString = lookAndSay(theString)
+    theString = lookAndSay(input: theString)
 }
 
 print(theString.characters.count)

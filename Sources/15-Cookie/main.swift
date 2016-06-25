@@ -16,7 +16,7 @@ let inputStrings = TextFile.standardInput().readLines()
 for inputString in inputStrings {
 
     let regex = try! Regex(pattern: "([a-zA-Z]+): capacity (-?\\d+), durability (-?\\d+), flavor (-?\\d+), texture (-?\\d+), calories (-?\\d+)")
-    guard let match = regex.match(inputString) else { continue }
+    guard let match = regex.match(input: inputString) else { continue }
 
     let name = match[0]
     let ingredient = Ingredient(capacity: Int(match[1])!, durability: Int(match[2])!,
@@ -34,9 +34,9 @@ func recipeTemplates(n: Int, r: Int) -> [[Int]] {
 
     var result = [[Int]]()
     for i in 0...r {
-        for recipe in recipeTemplates(n - 1, r: r - i) {
+        for recipe in recipeTemplates(n: n - 1, r: r - i) {
             var base = [i]
-            base.appendContentsOf(recipe)
+            base.append(contentsOf: recipe)
             result.append(base)
         }
     }
@@ -44,7 +44,7 @@ func recipeTemplates(n: Int, r: Int) -> [[Int]] {
     return result
 }
 
-let templates = recipeTemplates(ingredients.count, r: 100)
+let templates = recipeTemplates(n: ingredients.count, r: 100)
 
 let ingredientNames = Array(ingredients.keys)
 
@@ -52,7 +52,7 @@ var recipes = [[String: Int]]()
 
 for template in templates {
     var recipe = [String: Int]()
-    for (index, value) in template.enumerate() {
+    for (index, value) in template.enumerated() {
         recipe[ingredientNames[index]] = value
     }
     recipes.append(recipe)
@@ -85,8 +85,8 @@ func score(recipe: Recipe) -> Int {
     return capacity * durability * flavor * texture
 }
 
-let scores: [(Recipe, Int)] = recipes.map { ($0, score($0)) }
+let scores: [(Recipe, Int)] = recipes.map { ($0, score(recipe: $0)) }
 
-let winner = scores.sort { $0.1 > $1.1 }.first
+let winner = scores.sorted { $0.1 > $1.1 }.first
 
 print(winner)

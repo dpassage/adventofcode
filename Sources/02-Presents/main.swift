@@ -8,13 +8,13 @@ struct Present {
     let height: Int
 
     func paperNeeded() -> Int {
-        let dims = [length, width, height].sort()
+        let dims = [length, width, height].sorted()
 
         return 2*length*width + 2*width*height + 2*height*length + (dims[0] * dims[1])
     }
 
     func ribbonNeeded() -> Int {
-        let dims = [length, width, height].sort()
+        let dims = [length, width, height].sorted()
 
         let wrap = (dims[0] + dims[1]) * 2
         let bow = dims.reduce(1, combine: *)
@@ -24,7 +24,7 @@ struct Present {
 
     init?(packageString: String) {
         let dimensions = packageString.characters
-            .split("x")
+            .split(separator: "x")
             .map { String($0) }
             .map { Int($0)! }
         guard dimensions.count == 3 else { return nil }

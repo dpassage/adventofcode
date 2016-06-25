@@ -6,7 +6,7 @@ import AdventLib
 func doCount(input: String) -> (Int, Int) {
     var code = 0
     var data = 0
-    var gen = input.characters.generate()
+    var gen = input.characters.makeIterator()
     while let next = gen.next() {
         switch next {
         case " ", "\n":
@@ -22,8 +22,8 @@ func doCount(input: String) -> (Int, Int) {
                     code += 1
                 break
                 case "x":
-                gen.next()
-                gen.next()
+                let _ = gen.next()
+                let _ = gen.next()
                 code += 3
             default:
                 break
@@ -37,7 +37,7 @@ func doCount(input: String) -> (Int, Int) {
 }
 
 func reEncode(input: String) -> (Int, Int) {
-    var gen = input.characters.generate()
+    var gen = input.characters.makeIterator()
     var code = 2 //includes closing quotes
     var data = 0
     while let next = gen.next() {
@@ -56,13 +56,13 @@ func reEncode(input: String) -> (Int, Int) {
 
 let inputStrings = TextFile.standardInput().readLines()
 let result = inputStrings
-    .map { doCount($0) }
+    .map { doCount(input: $0) }
     .map { $0.0 - $0.1 }.reduce(0, combine: +)
 
 print("doCount: \(result)")
 
 let nextResult = inputStrings
-    .map { reEncode($0) }
+    .map { reEncode(input: $0) }
     .map { $0 - $1 }
     .reduce(0, combine: +)
 

@@ -24,17 +24,17 @@ struct Command {
     var mode: CommandMode
     init?(commandString: String) {
 
-        let regex = try! NSRegularExpression(pattern:
+        let regex = try! RegularExpression(pattern:
 	    ".*(on|off|toggle)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)", options: [])
         let command = commandString as NSString
-        guard let match = regex.matchesInString(commandString, options: [],
+        guard let match = regex.matches(in: commandString, options: [],
 	      range: NSRange(location: 0, length: command.length)).first else { return nil }
 
-        let mode = command.substringWithRange(match.rangeAtIndex(1))
-        let firstX = Int(command.substringWithRange(match.rangeAtIndex(2)))!
-        let firstY = Int(command.substringWithRange(match.rangeAtIndex(3)))!
-        let endX = Int(command.substringWithRange(match.rangeAtIndex(4)))!
-        let endY = Int(command.substringWithRange(match.rangeAtIndex(5)))!
+        let mode = command.substring(with: match.range(at: 1))
+        let firstX = Int(command.substring(with: match.range(at: 2)))!
+        let firstY = Int(command.substring(with: match.range(at: 3)))!
+        let endX = Int(command.substring(with: match.range(at: 4)))!
+        let endY = Int(command.substring(with: match.range(at: 5)))!
 
         rectangle = Rectangle(start: Light(x: firstX, y: firstY), finish: Light(x: endX, y: endY))
         guard let theMode = CommandMode(rawValue: mode) else { return nil }
@@ -46,7 +46,7 @@ let commandStrings = TextFile.standardInput().readLines()
 
 let commands = commandStrings.map { Command(commandString: $0) }
 
-var lights = [Int](count: 1000 * 1000, repeatedValue: 0)
+var lights = [Int](repeating: 0, count: 1000 * 1000)
 for command in commands {
     guard let command = command else { continue }
     for x in command.rectangle.start.x...command.rectangle.finish.x {

@@ -7,7 +7,7 @@ var distances = [String:Int]()
 let regex = try! Regex(pattern: "^([a-zA-Z]+) to ([a-zA-Z]+) = (\\d+)$")
 
 func readLine(input: String) {
-    guard let match = regex.match(input) else { return }
+    guard let match = regex.match(input: input) else { return }
     guard match.count == 3 else { return }
 
     let left = match[0]
@@ -24,7 +24,7 @@ func readLine(input: String) {
 let lines = TextFile.standardInput().readLines()
 
 for line in lines {
-    readLine(line)
+    readLine(input: line)
 }
 
 print(names)
@@ -40,13 +40,13 @@ extension Array {
         }
 
         var result = Array<Array<Element>>()
-        for (index, item) in self.enumerate() {
+        for (index, item) in self.enumerated() {
             var remaining = self
-            remaining.removeAtIndex(index)
+            remaining.remove(at: index)
 
             for sublist in remaining.convolute() {
                 var newlist = sublist
-                newlist.insert(item, atIndex: 0)
+                newlist.insert(item, at: 0)
                 result.append(newlist)
             }
         }
@@ -69,7 +69,7 @@ func cost(route: [String]) -> Int {
     return result
 }
 
-let sortedRoutes = routes.map({ ($0, cost($0)) }).sort { (left, right) -> Bool in
+let sortedRoutes = routes.map({ ($0, cost(route: $0)) }).sorted { (left, right) -> Bool in
     left.1 < right.1
 }
 

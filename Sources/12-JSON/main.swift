@@ -9,21 +9,21 @@ func jsonObjectSum(json: AnyObject) -> Int {
                 word == "red" {
                     return 0
                 }
-            result += jsonObjectSum(value)
+            result += jsonObjectSum(json: value)
         }
     } else if let arr = json as? Array<AnyObject> {
         for value in arr {
-            result += jsonObjectSum(value)
+            result += jsonObjectSum(json: value)
         }
     } else if let value = json as? NSNumber {
-        result += value.integerValue
+        result += value.intValue
     }
 
     return result
 }
 
-let data = NSFileHandle.fileHandleWithStandardInput().readDataToEndOfFile()
+let data = FileHandle.standardInput().readDataToEndOfFile()
 
-let json = try! NSJSONSerialization.JSONObjectWithData(data, options: [])
+let json = try! JSONSerialization.jsonObject(with: data, options: [])
 
-print(jsonObjectSum(json))
+print(jsonObjectSum(json: json))

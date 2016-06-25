@@ -7,7 +7,7 @@ struct LifeGrid {
     var columns: Int
 
     init(rows: Int, columns: Int, repeatedValue: Bool) {
-        backingStore = Array<Bool>(count: rows * columns, repeatedValue: repeatedValue)
+        backingStore = Array<Bool>(repeating: repeatedValue, count: rows * columns)
         self.rows = rows
         self.columns = columns
     }
@@ -35,15 +35,15 @@ struct LifeGrid {
         }
     }
 
-    private func toIndex(row row: Int, column: Int) -> Int {
+    private func toIndex(row: Int, column: Int) -> Int {
         return (row * columns) + column
     }
 
-    private func validCoords(row row: Int, column: Int) -> Bool {
+    private func validCoords(row: Int, column: Int) -> Bool {
         return row >= 0 && row < rows && column >= 0 && column < columns
     }
 
-    private func corner(row row: Int, column: Int) -> Bool {
+    private func corner(row: Int, column: Int) -> Bool {
         switch (row, column) {
             case (0,0): return true
             case (0, columns - 1): return true
@@ -67,7 +67,7 @@ struct LifeGrid {
 
 extension LifeGrid: CustomStringConvertible {
 
-    func score(row row: Int, column: Int) -> Int {
+    func score(row: Int, column: Int) -> Int {
 
         let indexDeltas = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
 
@@ -102,9 +102,9 @@ extension LifeGrid: CustomStringConvertible {
         for row in 0..<rows {
             for column in 0..<columns {
                 let cell = self[row, column] ? "#" : "."
-                result.appendContentsOf(cell)
+                result.append(cell)
             }
-            result.appendContentsOf("\n")
+            result.append("\n")
         }
         return result
     }

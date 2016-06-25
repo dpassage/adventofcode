@@ -28,7 +28,7 @@ struct Password: CustomStringConvertible {
     var text: String {
         var result: String.UnicodeScalarView = String.UnicodeScalarView()
 
-        var numbers = Array<UInt64>(count: 8, repeatedValue: 0)
+        var numbers = Array<UInt64>(repeating: 0, count: 8)
 
         var remainder = value
         for i in 0...7 {
@@ -72,19 +72,19 @@ func noIOorL(input: String) -> Bool {
 
 func hasTwoPairs(input: String) -> Bool {
     let regex = try! Regex(pattern: "^.*([a-z])\\1{1}.*([a-z])\\2{1}.*$")
-    if let _ = regex.match(input) {
+    if let _ = regex.match(input: input) {
         return true
     }
     return false
 }
 func validPassword(input: String) -> Bool {
-    return threeLetterStraight(input) && noIOorL(input) && hasTwoPairs(input)
+    return threeLetterStraight(input: input) && noIOorL(input: input) && hasTwoPairs(input: input)
 }
 
 var input = Process.arguments[1]
 
 var password = Password(input: input)!
-while !validPassword(password.description) {
+while !validPassword(input: password.description) {
     password = password.next()
 }
 print("next password is: \(password)")

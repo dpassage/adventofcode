@@ -9,17 +9,17 @@ let inputStrings = TextFile.standardInput().readLines()
 for inputString in inputStrings {
     print(inputString)
     let regex = try! Regex(pattern: "^Sue ([0-9]+): (.*)$")
-    guard let match = regex.match(inputString) else { continue }
+    guard let match = regex.match(input: inputString) else { continue }
 
     let sueIndex = Int(match[0])!
     var sueProperties = [String: Int]()
 
     // print("sueIndex: \(sueIndex) properties: \(match[1])")
 
-    let propertyStrings = match[1].componentsSeparatedByString(", ")
+    let propertyStrings = match[1].components(separatedBy: ", ")
 
     for propString in propertyStrings {
-        let parts = propString.componentsSeparatedByString(": ")
+        let parts = propString.components(separatedBy: ": ")
         guard parts.count == 2 else { continue }
 
         // print("parts: \(parts)")

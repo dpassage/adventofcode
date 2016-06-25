@@ -2,7 +2,7 @@ import Foundation
 import SecurityFoundation
 
 func md5(input: String) -> String {
-    let inputData = (input as NSString).dataUsingEncoding(NSUTF8StringEncoding)!
+    let inputData = (input as NSString).data(using: String.Encoding.utf8.rawValue)!
 
     let digester = SecDigestTransformCreate(kSecDigestMD5, 0, nil)
 
@@ -22,7 +22,7 @@ func mineRange(input: String, start: Int, endBefore: Int) -> (Int, String)? {
     print("\(start)")
     for i in start..<endBefore {
         let hashInput = "\(input)\(i)"
-        let hash = md5(hashInput)
+        let hash = md5(input: hashInput)
         if hash.hasPrefix("000000") {
             return (i, hash)
         }
@@ -32,29 +32,29 @@ func mineRange(input: String, start: Int, endBefore: Int) -> (Int, String)? {
 
 func mine(input: String) -> (Int, String) {
 
-    let queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+    let queue = DispatchQueue.global(attributes: DispatchQueue.GlobalAttributes.qosDefault)
     var number = 0
 
     while true {
         print("number: \(number)")
-        let group = dispatch_group_create()
+        let group = DispatchGroup()
 
         for i in 0..<10 {
-            dispatch_group_async(group, queue, {
-                if let result = mineRange(input, start: number + (i * 1000),
-		    endBefore: number + ((i + 1) * 1000)) {
+            group.notify(queue: queue, execute: { 
+                if let result = mineRange(input: input, start: number + (i * 1000),
+                                          endBefore: number + ((i + 1) * 1000)) {
                     print(result)
                     exit(0)
                 }
             })
         }
-        dispatch_group_wait(group, DISPATCH_TIME_FOREVER)
+        group.wait(timeout: DispatchTime.distantFuture)
         number += 10000
     }
 }
 
 if Process.arguments.count > 1 {
-        print(mine(Process.arguments[1]))
+    print(mine(input: Process.arguments[1]))
 } else {
-        print(mine("abcdef"))
+    print(mine(input: "abcdef"))
 }

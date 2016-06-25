@@ -30,7 +30,7 @@ let inputStrings = TextFile.standardInput().readLines()
 var reindeer = [String: Reindeer]()
 
 for input in inputStrings {
-    guard let match = regex.match(input) else { continue }
+    guard let match = regex.match(input: input) else { continue }
     guard match.count == 4 else { continue }
 
     let name = match[0]
@@ -42,7 +42,7 @@ for input in inputStrings {
 }
 
 for (name, value) in reindeer {
-    let result = value.distanceTraveledIn(timespan)
+    let result = value.distanceTraveledIn(seconds: timespan)
     print("\(name): \(result)")
 }
 
@@ -50,9 +50,9 @@ var points = [String: Int]()
 
 for i in 1...timespan {
     let results = reindeer.map { (name, deer) -> (String, Int) in
-        return (name, deer.distanceTraveledIn(i))
+        return (name, deer.distanceTraveledIn(seconds: i))
     }
-    .sort { (left, right) -> Bool in
+    .sorted { (left, right) -> Bool in
         left.1 > right.1
     }
 

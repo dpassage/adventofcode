@@ -22,14 +22,14 @@ func containsBadStrings(string: String) -> Bool {
     let badStrings = ["ab", "cd", "pq", "xy"]
 
     for badString in badStrings {
-        if string.containsString(badString) { return true }
+        if string.contains(badString) { return true }
     }
 
     return false
 }
 
 func nice(string: String) -> Bool {
-    return threeVowels(string) && repeatedLetter(string) && !containsBadStrings(string)
+    return threeVowels(string: string) && repeatedLetter(string: string) && !containsBadStrings(string: string)
 }
 
 func containsRepeatedPair(string: String) -> Bool {
@@ -38,7 +38,7 @@ func containsRepeatedPair(string: String) -> Bool {
     while remainingCharacters.count >= 4 {
         let prefix = String(remainingCharacters.prefix(2))
         let suffix = String(remainingCharacters.dropFirst(2))
-        if suffix.containsString(prefix) { return true }
+        if suffix.contains(prefix) { return true }
         remainingCharacters = remainingCharacters.dropFirst(1)
     }
 
@@ -56,10 +56,10 @@ func containsRepeatedOneLetterBetween(string: String) -> Bool {
 }
 
 func reallyNice(string: String) -> Bool {
-    return containsRepeatedOneLetterBetween(string) && containsRepeatedPair(string)
+    return containsRepeatedOneLetterBetween(string: string) && containsRepeatedPair(string: string)
 }
 
 let inputStrings = TextFile.standardInput().readLines()
 
-print(inputStrings.filter { nice($0) }.count)
-print(inputStrings.filter { reallyNice($0) }.count)
+print(inputStrings.filter { nice(string: $0) }.count)
+print(inputStrings.filter { reallyNice(string: $0) }.count)
