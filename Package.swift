@@ -51,6 +51,9 @@ let package = Package(
             name: "Day19Molecules",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
+            name: "Day20Elves",
+            dependencies: [.Target(name: "AdventLib")]),
+        Target(
             name: "AdventLib")
     ]
 )
