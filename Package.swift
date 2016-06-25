@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     targets: [
         Target(
-            name: "01-Floors",
+            name: "Day01Floors",
             dependencies: [.Target(name: "AdventLib")]),
         Target(
             name: "02-Presents",
