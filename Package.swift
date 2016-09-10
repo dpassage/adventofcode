@@ -1,6 +1,6 @@
 import PackageDescription
 
-let package = Package(
+let package = Package(name: "AdventOfCode",
     targets: [
         Target(
             name: "Day01Floors",
