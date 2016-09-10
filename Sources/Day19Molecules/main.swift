@@ -13,7 +13,7 @@ struct Rule {
     init?(string: String) {
         let regex = try! Regex(pattern: "^([a-zA-Z]+) => ([a-zA-Z]+)$")
 
-        guard let matches = regex.match(input: string) where
+        guard let matches = regex.match(input: string),
             matches.count == 2 else { return nil }
 
         self.init(left: matches[0], right: matches[1])

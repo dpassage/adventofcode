@@ -57,14 +57,14 @@ func reEncode(input: String) -> (Int, Int) {
 let inputStrings = TextFile.standardInput().readLines()
 let result = inputStrings
     .map { doCount(input: $0) }
-    .map { $0.0 - $0.1 }.reduce(0, combine: +)
+    .map { $0.0 - $0.1 }.reduce(0, +)
 
 print("doCount: \(result)")
 
 let nextResult = inputStrings
     .map { reEncode(input: $0) }
     .map { $0 - $1 }
-    .reduce(0, combine: +)
+    .reduce(0, +)
 
 print("reEncode: \(nextResult)")
 

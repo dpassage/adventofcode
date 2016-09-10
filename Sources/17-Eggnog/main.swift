@@ -34,12 +34,12 @@ func findFits(buckets: [Int], capacity: Int) -> [[Int]] {
     return result
 }
 
-guard Process.arguments.count > 1 else {
+guard CommandLine.arguments.count > 1 else {
     print("specifiy a size")
     exit(1)
 }
 
-let capacity = Int(Process.arguments[1])!
+let capacity = Int(CommandLine.arguments[1])!
 print("capacity: \(capacity)")
 let buckets = TextFile.standardInput().readLines().map { Int($0)! }.sorted()
 

@@ -29,7 +29,7 @@ for line in lines {
 print(names)
 print(distances)
 
-if Process.arguments.count > 1 && Process.arguments[1] == "--hank" {
+if CommandLine.arguments.count > 1 && CommandLine.arguments[1] == "--hank" {
     names.insert("Hank")
 }
 

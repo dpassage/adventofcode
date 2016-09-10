@@ -3,12 +3,12 @@
 import Foundation
 import AdventLib
 
-if Process.arguments.count < 2 {
+if CommandLine.arguments.count < 2 {
     print("must give target wire name")
     exit(1)
 }
 
-let target = Process.arguments[1]
+let target = CommandLine.arguments[1]
 
 // swiftlint:disable type_name
 enum GateValue {
@@ -144,7 +144,7 @@ for commandString in commandStrings {
 
 print(commands)
 
-enum InterpreterErrors: ErrorProtocol {
+enum InterpreterErrors: Error {
     case Ack
 }
 

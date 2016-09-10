@@ -75,7 +75,7 @@ extension LifeGrid: CustomStringConvertible {
                 .map { (row + $0.0, column + $0.1) }
                 .map { self[$0.0, $0.1] }
                 .map { $0 ? 1 : 0 }
-                .reduce(0, combine: +)
+                .reduce(0, +)
 
         return result
     }
@@ -121,14 +121,14 @@ extension LifeGrid: CustomStringConvertible {
     }
 }
 
-guard Process.arguments.count > 3 else {
+guard CommandLine.arguments.count > 3 else {
     print("specifiy a size and count")
     exit(1)
 }
 
-guard let rows = Int(Process.arguments[1]),
-    columns = Int(Process.arguments[2]),
-    count = Int(Process.arguments[3]) else {
+guard let rows = Int(CommandLine.arguments[1]),
+    let columns = Int(CommandLine.arguments[2]),
+    let count = Int(CommandLine.arguments[3]) else {
     print("specify a size and count")
     exit(1)
 }

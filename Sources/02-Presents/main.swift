@@ -17,7 +17,7 @@ struct Present {
         let dims = [length, width, height].sorted()
 
         let wrap = (dims[0] + dims[1]) * 2
-        let bow = dims.reduce(1, combine: *)
+        let bow = dims.reduce(1, *)
 
         return wrap + bow
     }
@@ -42,11 +42,11 @@ let presents = presentStrings.map { Present(packageString: $0) }
 
 let totalPaper = presents
     .map { $0.paperNeeded() }
-    .reduce(0, combine: +)
+    .reduce(0, +)
 
 let totalRibbon = presents
     .map { $0.ribbonNeeded() }
-    .reduce(0, combine: +)
+    .reduce(0, +)
 
 print("paper: \(totalPaper) ribbon: \(totalRibbon)")
 

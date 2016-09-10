@@ -3,7 +3,7 @@
 import Foundation
 import AdventLib
 
-guard Process.arguments.count > 1 else { exit(1) }
+guard CommandLine.arguments.count > 1 else { exit(1) }
 
 struct Password: CustomStringConvertible {
     var value: UInt64
@@ -36,7 +36,7 @@ struct Password: CustomStringConvertible {
             remainder = remainder / 26
         }
         for i in [7, 6, 5, 4, 3, 2, 1, 0] {
-            result.append(UnicodeScalar(UInt32(numbers[i] + 97)))
+            result.append(UnicodeScalar(UInt32(numbers[i] + 97))!)
         }
 
         return String(result)
@@ -81,7 +81,7 @@ func validPassword(input: String) -> Bool {
     return threeLetterStraight(input: input) && noIOorL(input: input) && hasTwoPairs(input: input)
 }
 
-var input = Process.arguments[1]
+var input = CommandLine.arguments[1]
 
 var password = Password(input: input)!
 while !validPassword(input: password.description) {

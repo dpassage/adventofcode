@@ -3,8 +3,8 @@
 import Foundation
 import AdventLib
 
-guard Process.arguments.count >= 2 else { exit(1) }
-guard let timespan = Int(Process.arguments[1]) else { exit (1) }
+guard CommandLine.arguments.count >= 2 else { exit(1) }
+guard let timespan = Int(CommandLine.arguments[1]) else { exit (1) }
 
 struct Reindeer {
     var speed: Int
