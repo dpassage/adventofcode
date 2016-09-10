@@ -1,10 +1,10 @@
 import Foundation
 
 public class Regex {
-    let regex: RegularExpression
+    let regex: NSRegularExpression
 
     public init(pattern: String) throws {
-        regex = try! RegularExpression(pattern: pattern, options: [])
+        regex = try! NSRegularExpression(pattern: pattern, options: [])
     }
 
     // returns nil if match failed, otherwise returns array of groups matched.
@@ -17,7 +17,7 @@ public class Regex {
         let results = match.numberOfRanges
 
         for i in 1..<results {
-            result.append(inputString.substring(with: match.range(at: i)))
+            result.append(inputString.substring(with: match.rangeAt(i)))
         }
 
         return result

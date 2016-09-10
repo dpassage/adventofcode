@@ -48,11 +48,11 @@ nextSue: for (index, sue) in sues {
     for (name, value) in sue {
         switch name {
         case "cats", "trees":
-            if value <= targetSue[name] {
+            if value <= targetSue[name]! {
                 continue nextSue
             }
         case "pomeranians", "goldfish":
-            if value >= targetSue[name] {
+            if value >= targetSue[name]! {
                 continue nextSue
             }
         default:

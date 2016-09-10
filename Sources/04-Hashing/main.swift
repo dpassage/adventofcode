@@ -2,7 +2,7 @@ import Foundation
 import SecurityFoundation
 
 func md5(input: String) -> String {
-    let inputData = (input as NSString).data(using: String.Encoding.utf8.rawValue)!
+    let inputData = NSData(data: (input as NSString).data(using: String.Encoding.utf8.rawValue)!)
 
     let digester = SecDigestTransformCreate(kSecDigestMD5, 0, nil)
 
@@ -10,9 +10,10 @@ func md5(input: String) -> String {
 
     let encodedData = SecTransformExecute(digester, nil) as! NSData
 
+    let bytes = encodedData.bytes.assumingMemoryBound(to: UInt8.self)
     var digestHex = ""
     for i in 0..<encodedData.length {
-        digestHex += String(format: "%02x", UnsafePointer<UInt8>(encodedData.bytes)[i])
+        digestHex += String(format: "%02x", bytes[i])
     }
 
     return digestHex
@@ -32,7 +33,7 @@ func mineRange(input: String, start: Int, endBefore: Int) -> (Int, String)? {
 
 func mine(input: String) -> (Int, String) {
 
-    let queue = DispatchQueue.global(attributes: DispatchQueue.GlobalAttributes.qosDefault)
+    let queue = DispatchQueue.global(qos: .default)
     var number = 0
 
     while true {
@@ -40,7 +41,7 @@ func mine(input: String) -> (Int, String) {
         let group = DispatchGroup()
 
         for i in 0..<10 {
-            group.notify(queue: queue, execute: { 
+            group.notify(queue: queue, execute: {
                 if let result = mineRange(input: input, start: number + (i * 1000),
                                           endBefore: number + ((i + 1) * 1000)) {
                     print(result)
@@ -48,13 +49,13 @@ func mine(input: String) -> (Int, String) {
                 }
             })
         }
-        group.wait(timeout: DispatchTime.distantFuture)
+        let _ = group.wait(timeout: DispatchTime.distantFuture)
         number += 10000
     }
 }
 
-if Process.arguments.count > 1 {
-    print(mine(input: Process.arguments[1]))
+if CommandLine.arguments.count > 1 {
+    print(mine(input: CommandLine.arguments[1]))
 } else {
     print(mine(input: "abcdef"))
 }

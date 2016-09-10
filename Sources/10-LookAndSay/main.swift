@@ -1,9 +1,9 @@
 import Foundation
 
-guard Process.arguments.count == 3 else { exit(1) }
+guard CommandLine.arguments.count == 3 else { exit(1) }
 
-var theString = Process.arguments[1]
-let iterations = Int(Process.arguments[2])!
+var theString = CommandLine.arguments[1]
+let iterations = Int(CommandLine.arguments[2])!
 
 func lookAndSay(input: String) -> String {
     let inputWithSentinel = "\(input)Q"

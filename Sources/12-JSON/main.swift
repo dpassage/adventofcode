@@ -1,11 +1,11 @@
 import Foundation
 
-func jsonObjectSum(json: AnyObject) -> Int {
+func jsonObjectSum(json: Any) -> Int {
     var result = 0
 
     if let dict = json as? Dictionary<String, AnyObject> {
         for value in dict.values {
-            if let word = value as? String where
+            if let word = value as? String,
                 word == "red" {
                     return 0
                 }
@@ -22,7 +22,7 @@ func jsonObjectSum(json: AnyObject) -> Int {
     return result
 }
 
-let data = FileHandle.standardInput().readDataToEndOfFile()
+let data = FileHandle.standardInput.readDataToEndOfFile()
 
 let json = try! JSONSerialization.jsonObject(with: data, options: [])
 

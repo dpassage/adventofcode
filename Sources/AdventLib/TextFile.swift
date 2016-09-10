@@ -5,7 +5,7 @@ public class TextFile {
     private let fileHandle: FileHandle
 
     public class func standardInput() -> TextFile {
-        return TextFile(fileHandle: FileHandle.standardInput())
+        return TextFile(fileHandle: FileHandle.standardInput)
     }
 
     private init(fileHandle: FileHandle) {

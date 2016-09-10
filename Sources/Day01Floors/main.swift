@@ -41,7 +41,7 @@ func basement(input: String) -> Int {
 
 let inputString = TextFile.standardInput().readString()
 
-if Process.arguments[1] == "--basement" {
+if CommandLine.arguments[1] == "--basement" {
     print(basement(input: inputString))
 } else {
     print(santa(input: inputString))
