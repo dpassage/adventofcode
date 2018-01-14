@@ -56,6 +56,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::04-Hashing"
+               BuildableName = "04-Hashing"
+               BlueprintName = "04-Hashing"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::09-Routes"
                BuildableName = "09-Routes"
                BlueprintName = "09-Routes"
@@ -129,6 +143,20 @@
                BlueprintIdentifier = "AdventOfCode::Day19Molecules"
                BuildableName = "Day19Molecules"
                BlueprintName = "Day19Molecules"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::10-LookAndSay"
+               BuildableName = "10-LookAndSay"
+               BlueprintName = "10-LookAndSay"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
