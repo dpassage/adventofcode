@@ -60,11 +60,11 @@ func roboVisits(directions: String) -> Int {
     visitedHouses.insert("0,0")
     for (index, char) in directions.characters.enumerated() {
         if index % 2 == 0 {
-	    santa.move(direction: char)
+            santa.move(direction: char)
             let house = santa.description
             visitedHouses.insert(house)
         } else {
-	    robo.move(direction: char)
+            robo.move(direction: char)
             let house = robo.description
             visitedHouses.insert(house)
         }

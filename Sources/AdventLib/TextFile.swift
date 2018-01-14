@@ -17,7 +17,7 @@ public class TextFile {
         guard let inputString = String(data: inputData, encoding: String.Encoding.utf8) else {
             return AnySequence<String>([])
         }
-        return AnySequence<String>(inputString.characters.split(separator: "\n").map { String ($0) })
+        return AnySequence<String>(inputString.characters.split(separator: "\n").map { String($0) })
     }
 
     public func readString() -> String {

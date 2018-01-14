@@ -17,6 +17,7 @@ enum CommandMode: String {
     case Off = "off"
     case Toggle = "toggle"
 }
+
 // swiftlint:enable type_name
 
 struct Command {
@@ -25,10 +26,10 @@ struct Command {
     init?(commandString: String) {
 
         let regex = try! NSRegularExpression(pattern:
-	    ".*(on|off|toggle)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)", options: [])
+            ".*(on|off|toggle)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)\\D*(\\d+)", options: [])
         let command = commandString as NSString
         guard let match = regex.matches(in: commandString, options: [],
-	      range: NSRange(location: 0, length: command.length)).first else { return nil }
+                                        range: NSRange(location: 0, length: command.length)).first else { return nil }
 
         let mode = command.substring(with: match.rangeAt(1))
         let firstX = Int(command.substring(with: match.rangeAt(2)))!
@@ -49,8 +50,8 @@ let commands = commandStrings.map { Command(commandString: $0) }
 var lights = [Int](repeating: 0, count: 1000 * 1000)
 for command in commands {
     guard let command = command else { continue }
-    for x in command.rectangle.start.x...command.rectangle.finish.x {
-        for y in command.rectangle.start.y...command.rectangle.finish.y {
+    for x in command.rectangle.start.x ... command.rectangle.finish.x {
+        for y in command.rectangle.start.y ... command.rectangle.finish.y {
             let i = x * 1000 + y
             switch command.mode {
             case .On:

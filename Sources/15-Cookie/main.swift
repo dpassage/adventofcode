@@ -20,7 +20,7 @@ for inputString in inputStrings {
 
     let name = match[0]
     let ingredient = Ingredient(capacity: Int(match[1])!, durability: Int(match[2])!,
-        flavor: Int(match[3])!, texture: Int(match[4])!, calories: Int(match[5])!)
+                                flavor: Int(match[3])!, texture: Int(match[4])!, calories: Int(match[5])!)
 
     ingredients[name] = ingredient
 }
@@ -33,7 +33,7 @@ func recipeTemplates(n: Int, r: Int) -> [[Int]] {
     }
 
     var result = [[Int]]()
-    for i in 0...r {
+    for i in 0 ... r {
         for recipe in recipeTemplates(n: n - 1, r: r - i) {
             var base = [i]
             base.append(contentsOf: recipe)

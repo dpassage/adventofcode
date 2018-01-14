@@ -18,12 +18,12 @@ func doCount(input: String) -> (Int, Int) {
             data += 1
             let after = gen.next()!
             switch after {
-                case "\\", "\"":
-                    code += 1
+            case "\\", "\"":
+                code += 1
                 break
-                case "x":
-                let _ = gen.next()
-                let _ = gen.next()
+            case "x":
+                _ = gen.next()
+                _ = gen.next()
                 code += 3
             default:
                 break
@@ -38,7 +38,7 @@ func doCount(input: String) -> (Int, Int) {
 
 func reEncode(input: String) -> (Int, Int) {
     var gen = input.characters.makeIterator()
-    var code = 2 //includes closing quotes
+    var code = 2 // includes closing quotes
     var data = 0
     while let next = gen.next() {
         switch next {

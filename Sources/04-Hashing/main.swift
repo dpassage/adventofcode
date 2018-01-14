@@ -12,7 +12,7 @@ func md5(input: String) -> String {
 
     let bytes = encodedData.bytes.assumingMemoryBound(to: UInt8.self)
     var digestHex = ""
-    for i in 0..<encodedData.length {
+    for i in 0 ..< encodedData.length {
         digestHex += String(format: "%02x", bytes[i])
     }
 
@@ -21,7 +21,7 @@ func md5(input: String) -> String {
 
 func mineRange(input: String, start: Int, endBefore: Int) -> (Int, String)? {
     print("\(start)")
-    for i in start..<endBefore {
+    for i in start ..< endBefore {
         let hashInput = "\(input)\(i)"
         let hash = md5(input: hashInput)
         if hash.hasPrefix("000000") {
@@ -40,7 +40,7 @@ func mine(input: String) -> (Int, String) {
         print("number: \(number)")
         let group = DispatchGroup()
 
-        for i in 0..<10 {
+        for i in 0 ..< 10 {
             group.notify(queue: queue, execute: {
                 if let result = mineRange(input: input, start: number + (i * 1000),
                                           endBefore: number + ((i + 1) * 1000)) {
@@ -49,7 +49,7 @@ func mine(input: String) -> (Int, String) {
                 }
             })
         }
-        let _ = group.wait(timeout: DispatchTime.distantFuture)
+        _ = group.wait(timeout: DispatchTime.distantFuture)
         number += 10000
     }
 }

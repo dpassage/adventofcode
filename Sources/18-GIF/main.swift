@@ -45,11 +45,11 @@ struct LifeGrid {
 
     private func corner(row: Int, column: Int) -> Bool {
         switch (row, column) {
-            case (0,0): return true
-            case (0, columns - 1): return true
-            case (rows - 1, 0): return true
-            case (rows - 1, columns - 1): return true
-            default: return false
+        case (0, 0): return true
+        case (0, columns - 1): return true
+        case (rows - 1, 0): return true
+        case (rows - 1, columns - 1): return true
+        default: return false
         }
     }
 
@@ -72,10 +72,10 @@ extension LifeGrid: CustomStringConvertible {
         let indexDeltas = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
 
         let result = indexDeltas
-                .map { (row + $0.0, column + $0.1) }
-                .map { self[$0.0, $0.1] }
-                .map { $0 ? 1 : 0 }
-                .reduce(0, +)
+            .map { (row + $0.0, column + $0.1) }
+            .map { self[$0.0, $0.1] }
+            .map { $0 ? 1 : 0 }
+            .reduce(0, +)
 
         return result
     }
@@ -83,11 +83,11 @@ extension LifeGrid: CustomStringConvertible {
     func runLife() -> LifeGrid {
         var new = LifeGrid(rows: rows, columns: columns, repeatedValue: false)
 
-        for row in 0..<rows {
-            for column in 0..<columns {
+        for row in 0 ..< rows {
+            for column in 0 ..< columns {
                 let thisScore = score(row: row, column: column)
                 if self[row, column],
-                   case 2...3 = thisScore {
+                    case 2 ... 3 = thisScore {
                     new[row, column] = true
                 } else {
                     new[row, column] = score(row: row, column: column) == 3
@@ -99,8 +99,8 @@ extension LifeGrid: CustomStringConvertible {
 
     var description: String {
         var result = ""
-        for row in 0..<rows {
-            for column in 0..<columns {
+        for row in 0 ..< rows {
+            for column in 0 ..< columns {
                 let cell = self[row, column] ? "#" : "."
                 result.append(cell)
             }
@@ -112,8 +112,8 @@ extension LifeGrid: CustomStringConvertible {
     func totalLights() -> Int {
         var result = 0
 
-        for row in 0..<rows {
-            for column in 0..<columns {
+        for row in 0 ..< rows {
+            for column in 0 ..< columns {
                 result += self[row, column] ? 1 : 0
             }
         }
@@ -139,7 +139,7 @@ var start = LifeGrid(rows: rows, columns: columns, grid: gridString)
 
 print(start.totalLights())
 
-for _ in 0..<count {
+for _ in 0 ..< count {
     let next = start.runLife()
 
     print(next)

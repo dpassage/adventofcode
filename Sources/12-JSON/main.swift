@@ -7,8 +7,8 @@ func jsonObjectSum(json: Any) -> Int {
         for value in dict.values {
             if let word = value as? String,
                 word == "red" {
-                    return 0
-                }
+                return 0
+            }
             result += jsonObjectSum(json: value)
         }
     } else if let arr = json as? Array<AnyObject> {

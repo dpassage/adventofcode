@@ -4,7 +4,7 @@ import Foundation
 import AdventLib
 
 guard CommandLine.arguments.count >= 2 else { exit(1) }
-guard let timespan = Int(CommandLine.arguments[1]) else { exit (1) }
+guard let timespan = Int(CommandLine.arguments[1]) else { exit(1) }
 
 struct Reindeer {
     var speed: Int
@@ -48,7 +48,7 @@ for (name, value) in reindeer {
 
 var points = [String: Int]()
 
-for i in 1...timespan {
+for i in 1 ... timespan {
     let results = reindeer.map { (name, deer) -> (String, Int) in
         return (name, deer.distanceTraveledIn(seconds: i))
     }
@@ -58,7 +58,7 @@ for i in 1...timespan {
 
     let winningScore = results.first!.1
 
-    let winners = results.filter { (name, score) -> Bool in
+    let winners = results.filter { (_, score) -> Bool in
         score == winningScore
     }
 

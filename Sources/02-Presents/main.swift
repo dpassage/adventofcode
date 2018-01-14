@@ -10,7 +10,7 @@ struct Present {
     func paperNeeded() -> Int {
         let dims = [length, width, height].sorted()
 
-        return 2*length*width + 2*width*height + 2*height*length + (dims[0] * dims[1])
+        return 2 * length * width + 2 * width * height + 2 * height * length + (dims[0] * dims[1])
     }
 
     func ribbonNeeded() -> Int {

@@ -28,7 +28,7 @@ func lookAndSay(input: String) -> String {
     return result
 }
 
-for i in 0..<iterations {
+for i in 0 ..< iterations {
     theString = lookAndSay(input: theString)
 }
 

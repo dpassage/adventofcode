@@ -11,6 +11,7 @@ struct Password: CustomStringConvertible {
     init(value: UInt64) {
         self.value = value
     }
+
     init?(input: String) {
 
         let scalars = input.unicodeScalars
@@ -31,7 +32,7 @@ struct Password: CustomStringConvertible {
         var numbers = Array<UInt64>(repeating: 0, count: 8)
 
         var remainder = value
-        for i in 0...7 {
+        for i in 0 ... 7 {
             numbers[i] = remainder % 26
             remainder = remainder / 26
         }
@@ -52,10 +53,10 @@ func threeLetterStraight(input: String) -> Bool {
     let length = chars.count
     guard length >= 3 else { return false }
 
-    for i in 0..<length - 2 {
-        if chars[i].value + 1 == chars[i+1].value &&
-            chars[i+1].value + 1 == chars[i+2].value {
-                return true
+    for i in 0 ..< length - 2 {
+        if chars[i].value + 1 == chars[i + 1].value &&
+            chars[i + 1].value + 1 == chars[i + 2].value {
+            return true
         }
     }
     return false

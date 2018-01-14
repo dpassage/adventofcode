@@ -2,7 +2,7 @@ import Foundation
 import AdventLib
 
 var names = Set<String>()
-var distances = [String:Int]()
+var distances = [String: Int]()
 
 let regex = try! Regex(pattern: "^([a-zA-Z]+) to ([a-zA-Z]+) = (\\d+)$")
 
@@ -61,8 +61,8 @@ func cost(route: [String]) -> Int {
     guard route.count >= 2 else { return 0 }
 
     var result = 0
-    for i in 0..<route.count - 1 {
-        let segment = "\(route[i]) -> \(route[i+1])"
+    for i in 0 ..< route.count - 1 {
+        let segment = "\(route[i]) -> \(route[i + 1])"
         result += distances[segment] ?? 0
     }
 

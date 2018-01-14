@@ -2,7 +2,7 @@ import Foundation
 
 func presents(n: Int) -> Int {
     var result = 0
-    for i in 1...n {
+    for i in 1 ... n {
         if n % i == 0 {
             result += i * 10
         }
@@ -23,4 +23,4 @@ func firstHouseWithAtLeast(n: Int) -> Int {
     return result
 }
 
-print(firstHouseWithAtLeast(n: 33100000))
+print(firstHouseWithAtLeast(n: 33_100_000))

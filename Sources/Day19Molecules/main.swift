@@ -25,9 +25,9 @@ func applyRule(rule: Rule, input: String) -> [String] {
     let split = input.components(separatedBy: rule.left)
     var results = [String]()
 
-    for i in 0..<split.count-1 {
-        let leftSplit = split[0...i]
-        let rightSplit = split[i+1..<split.count]
+    for i in 0 ..< split.count - 1 {
+        let leftSplit = split[0 ... i]
+        let rightSplit = split[i + 1 ..< split.count]
 
         let leftPart = leftSplit.joined(separator: rule.left)
         let rightPart = rightSplit.joined(separator: rule.left)

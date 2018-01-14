@@ -21,9 +21,10 @@ enum GateValue {
     case Rshift(String, UInt16)
     case AndOne(String)
 }
+
 // swiftlint:enable type_name
 
-func parseAsValue(input: String) -> (GateValue)? {
+func parseAsValue(input: String) -> GateValue? {
     let regex = try! AdventLib.Regex(pattern: "^(\\d+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 1 else { return nil }
@@ -33,7 +34,7 @@ func parseAsValue(input: String) -> (GateValue)? {
     return (GateValue.Value(value))
 }
 
-func parseAsAnd(input: String) -> (GateValue)? {
+func parseAsAnd(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^([a-z]+) AND ([a-z]+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 2 else { return nil }
@@ -43,7 +44,8 @@ func parseAsAnd(input: String) -> (GateValue)? {
 
     return (GateValue.And(left, right))
 }
-func parseAsAndOne(input: String) -> (GateValue)? {
+
+func parseAsAndOne(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^1 AND ([a-z]+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 1 else { return nil }
@@ -53,7 +55,7 @@ func parseAsAndOne(input: String) -> (GateValue)? {
     return (GateValue.AndOne(left))
 }
 
-func parseAsOr(input: String) -> (GateValue)? {
+func parseAsOr(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^([a-z]+) OR ([a-z]+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 2 else { return nil }
@@ -64,7 +66,7 @@ func parseAsOr(input: String) -> (GateValue)? {
     return (GateValue.Or(left, right))
 }
 
-func parseAsLShift(input: String) -> (GateValue)? {
+func parseAsLShift(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^([a-z]+) LSHIFT (\\d+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 2 else { return nil }
@@ -75,7 +77,7 @@ func parseAsLShift(input: String) -> (GateValue)? {
     return (GateValue.Lshift(left, right))
 }
 
-func parseAsRShift(input: String) -> (GateValue)? {
+func parseAsRShift(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^([a-z]+) RSHIFT (\\d+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 2 else { return nil }
@@ -86,7 +88,7 @@ func parseAsRShift(input: String) -> (GateValue)? {
     return (GateValue.Rshift(left, right))
 }
 
-func parseAsNot(input: String) -> (GateValue)? {
+func parseAsNot(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^NOT ([a-z]+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 1 else { return nil }
@@ -94,7 +96,7 @@ func parseAsNot(input: String) -> (GateValue)? {
     return (GateValue.Not(match[0]))
 }
 
-func parseAsWire(input: String) -> (GateValue)? {
+func parseAsWire(input: String) -> GateValue? {
     let regex = try! Regex(pattern: "^([a-z]+)$")
     guard let match = regex.match(input: input) else { return nil }
     guard match.count == 1 else { return nil }
@@ -130,7 +132,6 @@ func parseCommand(input: String) -> (GateValue, String)? {
 
     return nil
 }
-
 
 var commands = [String: GateValue]()
 

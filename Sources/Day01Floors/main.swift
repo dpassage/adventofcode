@@ -22,10 +22,10 @@ func basement(input: String) -> Int {
 
     for char in input.characters {
         switch char {
-            case "(":
+        case "(":
             answer += 1
             count += 1
-            case ")":
+        case ")":
             answer -= 1
             count += 1
         default:
