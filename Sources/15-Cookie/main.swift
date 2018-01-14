@@ -89,4 +89,4 @@ let scores: [(Recipe, Int)] = recipes.map { ($0, score(recipe: $0)) }
 
 let winner = scores.sorted { $0.1 > $1.1 }.first
 
-print(winner)
+print(winner ?? "No winner found")

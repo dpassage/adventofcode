@@ -23,7 +23,7 @@ struct Present {
     }
 
     init?(packageString: String) {
-        let dimensions = packageString.characters
+        let dimensions = packageString
             .split(separator: "x")
             .map { String($0) }
             .map { Int($0)! }

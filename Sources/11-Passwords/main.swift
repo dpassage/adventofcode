@@ -63,7 +63,7 @@ func threeLetterStraight(input: String) -> Bool {
 }
 
 func noIOorL(input: String) -> Bool {
-    for char in input.characters {
+    for char in input {
         guard char != "i" else { return false }
         guard char != "o" else { return false }
         guard char != "l" else { return false }

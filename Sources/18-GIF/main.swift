@@ -18,7 +18,7 @@ struct LifeGrid {
         var row = 0
         var column = 0
 
-        for char in grid.characters {
+        for char in grid {
             switch char {
             case "#":
                 self[row, column] = true

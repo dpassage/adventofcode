@@ -8,7 +8,7 @@ func visits(directions: String) -> Int {
     var y = 0
 
     visitedHouses.insert("0,0")
-    for char in directions.characters {
+    for char in directions {
         switch char {
         case "^":
             y += 1
@@ -58,7 +58,7 @@ func roboVisits(directions: String) -> Int {
     var santa = Position(x: 0, y: 0)
     var robo = Position(x: 0, y: 0)
     visitedHouses.insert("0,0")
-    for (index, char) in directions.characters.enumerated() {
+    for (index, char) in directions.enumerated() {
         if index % 2 == 0 {
             santa.move(direction: char)
             let house = santa.description

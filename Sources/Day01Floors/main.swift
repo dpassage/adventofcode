@@ -3,7 +3,7 @@ import AdventLib
 func santa(input: String) -> Int {
     var answer: Int = 0
 
-    for char in input.characters {
+    for char in input {
         switch char {
         case "(":
             answer += 1
@@ -20,7 +20,7 @@ func basement(input: String) -> Int {
     var answer: Int = 0
     var count: Int = 0
 
-    for char in input.characters {
+    for char in input {
         switch char {
         case "(":
             answer += 1

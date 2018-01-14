@@ -82,5 +82,5 @@ let sortedRoutes = routes.map({ ($0, cost(route: $0)) }).sorted { (left, right) 
     left.1 < right.1
 }
 
-print(sortedRoutes.first)
+print(sortedRoutes.first ?? "not found")
 print(sortedRoutes[sortedRoutes.count - 1])
