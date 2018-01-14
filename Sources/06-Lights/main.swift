@@ -31,11 +31,11 @@ struct Command {
         guard let match = regex.matches(in: commandString, options: [],
                                         range: NSRange(location: 0, length: command.length)).first else { return nil }
 
-        let mode = command.substring(with: match.rangeAt(1))
-        let firstX = Int(command.substring(with: match.rangeAt(2)))!
-        let firstY = Int(command.substring(with: match.rangeAt(3)))!
-        let endX = Int(command.substring(with: match.rangeAt(4)))!
-        let endY = Int(command.substring(with: match.rangeAt(5)))!
+        let mode = command.substring(with: match.range(at: 1))
+        let firstX = Int(command.substring(with: match.range(at: 2)))!
+        let firstY = Int(command.substring(with: match.range(at: 3)))!
+        let endX = Int(command.substring(with: match.range(at: 4)))!
+        let endY = Int(command.substring(with: match.range(at: 5)))!
 
         rectangle = Rectangle(start: Light(x: firstX, y: firstY), finish: Light(x: endX, y: endY))
         guard let theMode = CommandMode(rawValue: mode) else { return nil }

@@ -233,29 +233,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"AdventOfCode::02-Presents::Product" /* 02-Presents */ = {isa = PBXFileReference; lastKnownFileType = text; path = "02-Presents"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::03-Visits::Product" /* 03-Visits */ = {isa = PBXFileReference; lastKnownFileType = text; path = "03-Visits"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::04-Hashing::Product" /* 04-Hashing */ = {isa = PBXFileReference; lastKnownFileType = text; path = "04-Hashing"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::05-Nice::Product" /* 05-Nice */ = {isa = PBXFileReference; lastKnownFileType = text; path = "05-Nice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::06-Lights::Product" /* 06-Lights */ = {isa = PBXFileReference; lastKnownFileType = text; path = "06-Lights"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::07-Wires::Product" /* 07-Wires */ = {isa = PBXFileReference; lastKnownFileType = text; path = "07-Wires"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::08-Matchsticks::Product" /* 08-Matchsticks */ = {isa = PBXFileReference; lastKnownFileType = text; path = "08-Matchsticks"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::09-Routes::Product" /* 09-Routes */ = {isa = PBXFileReference; lastKnownFileType = text; path = "09-Routes"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::10-LookAndSay::Product" /* 10-LookAndSay */ = {isa = PBXFileReference; lastKnownFileType = text; path = "10-LookAndSay"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::11-Passwords::Product" /* 11-Passwords */ = {isa = PBXFileReference; lastKnownFileType = text; path = "11-Passwords"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::12-JSON::Product" /* 12-JSON */ = {isa = PBXFileReference; lastKnownFileType = text; path = "12-JSON"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::13-Seating::Product" /* 13-Seating */ = {isa = PBXFileReference; lastKnownFileType = text; path = "13-Seating"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::14-Reindeer::Product" /* 14-Reindeer */ = {isa = PBXFileReference; lastKnownFileType = text; path = "14-Reindeer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::15-Cookie::Product" /* 15-Cookie */ = {isa = PBXFileReference; lastKnownFileType = text; path = "15-Cookie"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::16-Sues::Product" /* 16-Sues */ = {isa = PBXFileReference; lastKnownFileType = text; path = "16-Sues"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::17-Eggnog::Product" /* 17-Eggnog */ = {isa = PBXFileReference; lastKnownFileType = text; path = "17-Eggnog"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::18-GIF::Product" /* 18-GIF */ = {isa = PBXFileReference; lastKnownFileType = text; path = "18-GIF"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::02-Presents::Product" /* 02-Presents */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "02-Presents"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::03-Visits::Product" /* 03-Visits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "03-Visits"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::04-Hashing::Product" /* 04-Hashing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "04-Hashing"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::05-Nice::Product" /* 05-Nice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "05-Nice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::06-Lights::Product" /* 06-Lights */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "06-Lights"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::07-Wires::Product" /* 07-Wires */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "07-Wires"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::08-Matchsticks::Product" /* 08-Matchsticks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "08-Matchsticks"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::09-Routes::Product" /* 09-Routes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "09-Routes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::10-LookAndSay::Product" /* 10-LookAndSay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "10-LookAndSay"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::11-Passwords::Product" /* 11-Passwords */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "11-Passwords"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::12-JSON::Product" /* 12-JSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "12-JSON"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::13-Seating::Product" /* 13-Seating */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "13-Seating"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::14-Reindeer::Product" /* 14-Reindeer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "14-Reindeer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::15-Cookie::Product" /* 15-Cookie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "15-Cookie"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::16-Sues::Product" /* 16-Sues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "16-Sues"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::17-Eggnog::Product" /* 17-Eggnog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "17-Eggnog"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::18-GIF::Product" /* 18-GIF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "18-GIF"; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::AdventLib::Product" /* AdventLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AdventLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::Day01Floors::Product" /* Day01Floors */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day01Floors; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::Day01FloorsTests::Product" /* Day01FloorsTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Day01FloorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::Day19Molecules::Product" /* Day19Molecules */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day19Molecules; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::Day20Elves::Product" /* Day20Elves */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day20Elves; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::Day20ElvesTests::Product" /* Day20ElvesTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = Day20ElvesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::Day01Floors::Product" /* Day01Floors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Day01Floors; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::Day01FloorsTests::Product" /* Day01FloorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Day01FloorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::Day19Molecules::Product" /* Day19Molecules */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Day19Molecules; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::Day20Elves::Product" /* Day20Elves */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Day20Elves; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::Day20ElvesTests::Product" /* Day20ElvesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Day20ElvesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* TextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
 		OBJ_12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -1166,6 +1166,77 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"AdventOfCode::02-Presents" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::03-Visits" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::04-Hashing" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::05-Nice" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::06-Lights" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::07-Wires" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::08-Matchsticks" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::09-Routes" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::10-LookAndSay" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::11-Passwords" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::12-JSON" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::13-Seating" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::14-Reindeer" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::15-Cookie" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::16-Sues" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::17-Eggnog" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::18-GIF" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::AdventLib" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::Day01Floors" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::Day01FloorsTests" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::Day19Molecules" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::Day20Elves" = {
+						LastSwiftMigration = 0920;
+					};
+					"AdventOfCode::Day20ElvesTests" = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "AdventOfCode" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1537,7 +1608,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "05-Nice";
 			};
 			name = Debug;
@@ -1556,7 +1628,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "05-Nice";
 			};
 			name = Release;
@@ -1575,7 +1648,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "04-Hashing";
 			};
 			name = Debug;
@@ -1594,7 +1668,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "04-Hashing";
 			};
 			name = Release;
@@ -1612,7 +1687,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day01FloorsTests;
 			};
 			name = Debug;
@@ -1630,7 +1706,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day01FloorsTests;
 			};
 			name = Release;
@@ -1649,7 +1726,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "09-Routes";
 			};
 			name = Debug;
@@ -1668,7 +1746,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "09-Routes";
 			};
 			name = Release;
@@ -1687,7 +1766,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "16-Sues";
 			};
 			name = Debug;
@@ -1706,7 +1786,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "16-Sues";
 			};
 			name = Release;
@@ -1725,7 +1806,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "11-Passwords";
 			};
 			name = Debug;
@@ -1744,7 +1826,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "11-Passwords";
 			};
 			name = Release;
@@ -1762,7 +1845,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day20ElvesTests;
 			};
 			name = Debug;
@@ -1780,7 +1864,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day20ElvesTests;
 			};
 			name = Release;
@@ -1799,7 +1884,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "13-Seating";
 			};
 			name = Debug;
@@ -1818,7 +1904,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "13-Seating";
 			};
 			name = Release;
@@ -1837,7 +1924,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "14-Reindeer";
 			};
 			name = Debug;
@@ -1856,7 +1944,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "14-Reindeer";
 			};
 			name = Release;
@@ -1875,7 +1964,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day19Molecules;
 			};
 			name = Debug;
@@ -1894,7 +1984,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day19Molecules;
 			};
 			name = Release;
@@ -1913,7 +2004,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "10-LookAndSay";
 			};
 			name = Debug;
@@ -1932,7 +2024,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "10-LookAndSay";
 			};
 			name = Release;
@@ -1951,7 +2044,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day20Elves;
 			};
 			name = Debug;
@@ -1970,7 +2064,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day20Elves;
 			};
 			name = Release;
@@ -1989,7 +2084,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "07-Wires";
 			};
 			name = Debug;
@@ -2008,7 +2104,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "07-Wires";
 			};
 			name = Release;
@@ -2027,7 +2124,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "12-JSON";
 			};
 			name = Debug;
@@ -2046,7 +2144,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "12-JSON";
 			};
 			name = Release;
@@ -2065,7 +2164,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "06-Lights";
 			};
 			name = Debug;
@@ -2084,7 +2184,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "06-Lights";
 			};
 			name = Release;
@@ -2103,7 +2204,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "17-Eggnog";
 			};
 			name = Debug;
@@ -2122,7 +2224,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "17-Eggnog";
 			};
 			name = Release;
@@ -2141,7 +2244,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "08-Matchsticks";
 			};
 			name = Debug;
@@ -2160,7 +2264,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "08-Matchsticks";
 			};
 			name = Release;
@@ -2179,7 +2284,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "18-GIF";
 			};
 			name = Debug;
@@ -2198,7 +2304,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "18-GIF";
 			};
 			name = Release;
@@ -2217,7 +2324,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "02-Presents";
 			};
 			name = Debug;
@@ -2236,7 +2344,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "02-Presents";
 			};
 			name = Release;
@@ -2255,7 +2364,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day01Floors;
 			};
 			name = Debug;
@@ -2274,7 +2384,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = Day01Floors;
 			};
 			name = Release;
@@ -2296,7 +2407,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = AdventLib;
 			};
 			name = Debug;
@@ -2318,7 +2430,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = AdventLib;
 			};
 			name = Release;
@@ -2409,7 +2522,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "03-Visits";
 			};
 			name = Debug;
@@ -2428,7 +2542,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "03-Visits";
 			};
 			name = Release;
@@ -2447,7 +2562,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "15-Cookie";
 			};
 			name = Debug;
@@ -2466,7 +2582,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGET_NAME = "15-Cookie";
 			};
 			name = Release;

@@ -4,14 +4,13 @@ import Foundation
 import AdventLib
 
 func threeVowels(string: String) -> Bool {
-    return string.characters.filter { "aeiou".characters.contains($0) }.count >= 3
+    return Array(string).filter { "aeiou".contains($0) }.count >= 3
 }
 
 func repeatedLetter(string: String) -> Bool {
-    let chars = string.characters
-    var prev: Character = "!".characters.first!
+    var prev: Character = "!"
 
-    for char in chars {
+    for char in string {
         if char == prev { return true }
         prev = char
     }
@@ -34,19 +33,19 @@ func nice(string: String) -> Bool {
 
 func containsRepeatedPair(string: String) -> Bool {
 
-    var remainingCharacters = string.characters
+    var remainingCharacters = Array(string)
     while remainingCharacters.count >= 4 {
         let prefix = String(remainingCharacters.prefix(2))
         let suffix = String(remainingCharacters.dropFirst(2))
         if suffix.contains(prefix) { return true }
-        remainingCharacters = remainingCharacters.dropFirst(1)
+        remainingCharacters = Array(remainingCharacters.dropFirst(1))
     }
 
     return false
 }
 
 func containsRepeatedOneLetterBetween(string: String) -> Bool {
-    let characters = Array(string.characters)
+    let characters = Array(string)
     guard characters.count >= 3 else { return false }
 
     for index in 0 ..< (characters.count - 2) {

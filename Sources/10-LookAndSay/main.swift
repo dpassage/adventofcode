@@ -7,13 +7,12 @@ let iterations = Int(CommandLine.arguments[2])!
 
 func lookAndSay(input: String) -> String {
     let inputWithSentinel = "\(input)Q"
-    let chars = inputWithSentinel.characters
 
     var result = ""
     var last: Character = "Q"
     var count = 0
 
-    for char in chars {
+    for char in inputWithSentinel {
         if char == last {
             count += 1
         } else {
@@ -28,8 +27,8 @@ func lookAndSay(input: String) -> String {
     return result
 }
 
-for i in 0 ..< iterations {
+for _ in 0 ..< iterations {
     theString = lookAndSay(input: theString)
 }
 
-print(theString.characters.count)
+print(theString.count)

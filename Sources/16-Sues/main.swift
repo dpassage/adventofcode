@@ -1,3 +1,5 @@
+import Foundation
+
 import AdventLib
 
 typealias Sue = [String: Int]
