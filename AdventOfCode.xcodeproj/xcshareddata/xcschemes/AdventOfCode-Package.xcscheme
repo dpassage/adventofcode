@@ -56,20 +56,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::04-Hashing"
-               BuildableName = "04-Hashing"
-               BlueprintName = "04-Hashing"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::09-Routes"
                BuildableName = "09-Routes"
                BlueprintName = "09-Routes"
@@ -154,20 +140,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::10-LookAndSay"
-               BuildableName = "10-LookAndSay"
-               BlueprintName = "10-LookAndSay"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::Day20Elves"
                BuildableName = "Day20Elves"
                BlueprintName = "Day20Elves"
@@ -196,9 +168,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::12-JSON"
-               BuildableName = "12-JSON"
-               BlueprintName = "12-JSON"
+               BlueprintIdentifier = "AdventOfCode::17-Eggnog"
+               BuildableName = "17-Eggnog"
+               BlueprintName = "17-Eggnog"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -213,20 +185,6 @@
                BlueprintIdentifier = "AdventOfCode::06-Lights"
                BuildableName = "06-Lights"
                BlueprintName = "06-Lights"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::17-Eggnog"
-               BuildableName = "17-Eggnog"
-               BlueprintName = "17-Eggnog"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -309,26 +267,6 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day01FloorsTests"
-               BuildableName = "Day01FloorsTests.xctest"
-               BlueprintName = "Day01FloorsTests"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day20ElvesTests"
-               BuildableName = "Day20ElvesTests.xctest"
-               BlueprintName = "Day20ElvesTests"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
