@@ -12,6 +12,11 @@ public class TextFile {
         self.fileHandle = fileHandle
     }
 
+    public convenience init?(fileName: String) {
+        guard let handle = FileHandle(forReadingAtPath: fileName) else { return nil }
+        self.init(fileHandle: handle)
+    }
+
     public func readLines() -> AnySequence<String> {
         let inputData = fileHandle.readDataToEndOfFile()
         guard let inputString = String(data: inputData, encoding: String.Encoding.utf8) else {
