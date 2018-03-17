@@ -112,6 +112,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day22Wizard"
+               BuildableName = "Day22Wizard"
+               BlueprintName = "Day22Wizard"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::13-Seating"
                BuildableName = "13-Seating"
                BlueprintName = "13-Seating"
