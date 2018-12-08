@@ -5,13 +5,13 @@
    objects = {
       "AdventOfCode::02-Presents" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_92";
+         buildConfigurationList = "OBJ_95";
          buildPhases = (
-            "OBJ_95",
-            "OBJ_97"
+            "OBJ_98",
+            "OBJ_100"
          );
          dependencies = (
-            "OBJ_99"
+            "OBJ_102"
          );
          name = "02-Presents";
          productName = "_2_Presents";
@@ -25,13 +25,13 @@
       };
       "AdventOfCode::03-Visits" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_102";
+         buildConfigurationList = "OBJ_105";
          buildPhases = (
-            "OBJ_105",
-            "OBJ_107"
+            "OBJ_108",
+            "OBJ_110"
          );
          dependencies = (
-            "OBJ_109"
+            "OBJ_112"
          );
          name = "03-Visits";
          productName = "_3_Visits";
@@ -45,13 +45,13 @@
       };
       "AdventOfCode::04-Hashing" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_111";
+         buildConfigurationList = "OBJ_114";
          buildPhases = (
-            "OBJ_114",
-            "OBJ_116"
+            "OBJ_117",
+            "OBJ_119"
          );
          dependencies = (
-            "OBJ_118"
+            "OBJ_121"
          );
          name = "04-Hashing";
          productName = "_4_Hashing";
@@ -65,13 +65,13 @@
       };
       "AdventOfCode::05-Nice" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_120";
+         buildConfigurationList = "OBJ_123";
          buildPhases = (
-            "OBJ_123",
-            "OBJ_125"
+            "OBJ_126",
+            "OBJ_128"
          );
          dependencies = (
-            "OBJ_127"
+            "OBJ_130"
          );
          name = "05-Nice";
          productName = "_5_Nice";
@@ -85,13 +85,13 @@
       };
       "AdventOfCode::06-Lights" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_129";
+         buildConfigurationList = "OBJ_132";
          buildPhases = (
-            "OBJ_132",
-            "OBJ_134"
+            "OBJ_135",
+            "OBJ_137"
          );
          dependencies = (
-            "OBJ_136"
+            "OBJ_139"
          );
          name = "06-Lights";
          productName = "_6_Lights";
@@ -105,13 +105,13 @@
       };
       "AdventOfCode::07-Wires" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_138";
+         buildConfigurationList = "OBJ_141";
          buildPhases = (
-            "OBJ_141",
-            "OBJ_143"
+            "OBJ_144",
+            "OBJ_146"
          );
          dependencies = (
-            "OBJ_145"
+            "OBJ_148"
          );
          name = "07-Wires";
          productName = "_7_Wires";
@@ -125,13 +125,13 @@
       };
       "AdventOfCode::08-Matchsticks" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_147";
+         buildConfigurationList = "OBJ_150";
          buildPhases = (
-            "OBJ_150",
-            "OBJ_152"
+            "OBJ_153",
+            "OBJ_155"
          );
          dependencies = (
-            "OBJ_154"
+            "OBJ_157"
          );
          name = "08-Matchsticks";
          productName = "_8_Matchsticks";
@@ -145,13 +145,13 @@
       };
       "AdventOfCode::09-Routes" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_156";
+         buildConfigurationList = "OBJ_159";
          buildPhases = (
-            "OBJ_159",
-            "OBJ_161"
+            "OBJ_162",
+            "OBJ_164"
          );
          dependencies = (
-            "OBJ_163"
+            "OBJ_166"
          );
          name = "09-Routes";
          productName = "_9_Routes";
@@ -165,13 +165,13 @@
       };
       "AdventOfCode::10-LookAndSay" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_165";
+         buildConfigurationList = "OBJ_168";
          buildPhases = (
-            "OBJ_168",
-            "OBJ_170"
+            "OBJ_171",
+            "OBJ_173"
          );
          dependencies = (
-            "OBJ_172"
+            "OBJ_175"
          );
          name = "10-LookAndSay";
          productName = "_0_LookAndSay";
@@ -185,13 +185,13 @@
       };
       "AdventOfCode::11-Passwords" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_174";
+         buildConfigurationList = "OBJ_177";
          buildPhases = (
-            "OBJ_177",
-            "OBJ_179"
+            "OBJ_180",
+            "OBJ_182"
          );
          dependencies = (
-            "OBJ_181"
+            "OBJ_184"
          );
          name = "11-Passwords";
          productName = "_1_Passwords";
@@ -205,13 +205,13 @@
       };
       "AdventOfCode::12-JSON" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_183";
+         buildConfigurationList = "OBJ_186";
          buildPhases = (
-            "OBJ_186",
-            "OBJ_188"
+            "OBJ_189",
+            "OBJ_191"
          );
          dependencies = (
-            "OBJ_190"
+            "OBJ_193"
          );
          name = "12-JSON";
          productName = "_2_JSON";
@@ -225,13 +225,13 @@
       };
       "AdventOfCode::13-Seating" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_192";
+         buildConfigurationList = "OBJ_195";
          buildPhases = (
-            "OBJ_195",
-            "OBJ_197"
+            "OBJ_198",
+            "OBJ_200"
          );
          dependencies = (
-            "OBJ_199"
+            "OBJ_202"
          );
          name = "13-Seating";
          productName = "_3_Seating";
@@ -245,13 +245,13 @@
       };
       "AdventOfCode::14-Reindeer" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_201";
+         buildConfigurationList = "OBJ_204";
          buildPhases = (
-            "OBJ_204",
-            "OBJ_206"
+            "OBJ_207",
+            "OBJ_209"
          );
          dependencies = (
-            "OBJ_208"
+            "OBJ_211"
          );
          name = "14-Reindeer";
          productName = "_4_Reindeer";
@@ -265,13 +265,13 @@
       };
       "AdventOfCode::15-Cookie" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_210";
+         buildConfigurationList = "OBJ_213";
          buildPhases = (
-            "OBJ_213",
-            "OBJ_215"
+            "OBJ_216",
+            "OBJ_218"
          );
          dependencies = (
-            "OBJ_217"
+            "OBJ_220"
          );
          name = "15-Cookie";
          productName = "_5_Cookie";
@@ -285,13 +285,13 @@
       };
       "AdventOfCode::16-Sues" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_219";
+         buildConfigurationList = "OBJ_222";
          buildPhases = (
-            "OBJ_222",
-            "OBJ_224"
+            "OBJ_225",
+            "OBJ_227"
          );
          dependencies = (
-            "OBJ_226"
+            "OBJ_229"
          );
          name = "16-Sues";
          productName = "_6_Sues";
@@ -305,13 +305,13 @@
       };
       "AdventOfCode::17-Eggnog" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_228";
+         buildConfigurationList = "OBJ_231";
          buildPhases = (
-            "OBJ_231",
-            "OBJ_233"
+            "OBJ_234",
+            "OBJ_236"
          );
          dependencies = (
-            "OBJ_235"
+            "OBJ_238"
          );
          name = "17-Eggnog";
          productName = "_7_Eggnog";
@@ -325,13 +325,13 @@
       };
       "AdventOfCode::18-GIF" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_237";
+         buildConfigurationList = "OBJ_240";
          buildPhases = (
-            "OBJ_240",
-            "OBJ_242"
+            "OBJ_243",
+            "OBJ_245"
          );
          dependencies = (
-            "OBJ_244"
+            "OBJ_247"
          );
          name = "18-GIF";
          productName = "_8_GIF";
@@ -345,10 +345,10 @@
       };
       "AdventOfCode::AdventLib" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_245";
+         buildConfigurationList = "OBJ_248";
          buildPhases = (
-            "OBJ_248",
-            "OBJ_253"
+            "OBJ_251",
+            "OBJ_256"
          );
          dependencies = (
          );
@@ -364,13 +364,13 @@
       };
       "AdventOfCode::AdventLibTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_255";
+         buildConfigurationList = "OBJ_258";
          buildPhases = (
-            "OBJ_258",
-            "OBJ_260"
+            "OBJ_261",
+            "OBJ_263"
          );
          dependencies = (
-            "OBJ_262"
+            "OBJ_265"
          );
          name = "AdventLibTests";
          productName = "AdventLibTests";
@@ -384,24 +384,24 @@
       };
       "AdventOfCode::AdventOfCodePackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_270";
+         buildConfigurationList = "OBJ_273";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_273"
+            "OBJ_276"
          );
          name = "AdventOfCodePackageTests";
          productName = "AdventOfCodePackageTests";
       };
       "AdventOfCode::Day01Floors" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_275";
+         buildConfigurationList = "OBJ_278";
          buildPhases = (
-            "OBJ_278",
-            "OBJ_280"
+            "OBJ_281",
+            "OBJ_283"
          );
          dependencies = (
-            "OBJ_282"
+            "OBJ_285"
          );
          name = "Day01Floors";
          productName = "Day01Floors";
@@ -415,13 +415,13 @@
       };
       "AdventOfCode::Day19Molecules" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_284";
+         buildConfigurationList = "OBJ_287";
          buildPhases = (
-            "OBJ_287",
-            "OBJ_289"
+            "OBJ_290",
+            "OBJ_292"
          );
          dependencies = (
-            "OBJ_291"
+            "OBJ_294"
          );
          name = "Day19Molecules";
          productName = "Day19Molecules";
@@ -435,13 +435,13 @@
       };
       "AdventOfCode::Day20Elves" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_293";
+         buildConfigurationList = "OBJ_296";
          buildPhases = (
-            "OBJ_296",
-            "OBJ_298"
+            "OBJ_299",
+            "OBJ_301"
          );
          dependencies = (
-            "OBJ_300"
+            "OBJ_303"
          );
          name = "Day20Elves";
          productName = "Day20Elves";
@@ -455,13 +455,13 @@
       };
       "AdventOfCode::Day21RPG" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_302";
+         buildConfigurationList = "OBJ_305";
          buildPhases = (
-            "OBJ_305",
-            "OBJ_307"
+            "OBJ_308",
+            "OBJ_310"
          );
          dependencies = (
-            "OBJ_309"
+            "OBJ_312"
          );
          name = "Day21RPG";
          productName = "Day21RPG";
@@ -475,13 +475,13 @@
       };
       "AdventOfCode::Day22Wizard" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_311";
+         buildConfigurationList = "OBJ_314";
          buildPhases = (
-            "OBJ_314",
-            "OBJ_316"
+            "OBJ_317",
+            "OBJ_319"
          );
          dependencies = (
-            "OBJ_318"
+            "OBJ_321"
          );
          name = "Day22Wizard";
          productName = "Day22Wizard";
@@ -495,13 +495,13 @@
       };
       "AdventOfCode::Day23Turing" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_320";
+         buildConfigurationList = "OBJ_323";
          buildPhases = (
-            "OBJ_323",
-            "OBJ_325"
+            "OBJ_326",
+            "OBJ_328"
          );
          dependencies = (
-            "OBJ_327"
+            "OBJ_330"
          );
          name = "Day23Turing";
          productName = "Day23Turing";
@@ -515,13 +515,13 @@
       };
       "AdventOfCode::Day24Balance" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_329";
+         buildConfigurationList = "OBJ_332";
          buildPhases = (
-            "OBJ_332",
-            "OBJ_334"
+            "OBJ_335",
+            "OBJ_337"
          );
          dependencies = (
-            "OBJ_336"
+            "OBJ_339"
          );
          name = "Day24Balance";
          productName = "Day24Balance";
@@ -533,11 +533,31 @@
          path = "Day24Balance";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
+      "AdventOfCode::Day25Snow" = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = "OBJ_341";
+         buildPhases = (
+            "OBJ_344",
+            "OBJ_346"
+         );
+         dependencies = (
+            "OBJ_348"
+         );
+         name = "Day25Snow";
+         productName = "Day25Snow";
+         productReference = "AdventOfCode::Day25Snow::Product";
+         productType = "com.apple.product-type.tool";
+      };
+      "AdventOfCode::Day25Snow::Product" = {
+         isa = "PBXFileReference";
+         path = "Day25Snow";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
       "AdventOfCode::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_264";
+         buildConfigurationList = "OBJ_267";
          buildPhases = (
-            "OBJ_267"
+            "OBJ_270"
          );
          dependencies = (
          );
@@ -558,7 +578,7 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_64";
+         productRefGroup = "OBJ_66";
          projectDirPath = ".";
          targets = (
             "AdventOfCode::02-Presents",
@@ -588,7 +608,8 @@
             "AdventOfCode::Day21RPG",
             "AdventOfCode::Day22Wizard",
             "AdventOfCode::Day23Turing",
-            "AdventOfCode::Day24Balance"
+            "AdventOfCode::Day24Balance",
+            "AdventOfCode::Day25Snow"
          );
       };
       "OBJ_10" = {
@@ -600,16 +621,30 @@
          path = "Sources/03-Visits";
          sourceTree = "SOURCE_ROOT";
       };
+      "OBJ_100" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_101"
+         );
+      };
+      "OBJ_101" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
       "OBJ_102" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_105" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_103",
-            "OBJ_104"
+            "OBJ_106",
+            "OBJ_107"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_103" = {
+      "OBJ_106" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -644,7 +679,7 @@
          };
          name = "Debug";
       };
-      "OBJ_104" = {
+      "OBJ_107" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -679,45 +714,45 @@
          };
          name = "Release";
       };
-      "OBJ_105" = {
+      "OBJ_108" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_106"
+            "OBJ_109"
          );
-      };
-      "OBJ_106" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_107" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_108"
-         );
-      };
-      "OBJ_108" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_109" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
       };
       "OBJ_11" = {
          isa = "PBXFileReference";
          path = "main.swift";
          sourceTree = "<group>";
       };
+      "OBJ_110" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_111"
+         );
+      };
       "OBJ_111" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_112" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_114" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_112",
-            "OBJ_113"
+            "OBJ_115",
+            "OBJ_116"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_112" = {
+      "OBJ_115" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -752,7 +787,7 @@
          };
          name = "Debug";
       };
-      "OBJ_113" = {
+      "OBJ_116" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -787,807 +822,157 @@
          };
          name = "Release";
       };
-      "OBJ_114" = {
+      "OBJ_117" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_115"
+            "OBJ_118"
          );
-      };
-      "OBJ_115" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_116" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_117"
-         );
-      };
-      "OBJ_117" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_118" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_45";
+      };
+      "OBJ_119" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_120"
+         );
       };
       "OBJ_12" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_13",
-            "OBJ_14",
-            "OBJ_15",
-            "OBJ_16"
+            "OBJ_13"
          );
-         name = "AdventLib";
-         path = "Sources/AdventLib";
+         name = "18-GIF";
+         path = "Sources/18-GIF";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_120" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_121",
-            "OBJ_122"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_121" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Nice_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "05-Nice";
-         };
-         name = "Debug";
-      };
-      "OBJ_122" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Nice_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "05-Nice";
-         };
-         name = "Release";
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
       };
       "OBJ_123" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_124"
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_124",
+            "OBJ_125"
          );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_124" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Nice_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "05-Nice";
+         };
+         name = "Debug";
       };
       "OBJ_125" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_126"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Nice_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "05-Nice";
+         };
+         name = "Release";
       };
       "OBJ_126" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_127"
+         );
       };
       "OBJ_127" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_41";
+      };
+      "OBJ_128" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_129"
+         );
       };
       "OBJ_129" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_130",
-            "OBJ_131"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "Array+Combos.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_130" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Lights_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "06-Lights";
-         };
-         name = "Debug";
-      };
-      "OBJ_131" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Lights_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "06-Lights";
-         };
-         name = "Release";
-      };
-      "OBJ_132" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_133"
-         );
-      };
-      "OBJ_133" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_134" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_135"
-         );
-      };
-      "OBJ_135" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_136" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_138" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_139",
-            "OBJ_140"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_139" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Wires_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "07-Wires";
-         };
-         name = "Debug";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "Heap.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_140" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Wires_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "07-Wires";
-         };
-         name = "Release";
-      };
-      "OBJ_141" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_142"
-         );
-      };
-      "OBJ_142" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_143" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_144"
-         );
-      };
-      "OBJ_144" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_145" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_147" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_148",
-            "OBJ_149"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_148" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "08-Matchsticks";
-         };
-         name = "Debug";
-      };
-      "OBJ_149" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "08-Matchsticks";
-         };
-         name = "Release";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "Regex.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_150" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_151"
-         );
-      };
-      "OBJ_151" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
-      };
-      "OBJ_152" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_153"
-         );
-      };
-      "OBJ_153" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_154" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_156" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_157",
-            "OBJ_158"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_157" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_9_Routes_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "09-Routes";
-         };
-         name = "Debug";
-      };
-      "OBJ_158" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_9_Routes_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "09-Routes";
-         };
-         name = "Release";
-      };
-      "OBJ_159" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_160"
-         );
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "TextFile.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_160" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_161" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_162"
-         );
-      };
-      "OBJ_162" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_163" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_165" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_166",
-            "OBJ_167"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_166" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "10-LookAndSay";
-         };
-         name = "Debug";
-      };
-      "OBJ_167" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "10-LookAndSay";
-         };
-         name = "Release";
-      };
-      "OBJ_168" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_169"
-         );
-      };
-      "OBJ_169" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
-      };
-      "OBJ_17" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_18"
-         );
-         name = "Day20Elves";
-         path = "Sources/Day20Elves";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_170" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_171"
-         );
-      };
-      "OBJ_171" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_172" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_174" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_175",
-            "OBJ_176"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_175" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_1_Passwords_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "11-Passwords";
-         };
-         name = "Debug";
-      };
-      "OBJ_176" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_1_Passwords_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "11-Passwords";
-         };
-         name = "Release";
-      };
-      "OBJ_177" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_178"
-         );
-      };
-      "OBJ_178" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
-      };
-      "OBJ_179" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_180"
-         );
-      };
-      "OBJ_18" = {
          isa = "PBXFileReference";
          path = "main.swift";
          sourceTree = "<group>";
       };
-      "OBJ_180" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_181" = {
+      "OBJ_130" = {
          isa = "PBXTargetDependency";
          target = "AdventOfCode::AdventLib";
       };
-      "OBJ_183" = {
+      "OBJ_132" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_184",
-            "OBJ_185"
+            "OBJ_133",
+            "OBJ_134"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_184" = {
+      "OBJ_133" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -1597,7 +982,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_2_JSON_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Lights_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -1618,11 +1003,11 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "12-JSON";
+            TARGET_NAME = "06-Lights";
          };
          name = "Debug";
       };
-      "OBJ_185" = {
+      "OBJ_134" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -1632,7 +1017,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_2_JSON_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Lights_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -1653,53 +1038,704 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "12-JSON";
+            TARGET_NAME = "06-Lights";
          };
          name = "Release";
       };
-      "OBJ_186" = {
+      "OBJ_135" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_187"
+            "OBJ_136"
          );
       };
-      "OBJ_187" = {
+      "OBJ_136" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
+         fileRef = "OBJ_21";
       };
-      "OBJ_188" = {
+      "OBJ_137" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_189"
+            "OBJ_138"
          );
       };
-      "OBJ_189" = {
+      "OBJ_138" = {
          isa = "PBXBuildFile";
          fileRef = "AdventOfCode::AdventLib::Product";
       };
-      "OBJ_19" = {
+      "OBJ_139" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_14" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_20"
+            "OBJ_15"
          );
-         name = "14-Reindeer";
-         path = "Sources/14-Reindeer";
+         name = "Day21RPG";
+         path = "Sources/Day21RPG";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_190" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_192" = {
+      "OBJ_141" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_193",
-            "OBJ_194"
+            "OBJ_142",
+            "OBJ_143"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
+      "OBJ_142" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Wires_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "07-Wires";
+         };
+         name = "Debug";
+      };
+      "OBJ_143" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Wires_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "07-Wires";
+         };
+         name = "Release";
+      };
+      "OBJ_144" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_145"
+         );
+      };
+      "OBJ_145" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_37";
+      };
+      "OBJ_146" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_147"
+         );
+      };
+      "OBJ_147" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_148" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_15" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_150" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_151",
+            "OBJ_152"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_151" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "08-Matchsticks";
+         };
+         name = "Debug";
+      };
+      "OBJ_152" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "08-Matchsticks";
+         };
+         name = "Release";
+      };
+      "OBJ_153" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_154"
+         );
+      };
+      "OBJ_154" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
+      };
+      "OBJ_155" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_156"
+         );
+      };
+      "OBJ_156" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_157" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_159" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_160",
+            "OBJ_161"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_16" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_17"
+         );
+         name = "10-LookAndSay";
+         path = "Sources/10-LookAndSay";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_160" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_9_Routes_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "09-Routes";
+         };
+         name = "Debug";
+      };
+      "OBJ_161" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_9_Routes_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "09-Routes";
+         };
+         name = "Release";
+      };
+      "OBJ_162" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_163"
+         );
+      };
+      "OBJ_163" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_60";
+      };
+      "OBJ_164" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_165"
+         );
+      };
+      "OBJ_165" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_166" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_168" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_169",
+            "OBJ_170"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_169" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "10-LookAndSay";
+         };
+         name = "Debug";
+      };
+      "OBJ_17" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_170" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "10-LookAndSay";
+         };
+         name = "Release";
+      };
+      "OBJ_171" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_172"
+         );
+      };
+      "OBJ_172" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_173" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_174"
+         );
+      };
+      "OBJ_174" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_175" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_177" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_178",
+            "OBJ_179"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_178" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_1_Passwords_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "11-Passwords";
+         };
+         name = "Debug";
+      };
+      "OBJ_179" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_1_Passwords_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "11-Passwords";
+         };
+         name = "Release";
+      };
+      "OBJ_18" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_19"
+         );
+         name = "Day19Molecules";
+         path = "Sources/Day19Molecules";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_180" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_181"
+         );
+      };
+      "OBJ_181" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_43";
+      };
+      "OBJ_182" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_183"
+         );
+      };
+      "OBJ_183" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_184" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_186" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_187",
+            "OBJ_188"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_187" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_2_JSON_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "12-JSON";
+         };
+         name = "Debug";
+      };
+      "OBJ_188" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_2_JSON_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "12-JSON";
+         };
+         name = "Release";
+      };
+      "OBJ_189" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_190"
+         );
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_191" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_192"
+         );
+      };
+      "OBJ_192" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
       "OBJ_193" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_195" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_196",
+            "OBJ_197"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_196" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -1734,7 +1770,7 @@
          };
          name = "Debug";
       };
-      "OBJ_194" = {
+      "OBJ_197" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -1769,29 +1805,15 @@
          };
          name = "Release";
       };
-      "OBJ_195" = {
+      "OBJ_198" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_196"
+            "OBJ_199"
          );
-      };
-      "OBJ_196" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_197" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_198"
-         );
-      };
-      "OBJ_198" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_199" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_52";
       };
       "OBJ_2" = {
          isa = "XCConfigurationList";
@@ -1803,882 +1825,258 @@
          defaultConfigurationName = "Release";
       };
       "OBJ_20" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_21"
+         );
+         name = "06-Lights";
+         path = "Sources/06-Lights";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_200" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_201"
+         );
       };
       "OBJ_201" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_202",
-            "OBJ_203"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_202" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_4_Reindeer_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "14-Reindeer";
-         };
-         name = "Debug";
-      };
-      "OBJ_203" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_4_Reindeer_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "14-Reindeer";
-         };
-         name = "Release";
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
       };
       "OBJ_204" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_205"
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_205",
+            "OBJ_206"
          );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_205" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_4_Reindeer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "14-Reindeer";
+         };
+         name = "Debug";
       };
       "OBJ_206" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_207"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_4_Reindeer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "14-Reindeer";
+         };
+         name = "Release";
       };
       "OBJ_207" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_208"
+         );
       };
       "OBJ_208" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_62";
+      };
+      "OBJ_209" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_210"
+         );
       };
       "OBJ_21" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_22"
-         );
-         name = "Day24Balance";
-         path = "Sources/Day24Balance";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
       };
       "OBJ_210" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_211",
-            "OBJ_212"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_211" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Cookie_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "15-Cookie";
-         };
-         name = "Debug";
-      };
-      "OBJ_212" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Cookie_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "15-Cookie";
-         };
-         name = "Release";
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
       };
       "OBJ_213" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_214"
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_214",
+            "OBJ_215"
          );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_214" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Cookie_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "15-Cookie";
+         };
+         name = "Debug";
       };
       "OBJ_215" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_216"
-         );
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_5_Cookie_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "15-Cookie";
+         };
+         name = "Release";
       };
       "OBJ_216" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_217"
+         );
       };
       "OBJ_217" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
+      };
+      "OBJ_218" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_219"
+         );
       };
       "OBJ_219" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_220",
-            "OBJ_221"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_22" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_220" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Sues_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "16-Sues";
-         };
-         name = "Debug";
-      };
-      "OBJ_221" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Sues_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "16-Sues";
-         };
-         name = "Release";
-      };
-      "OBJ_222" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_223"
-         );
-      };
-      "OBJ_223" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_224" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_225"
-         );
-      };
-      "OBJ_225" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_226" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_228" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_229",
-            "OBJ_230"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_229" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Eggnog_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "17-Eggnog";
-         };
-         name = "Debug";
-      };
-      "OBJ_23" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_24"
-         );
-         name = "18-GIF";
-         path = "Sources/18-GIF";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_230" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Eggnog_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "17-Eggnog";
-         };
-         name = "Release";
-      };
-      "OBJ_231" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_232"
-         );
-      };
-      "OBJ_232" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
-      };
-      "OBJ_233" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_234"
-         );
-      };
-      "OBJ_234" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_235" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_237" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_238",
-            "OBJ_239"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_238" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_GIF_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "18-GIF";
-         };
-         name = "Debug";
-      };
-      "OBJ_239" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_GIF_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "18-GIF";
-         };
-         name = "Release";
-      };
-      "OBJ_24" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_240" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_241"
-         );
-      };
-      "OBJ_241" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
-      };
-      "OBJ_242" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_243"
-         );
-      };
-      "OBJ_243" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_244" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_245" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_246",
-            "OBJ_247"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_246" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLib_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "AdventLib";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "AdventLib";
-         };
-         name = "Debug";
-      };
-      "OBJ_247" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLib_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "AdventLib";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "AdventLib";
-         };
-         name = "Release";
-      };
-      "OBJ_248" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_249",
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252"
-         );
-      };
-      "OBJ_249" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_25" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_26"
-         );
-         name = "11-Passwords";
-         path = "Sources/11-Passwords";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_250" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
-      };
-      "OBJ_251" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_252" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_253" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_255" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_256",
-            "OBJ_257"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_256" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLibTests_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "AdventLibTests";
-         };
-         name = "Debug";
-      };
-      "OBJ_257" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLibTests_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "AdventLibTests";
-         };
-         name = "Release";
-      };
-      "OBJ_258" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_259"
-         );
-      };
-      "OBJ_259" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_26" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_260" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_261"
-         );
-      };
-      "OBJ_261" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_262" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_264" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_265",
-            "OBJ_266"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_265" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_266" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_267" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_268"
-         );
-      };
-      "OBJ_268" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_27" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_28"
+            "OBJ_23"
          );
          name = "17-Eggnog";
          path = "Sources/17-Eggnog";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_270" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_271",
-            "OBJ_272"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_271" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_272" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_273" = {
+      "OBJ_220" = {
          isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLibTests";
+         target = "AdventOfCode::AdventLib";
       };
-      "OBJ_275" = {
+      "OBJ_222" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_276",
-            "OBJ_277"
+            "OBJ_223",
+            "OBJ_224"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_276" = {
+      "OBJ_223" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2688,7 +2086,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day01Floors_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Sues_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -2709,11 +2107,11 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day01Floors";
+            TARGET_NAME = "16-Sues";
          };
          name = "Debug";
       };
-      "OBJ_277" = {
+      "OBJ_224" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2723,7 +2121,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day01Floors_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_6_Sues_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -2744,49 +2142,49 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day01Floors";
+            TARGET_NAME = "16-Sues";
          };
          name = "Release";
       };
-      "OBJ_278" = {
+      "OBJ_225" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_279"
+            "OBJ_226"
          );
       };
-      "OBJ_279" = {
+      "OBJ_226" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
+         fileRef = "OBJ_9";
       };
-      "OBJ_28" = {
+      "OBJ_227" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_228"
+         );
+      };
+      "OBJ_228" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_229" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_23" = {
          isa = "PBXFileReference";
          path = "main.swift";
          sourceTree = "<group>";
       };
-      "OBJ_280" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_281"
-         );
-      };
-      "OBJ_281" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_282" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_284" = {
+      "OBJ_231" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_285",
-            "OBJ_286"
+            "OBJ_232",
+            "OBJ_233"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_285" = {
+      "OBJ_232" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2796,7 +2194,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day19Molecules_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Eggnog_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -2817,11 +2215,11 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day19Molecules";
+            TARGET_NAME = "17-Eggnog";
          };
          name = "Debug";
       };
-      "OBJ_286" = {
+      "OBJ_233" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2831,7 +2229,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day19Molecules_Info.plist";
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_7_Eggnog_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
@@ -2852,53 +2250,691 @@
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day19Molecules";
+            TARGET_NAME = "17-Eggnog";
          };
          name = "Release";
       };
-      "OBJ_287" = {
+      "OBJ_234" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_288"
+            "OBJ_235"
          );
       };
-      "OBJ_288" = {
+      "OBJ_235" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
+         fileRef = "OBJ_23";
       };
-      "OBJ_289" = {
+      "OBJ_236" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_290"
+            "OBJ_237"
          );
       };
-      "OBJ_29" = {
+      "OBJ_237" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_238" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_24" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_30"
+            "OBJ_25"
          );
-         name = "09-Routes";
-         path = "Sources/09-Routes";
+         name = "Day23Turing";
+         path = "Sources/Day23Turing";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_290" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_291" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_293" = {
+      "OBJ_240" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_294",
-            "OBJ_295"
+            "OBJ_241",
+            "OBJ_242"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
+      "OBJ_241" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_GIF_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "18-GIF";
+         };
+         name = "Debug";
+      };
+      "OBJ_242" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/_8_GIF_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "18-GIF";
+         };
+         name = "Release";
+      };
+      "OBJ_243" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_244"
+         );
+      };
+      "OBJ_244" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
+      };
+      "OBJ_245" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_246"
+         );
+      };
+      "OBJ_246" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_247" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_248" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_249",
+            "OBJ_250"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_249" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "AdventLib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "AdventLib";
+         };
+         name = "Debug";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLib_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "AdventLib";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "AdventLib";
+         };
+         name = "Release";
+      };
+      "OBJ_251" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_252",
+            "OBJ_253",
+            "OBJ_254",
+            "OBJ_255"
+         );
+      };
+      "OBJ_252" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
+      };
+      "OBJ_253" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
+      };
+      "OBJ_254" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
+      "OBJ_255" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_256" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_258" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_259",
+            "OBJ_260"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_259" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLibTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "AdventLibTests";
+         };
+         name = "Debug";
+      };
+      "OBJ_26" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_27"
+         );
+         name = "12-JSON";
+         path = "Sources/12-JSON";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_260" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/AdventLibTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "AdventLibTests";
+         };
+         name = "Release";
+      };
+      "OBJ_261" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_262"
+         );
+      };
+      "OBJ_262" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_263" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_264"
+         );
+      };
+      "OBJ_264" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_265" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_267" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_268",
+            "OBJ_269"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_268" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_269" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_27" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_270" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_271"
+         );
+      };
+      "OBJ_271" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_273" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_274",
+            "OBJ_275"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_274" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
+      };
+      "OBJ_275" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
+      };
+      "OBJ_276" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLibTests";
+      };
+      "OBJ_278" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_279",
+            "OBJ_280"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_279" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day01Floors_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day01Floors";
+         };
+         name = "Debug";
+      };
+      "OBJ_28" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_29"
+         );
+         name = "Day22Wizard";
+         path = "Sources/Day22Wizard";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_280" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day01Floors_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day01Floors";
+         };
+         name = "Release";
+      };
+      "OBJ_281" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_282"
+         );
+      };
+      "OBJ_282" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_35";
+      };
+      "OBJ_283" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_284"
+         );
+      };
+      "OBJ_284" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_285" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_287" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_288",
+            "OBJ_289"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_288" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day19Molecules_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day19Molecules";
+         };
+         name = "Debug";
+      };
+      "OBJ_289" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day19Molecules_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day19Molecules";
+         };
+         name = "Release";
+      };
+      "OBJ_29" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_290" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_291"
+         );
+      };
+      "OBJ_291" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_292" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_293"
+         );
+      };
+      "OBJ_293" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
       "OBJ_294" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_296" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_297",
+            "OBJ_298"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_297" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2933,7 +2969,7 @@
          };
          name = "Debug";
       };
-      "OBJ_295" = {
+      "OBJ_298" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -2968,25 +3004,11 @@
          };
          name = "Release";
       };
-      "OBJ_296" = {
+      "OBJ_299" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_297"
+            "OBJ_300"
          );
-      };
-      "OBJ_297" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_18";
-      };
-      "OBJ_298" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_299"
-         );
-      };
-      "OBJ_299" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -3028,24 +3050,42 @@
          name = "Debug";
       };
       "OBJ_30" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_31"
+         );
+         name = "Day25Snow";
+         path = "Sources/Day25Snow";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_300" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_39";
+      };
+      "OBJ_301" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_302"
+         );
+      };
+      "OBJ_302" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_303" = {
          isa = "PBXTargetDependency";
          target = "AdventOfCode::AdventLib";
       };
-      "OBJ_302" = {
+      "OBJ_305" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_303",
-            "OBJ_304"
+            "OBJ_306",
+            "OBJ_307"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_303" = {
+      "OBJ_306" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -3080,7 +3120,7 @@
          };
          name = "Debug";
       };
-      "OBJ_304" = {
+      "OBJ_307" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -3115,403 +3155,502 @@
          };
          name = "Release";
       };
-      "OBJ_305" = {
+      "OBJ_308" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_306"
+            "OBJ_309"
          );
       };
-      "OBJ_306" = {
+      "OBJ_309" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
+         fileRef = "OBJ_15";
       };
-      "OBJ_307" = {
+      "OBJ_31" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_310" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_308"
+            "OBJ_311"
          );
       };
-      "OBJ_308" = {
+      "OBJ_311" = {
          isa = "PBXBuildFile";
          fileRef = "AdventOfCode::AdventLib::Product";
       };
-      "OBJ_309" = {
+      "OBJ_312" = {
          isa = "PBXTargetDependency";
          target = "AdventOfCode::AdventLib";
       };
-      "OBJ_31" = {
+      "OBJ_314" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_315",
+            "OBJ_316"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_315" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day22Wizard_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day22Wizard";
+         };
+         name = "Debug";
+      };
+      "OBJ_316" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day22Wizard_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day22Wizard";
+         };
+         name = "Release";
+      };
+      "OBJ_317" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_318"
+         );
+      };
+      "OBJ_318" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_319" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_320"
+         );
+      };
+      "OBJ_32" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_32"
+            "OBJ_33"
+         );
+         name = "15-Cookie";
+         path = "Sources/15-Cookie";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_320" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_321" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_323" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_324",
+            "OBJ_325"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_324" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day23Turing_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day23Turing";
+         };
+         name = "Debug";
+      };
+      "OBJ_325" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day23Turing_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day23Turing";
+         };
+         name = "Release";
+      };
+      "OBJ_326" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_327"
+         );
+      };
+      "OBJ_327" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_328" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_329"
+         );
+      };
+      "OBJ_329" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_330" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_332" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_333",
+            "OBJ_334"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_333" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day24Balance_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day24Balance";
+         };
+         name = "Debug";
+      };
+      "OBJ_334" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day24Balance_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day24Balance";
+         };
+         name = "Release";
+      };
+      "OBJ_335" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_336"
+         );
+      };
+      "OBJ_336" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_337" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_338"
+         );
+      };
+      "OBJ_338" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_339" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_34" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_35"
+         );
+         name = "Day01Floors";
+         path = "Sources/Day01Floors";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_341" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_342",
+            "OBJ_343"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_342" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day25Snow_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day25Snow";
+         };
+         name = "Debug";
+      };
+      "OBJ_343" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day25Snow_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+               "@executable_path"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
+            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Day25Snow";
+         };
+         name = "Release";
+      };
+      "OBJ_344" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_345"
+         );
+      };
+      "OBJ_345" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_31";
+      };
+      "OBJ_346" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_347"
+         );
+      };
+      "OBJ_347" = {
+         isa = "PBXBuildFile";
+         fileRef = "AdventOfCode::AdventLib::Product";
+      };
+      "OBJ_348" = {
+         isa = "PBXTargetDependency";
+         target = "AdventOfCode::AdventLib";
+      };
+      "OBJ_35" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_36" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_37"
          );
          name = "07-Wires";
          path = "Sources/07-Wires";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_311" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_312",
-            "OBJ_313"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_312" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day22Wizard_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day22Wizard";
-         };
-         name = "Debug";
-      };
-      "OBJ_313" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day22Wizard_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day22Wizard";
-         };
-         name = "Release";
-      };
-      "OBJ_314" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_315"
-         );
-      };
-      "OBJ_315" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_316" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_317"
-         );
-      };
-      "OBJ_317" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_318" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_320" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_321",
-            "OBJ_322"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_321" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day23Turing_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day23Turing";
-         };
-         name = "Debug";
-      };
-      "OBJ_322" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day23Turing_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day23Turing";
-         };
-         name = "Release";
-      };
-      "OBJ_323" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_324"
-         );
-      };
-      "OBJ_324" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
-      };
-      "OBJ_325" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_326"
-         );
-      };
-      "OBJ_326" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_327" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_329" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_330",
-            "OBJ_331"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_33" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_34"
-         );
-         name = "02-Presents";
-         path = "Sources/02-Presents";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_330" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day24Balance_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day24Balance";
-         };
-         name = "Debug";
-      };
-      "OBJ_331" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "AdventOfCode.xcodeproj/Day24Balance_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
-               "@executable_path"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
-            SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Day24Balance";
-         };
-         name = "Release";
-      };
-      "OBJ_332" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_333"
-         );
-      };
-      "OBJ_333" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_22";
-      };
-      "OBJ_334" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_335"
-         );
-      };
-      "OBJ_335" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
-      };
-      "OBJ_336" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_35" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_36"
-         );
-         name = "06-Lights";
-         path = "Sources/06-Lights";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_37" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_38"
-         );
-         name = "10-LookAndSay";
-         path = "Sources/10-LookAndSay";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
       };
       "OBJ_38" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_39"
+         );
+         name = "Day20Elves";
+         path = "Sources/Day20Elves";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_39" = {
          isa = "PBXFileReference";
          path = "main.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_39" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_40"
-         );
-         name = "04-Hashing";
-         path = "Sources/04-Hashing";
-         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_4" = {
          isa = "XCBuildConfiguration";
@@ -3546,89 +3685,88 @@
          name = "Release";
       };
       "OBJ_40" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_41"
+         );
+         name = "05-Nice";
+         path = "Sources/05-Nice";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_41" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_42"
-         );
-         name = "Day01Floors";
-         path = "Sources/Day01Floors";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
       };
       "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_43"
+         );
+         name = "11-Passwords";
+         path = "Sources/11-Passwords";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_43" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_44"
-         );
-         name = "13-Seating";
-         path = "Sources/13-Seating";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
       };
       "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "main.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_45"
+         );
+         name = "04-Hashing";
+         path = "Sources/04-Hashing";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_45" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_46"
-         );
-         name = "12-JSON";
-         path = "Sources/12-JSON";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_46" = {
          isa = "PBXFileReference";
          path = "main.swift";
          sourceTree = "<group>";
       };
-      "OBJ_47" = {
+      "OBJ_46" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_48"
+            "OBJ_47",
+            "OBJ_48",
+            "OBJ_49",
+            "OBJ_50"
          );
-         name = "Day21RPG";
-         path = "Sources/Day21RPG";
+         name = "AdventLib";
+         path = "Sources/AdventLib";
          sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_47" = {
+         isa = "PBXFileReference";
+         path = "Array+Combos.swift";
+         sourceTree = "<group>";
       };
       "OBJ_48" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "Heap.swift";
          sourceTree = "<group>";
       };
       "OBJ_49" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_50"
-         );
-         name = "16-Sues";
-         path = "Sources/16-Sues";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Regex.swift";
+         sourceTree = "<group>";
       };
       "OBJ_5" = {
          isa = "PBXGroup";
          children = (
             "OBJ_6",
             "OBJ_7",
-            "OBJ_61",
-            "OBJ_64"
+            "OBJ_63",
+            "OBJ_66"
          );
          path = "";
          sourceTree = "<group>";
       };
       "OBJ_50" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "TextFile.swift";
          sourceTree = "<group>";
       };
       "OBJ_51" = {
@@ -3636,8 +3774,8 @@
          children = (
             "OBJ_52"
          );
-         name = "Day23Turing";
-         path = "Sources/Day23Turing";
+         name = "13-Seating";
+         path = "Sources/13-Seating";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_52" = {
@@ -3650,8 +3788,8 @@
          children = (
             "OBJ_54"
          );
-         name = "15-Cookie";
-         path = "Sources/15-Cookie";
+         name = "Day24Balance";
+         path = "Sources/Day24Balance";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_54" = {
@@ -3664,8 +3802,8 @@
          children = (
             "OBJ_56"
          );
-         name = "Day19Molecules";
-         path = "Sources/Day19Molecules";
+         name = "02-Presents";
+         path = "Sources/02-Presents";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_56" = {
@@ -3692,8 +3830,8 @@
          children = (
             "OBJ_60"
          );
-         name = "05-Nice";
-         path = "Sources/05-Nice";
+         name = "09-Routes";
+         path = "Sources/09-Routes";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_6" = {
@@ -3712,53 +3850,68 @@
          children = (
             "OBJ_62"
          );
+         name = "14-Reindeer";
+         path = "Sources/14-Reindeer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_63" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_64"
+         );
          name = "Tests";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_62" = {
+      "OBJ_64" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_63"
+            "OBJ_65"
          );
          name = "AdventLibTests";
          path = "Tests/AdventLibTests";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_63" = {
+      "OBJ_65" = {
          isa = "PBXFileReference";
          path = "ArrayComboTests.swift";
          sourceTree = "<group>";
       };
-      "OBJ_64" = {
+      "OBJ_66" = {
          isa = "PBXGroup";
          children = (
-            "AdventOfCode::Day23Turing::Product",
-            "AdventOfCode::04-Hashing::Product",
+            "AdventOfCode::Day20Elves::Product",
+            "AdventOfCode::Day01Floors::Product",
+            "AdventOfCode::18-GIF::Product",
             "AdventOfCode::17-Eggnog::Product",
-            "AdventOfCode::12-JSON::Product",
-            "AdventOfCode::AdventLib::Product",
-            "AdventOfCode::15-Cookie::Product",
-            "AdventOfCode::Day22Wizard::Product",
-            "AdventOfCode::07-Wires::Product",
+            "AdventOfCode::02-Presents::Product",
+            "AdventOfCode::08-Matchsticks::Product",
             "AdventOfCode::Day24Balance::Product",
+            "AdventOfCode::15-Cookie::Product",
+            "AdventOfCode::Day19Molecules::Product",
+            "AdventOfCode::03-Visits::Product",
+            "AdventOfCode::13-Seating::Product",
+            "AdventOfCode::Day22Wizard::Product",
+            "AdventOfCode::Day25Snow::Product",
+            "AdventOfCode::06-Lights::Product",
             "AdventOfCode::Day21RPG::Product",
             "AdventOfCode::09-Routes::Product",
-            "AdventOfCode::11-Passwords::Product",
-            "AdventOfCode::14-Reindeer::Product",
-            "AdventOfCode::10-LookAndSay::Product",
-            "AdventOfCode::Day19Molecules::Product",
-            "AdventOfCode::Day01Floors::Product",
-            "AdventOfCode::13-Seating::Product",
             "AdventOfCode::16-Sues::Product",
+            "AdventOfCode::10-LookAndSay::Product",
             "AdventOfCode::05-Nice::Product",
-            "AdventOfCode::18-GIF::Product",
-            "AdventOfCode::02-Presents::Product",
+            "AdventOfCode::07-Wires::Product",
+            "AdventOfCode::Day23Turing::Product",
+            "AdventOfCode::14-Reindeer::Product",
+            "AdventOfCode::AdventLib::Product",
             "AdventOfCode::AdventLibTests::Product",
-            "AdventOfCode::Day20Elves::Product",
-            "AdventOfCode::06-Lights::Product",
-            "AdventOfCode::08-Matchsticks::Product",
-            "AdventOfCode::03-Visits::Product"
+            "AdventOfCode::11-Passwords::Product",
+            "AdventOfCode::12-JSON::Product",
+            "AdventOfCode::04-Hashing::Product"
          );
          name = "Products";
          path = "";
@@ -3770,28 +3923,29 @@
             "OBJ_8",
             "OBJ_10",
             "OBJ_12",
-            "OBJ_17",
-            "OBJ_19",
-            "OBJ_21",
-            "OBJ_23",
-            "OBJ_25",
-            "OBJ_27",
-            "OBJ_29",
-            "OBJ_31",
-            "OBJ_33",
-            "OBJ_35",
-            "OBJ_37",
-            "OBJ_39",
-            "OBJ_41",
-            "OBJ_43",
-            "OBJ_45",
-            "OBJ_47",
-            "OBJ_49",
+            "OBJ_14",
+            "OBJ_16",
+            "OBJ_18",
+            "OBJ_20",
+            "OBJ_22",
+            "OBJ_24",
+            "OBJ_26",
+            "OBJ_28",
+            "OBJ_30",
+            "OBJ_32",
+            "OBJ_34",
+            "OBJ_36",
+            "OBJ_38",
+            "OBJ_40",
+            "OBJ_42",
+            "OBJ_44",
+            "OBJ_46",
             "OBJ_51",
             "OBJ_53",
             "OBJ_55",
             "OBJ_57",
-            "OBJ_59"
+            "OBJ_59",
+            "OBJ_61"
          );
          name = "Sources";
          path = "";
@@ -3802,8 +3956,8 @@
          children = (
             "OBJ_9"
          );
-         name = "Day22Wizard";
-         path = "Sources/Day22Wizard";
+         name = "16-Sues";
+         path = "Sources/16-Sues";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_9" = {
@@ -3811,16 +3965,16 @@
          path = "main.swift";
          sourceTree = "<group>";
       };
-      "OBJ_92" = {
+      "OBJ_95" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_93",
-            "OBJ_94"
+            "OBJ_96",
+            "OBJ_97"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_93" = {
+      "OBJ_96" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -3855,7 +4009,7 @@
          };
          name = "Debug";
       };
-      "OBJ_94" = {
+      "OBJ_97" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             FRAMEWORK_SEARCH_PATHS = (
@@ -3890,29 +4044,15 @@
          };
          name = "Release";
       };
-      "OBJ_95" = {
+      "OBJ_98" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_96"
+            "OBJ_99"
          );
-      };
-      "OBJ_96" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
-      };
-      "OBJ_97" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_98"
-         );
-      };
-      "OBJ_98" = {
-         isa = "PBXBuildFile";
-         fileRef = "AdventOfCode::AdventLib::Product";
       };
       "OBJ_99" = {
-         isa = "PBXTargetDependency";
-         target = "AdventOfCode::AdventLib";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
       };
    };
    rootObject = "OBJ_1";

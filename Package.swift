@@ -25,7 +25,8 @@ let targetNames = [
     "Day21RPG",
     "Day22Wizard",
     "Day23Turing",
-    "Day24Balance"
+    "Day24Balance",
+    "Day25Snow"
 ]
 
 let targets: [Target] = targetNames.map { name -> Target in
