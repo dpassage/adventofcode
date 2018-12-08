@@ -39,7 +39,7 @@ extension Array {
             return [[self[0]]]
         }
 
-        var result = Array<Array<Element>>()
+        var result = [[Element]]()
         for (index, item) in self.enumerated() {
             var remaining = self
             remaining.remove(at: index)

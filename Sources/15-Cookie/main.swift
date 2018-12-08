@@ -15,7 +15,9 @@ let inputStrings = TextFile.standardInput().readLines()
 
 for inputString in inputStrings {
 
-    let regex = try! Regex(pattern: "([a-zA-Z]+): capacity (-?\\d+), durability (-?\\d+), flavor (-?\\d+), texture (-?\\d+), calories (-?\\d+)")
+    let regex = try! Regex(pattern:
+        "([a-zA-Z]+): capacity (-?\\d+), durability (-?\\d+), flavor (-?\\d+), texture (-?\\d+), calories (-?\\d+)"
+    )
     guard let match = regex.match(input: inputString) else { continue }
 
     let name = match[0]

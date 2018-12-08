@@ -13,6 +13,7 @@ let targetNames = [
     "09-Routes",
     "10-LookAndSay",
     "11-Passwords",
+    "12-JSON",
     "13-Seating",
     "14-Reindeer",
     "15-Cookie",

@@ -16,8 +16,7 @@ struct Password: CustomStringConvertible {
 
         let scalars = input.unicodeScalars
         guard scalars.count <= 8 else { return nil }
-        self.value = scalars.map { $0.value }.map { $0 - 97 }.reduce(0) {
-            (sum: UInt64, next: UInt32) -> UInt64 in
+        self.value = scalars.map { $0.value }.map { $0 - 97 }.reduce(0) { (sum: UInt64, next: UInt32) -> UInt64 in
             return (sum * UInt64(26)) + UInt64(next)
         }
     }
@@ -29,12 +28,12 @@ struct Password: CustomStringConvertible {
     var text: String {
         var result: String.UnicodeScalarView = String.UnicodeScalarView()
 
-        var numbers = Array<UInt64>(repeating: 0, count: 8)
+        var numbers = [UInt64](repeating: 0, count: 8)
 
         var remainder = value
         for i in 0 ... 7 {
             numbers[i] = remainder % 26
-            remainder = remainder / 26
+            remainder /= 26
         }
         for i in [7, 6, 5, 4, 3, 2, 1, 0] {
             result.append(UnicodeScalar(UInt32(numbers[i] + 97))!)
@@ -49,7 +48,7 @@ struct Password: CustomStringConvertible {
 }
 
 func threeLetterStraight(input: String) -> Bool {
-    let chars = Array<UnicodeScalar>(input.unicodeScalars)
+    let chars = [UnicodeScalar](input.unicodeScalars)
     let length = chars.count
     guard length >= 3 else { return false }
 
@@ -73,7 +72,7 @@ func noIOorL(input: String) -> Bool {
 
 func hasTwoPairs(input: String) -> Bool {
     let regex = try! Regex(pattern: "^.*([a-z])\\1{1}.*([a-z])\\2{1}.*$")
-    if let _ = regex.match(input: input) {
+    if regex.match(input: input) != nil {
         return true
     }
     return false

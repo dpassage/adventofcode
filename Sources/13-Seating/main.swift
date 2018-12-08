@@ -4,7 +4,8 @@ import AdventLib
 var names = Set<String>()
 var distances = [String: Int]()
 
-let regex = try! Regex(pattern: "^([a-zA-Z]+) would (gain|lose) (\\d+) happiness units by sitting next to ([a-zA-Z]+)\\.")
+let regex = try! Regex(pattern:
+    "^([a-zA-Z]+) would (gain|lose) (\\d+) happiness units by sitting next to ([a-zA-Z]+)\\.")
 
 func readLine(input: String) {
     guard let match = regex.match(input: input) else { return }
@@ -42,7 +43,7 @@ extension Array {
             return [[self[0]]]
         }
 
-        var result = Array<Array<Element>>()
+        var result = [[Element]]()
         for (index, item) in self.enumerated() {
             var remaining = self
             remaining.remove(at: index)

@@ -43,7 +43,7 @@ let targetSue = [
     "goldfish": 5,
     "trees": 3,
     "cars": 2,
-    "perfumes": 1,
+    "perfumes": 1
 ]
 
 nextSue: for (index, sue) in sues {

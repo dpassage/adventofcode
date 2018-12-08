@@ -20,7 +20,6 @@ func doCount(input: String) -> (Int, Int) {
             switch after {
             case "\\", "\"":
                 code += 1
-                break
             case "x":
                 _ = gen.next()
                 _ = gen.next()

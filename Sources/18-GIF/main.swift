@@ -2,12 +2,12 @@ import Foundation
 import AdventLib
 
 struct LifeGrid {
-    private var backingStore: Array<Bool>
+    private var backingStore: [Bool]
     var rows: Int
     var columns: Int
 
     init(rows: Int, columns: Int, repeatedValue: Bool) {
-        backingStore = Array<Bool>(repeating: repeatedValue, count: rows * columns)
+        backingStore = [Bool](repeating: repeatedValue, count: rows * columns)
         self.rows = rows
         self.columns = columns
     }

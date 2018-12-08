@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::13-Seating"
-               BuildableName = "13-Seating"
-               BlueprintName = "13-Seating"
+               BlueprintIdentifier = "AdventOfCode::12-JSON"
+               BuildableName = "12-JSON"
+               BlueprintName = "12-JSON"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AdventOfCode::13-Seating"
-            BuildableName = "13-Seating"
-            BlueprintName = "13-Seating"
+            BlueprintIdentifier = "AdventOfCode::12-JSON"
+            BuildableName = "12-JSON"
+            BlueprintName = "12-JSON"
             ReferencedContainer = "container:AdventOfCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

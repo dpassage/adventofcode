@@ -1,4 +1,3 @@
-
 import AdventLib
 import Foundation
 
@@ -10,7 +9,7 @@ func findFits(buckets: [Int], capacity: Int) -> [[Int]] {
     }
 
     let top = buckets[0]
-    let remaining = Array<Int>(buckets.dropFirst())
+    let remaining = [Int](buckets.dropFirst())
 
     var result = [[Int]]()
 

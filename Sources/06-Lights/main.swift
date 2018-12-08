@@ -11,14 +11,11 @@ struct Rectangle {
     var finish: Light
 }
 
-// swiftlint:disable type_name
 enum CommandMode: String {
     case On = "on"
     case Off = "off"
     case Toggle = "toggle"
 }
-
-// swiftlint:enable type_name
 
 struct Command {
     var rectangle: Rectangle

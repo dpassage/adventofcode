@@ -12,6 +12,7 @@ enum Instr {
     case jie(Reg, Int)
     case jio(Reg, Int)
 
+    // swiftlint:disable cyclomatic_complexity
     init?(s: String) {
         let parts = s.split(separator: " ", maxSplits: 1, omittingEmptySubsequences: false)
         guard parts.count > 0 else { return nil }

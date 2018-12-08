@@ -97,13 +97,15 @@ struct GameState {
             newState.myPoints += 2
             return newState.check()
         case .shield:
-            // Shield costs 113 mana. It starts an effect that lasts for 6 turns. While it is active, your armor is increased by 7.
+            // Shield costs 113 mana. It starts an effect that lasts for 6 turns.
+            // While it is active, your armor is increased by 7.
             guard newState.myMana >= 113 && newState.shieldTurns == 0 else { return .playerLost }
             newState.spendMana(113)
             newState.shieldTurns = 6
             return newState.check()
         case .poison:
-            // Poison costs 173 mana. It starts an effect that lasts for 6 turns. At the start of each turn while it is active, it deals the boss 3 damage.
+            // Poison costs 173 mana. It starts an effect that lasts for 6 turns.
+            // At the start of each turn while it is active, it deals the boss 3 damage.
             guard newState.myMana >= 173 && newState.poisonTurns == 0 else { return .playerLost }
             newState.spendMana(173)
             newState.poisonTurns = 6

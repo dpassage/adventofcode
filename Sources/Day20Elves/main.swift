@@ -1,11 +1,9 @@
 import Foundation
 
-
-
 func firstHouseWithAtLeast(n: Int) -> Int {
     let target = n / 10
 
-    var houses = Array<Int>(repeating: 1, count: target)
+    var houses = [Int](repeating: 1, count: target)
 
     for elf in 2..<target {
         var i = elf
@@ -15,9 +13,7 @@ func firstHouseWithAtLeast(n: Int) -> Int {
         }
     }
     // find first
-    for i in 0..<target {
-        if houses[i] >= target { return i }
-    }
+    for i in 0..<target where houses[i] >= target { return i }
     return -1
 }
 
@@ -25,7 +21,7 @@ print(firstHouseWithAtLeast(n: 33100000))
 
 func elfTwo(limit n: Int) -> Int {
     let houseCount = n / 11
-    var houses = Array<Int>(repeating: 1, count: houseCount)
+    var houses = [Int](repeating: 1, count: houseCount)
 
     for elf in 1..<houseCount {
         var house = elf
@@ -38,9 +34,7 @@ func elfTwo(limit n: Int) -> Int {
     }
 
     // find first
-    for i in 0..<houseCount {
-        if houses[i] >= n { return i }
-    }
+    for i in 0..<houseCount where houses[i] >= n { return i }
     return -1
 }
 

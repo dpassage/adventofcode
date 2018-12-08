@@ -10,7 +10,6 @@ if CommandLine.arguments.count < 2 {
 
 let target = CommandLine.arguments[1]
 
-// swiftlint:disable type_name
 enum GateValue {
     case Value(UInt16)
     case Wire(String)
@@ -21,8 +20,6 @@ enum GateValue {
     case Rshift(String, UInt16)
     case AndOne(String)
 }
-
-// swiftlint:enable type_name
 
 func parseAsValue(input: String) -> GateValue? {
     let regex = try! AdventLib.Regex(pattern: "^(\\d+)$")

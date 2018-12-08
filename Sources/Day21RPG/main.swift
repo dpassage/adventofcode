@@ -33,7 +33,7 @@ let armors: [(Int, Int)] = [
     (102, 5)
 ]
 
-let rings: [(Int, Int, Int)] = [
+let rings: [(Int, Int, Int)] = [ // swiftlint:disable:this large_tuple
     /*
     Rings:      Cost  Damage  Armor
     Damage +1    25     1       0
@@ -78,7 +78,7 @@ struct Combatant {
     }
 }
 
-var ringChoices: [(Int, Int, Int)] = []
+var ringChoices: [(Int, Int, Int)] = [] // swiftlint:disable:this large_tuple
 ringChoices.append((0, 0, 0))
 ringChoices.append(contentsOf: rings)
 for i in 0..<(rings.count - 1) {

@@ -48,9 +48,7 @@ func containsRepeatedOneLetterBetween(string: String) -> Bool {
     let characters = Array(string)
     guard characters.count >= 3 else { return false }
 
-    for index in 0 ..< (characters.count - 2) {
-        if characters[index] == characters[index + 2] { return true }
-    }
+    for index in 0 ..< (characters.count - 2) where characters[index] == characters[index + 2] { return true }
     return false
 }
 

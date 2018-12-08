@@ -23,7 +23,8 @@ struct Reindeer {
     }
 }
 
-let regex = try! Regex(pattern: "^([a-zA-Z]+) can fly (\\d+) km/s for (\\d+) seconds, but then must rest for (\\d+) seconds.")
+let regex = try! Regex(pattern:
+    "^([a-zA-Z]+) can fly (\\d+) km/s for (\\d+) seconds, but then must rest for (\\d+) seconds.")
 
 let inputStrings = TextFile.standardInput().readLines()
 
