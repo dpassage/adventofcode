@@ -14,149 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day01Floors"
-               BuildableName = "Day01Floors"
-               BlueprintName = "Day01Floors"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::03-Visits"
-               BuildableName = "03-Visits"
-               BlueprintName = "03-Visits"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::11-Passwords"
-               BuildableName = "11-Passwords"
-               BlueprintName = "11-Passwords"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::05-Nice"
-               BuildableName = "05-Nice"
-               BlueprintName = "05-Nice"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day22Wizard"
-               BuildableName = "Day22Wizard"
-               BlueprintName = "Day22Wizard"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::AdventLib"
-               BuildableName = "AdventLib.framework"
-               BlueprintName = "AdventLib"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::09-Routes"
-               BuildableName = "09-Routes"
-               BlueprintName = "09-Routes"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::02-Presents"
-               BuildableName = "02-Presents"
-               BlueprintName = "02-Presents"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::07-Wires"
-               BuildableName = "07-Wires"
-               BlueprintName = "07-Wires"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::16-Sues"
-               BuildableName = "16-Sues"
-               BlueprintName = "16-Sues"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::15-Cookie"
-               BuildableName = "15-Cookie"
-               BlueprintName = "15-Cookie"
+               BlueprintIdentifier = "AdventOfCode::Day23Turing"
+               BuildableName = "Day23Turing"
+               BlueprintName = "Day23Turing"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -182,135 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::08-Matchsticks"
-               BuildableName = "08-Matchsticks"
-               BlueprintName = "08-Matchsticks"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::14-Reindeer"
-               BuildableName = "14-Reindeer"
-               BlueprintName = "14-Reindeer"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::17-Eggnog"
                BuildableName = "17-Eggnog"
                BlueprintName = "17-Eggnog"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day24Balance"
-               BuildableName = "Day24Balance"
-               BlueprintName = "Day24Balance"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::13-Seating"
-               BuildableName = "13-Seating"
-               BlueprintName = "13-Seating"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day19Molecules"
-               BuildableName = "Day19Molecules"
-               BlueprintName = "Day19Molecules"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day21RPG"
-               BuildableName = "Day21RPG"
-               BlueprintName = "Day21RPG"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::18-GIF"
-               BuildableName = "18-GIF"
-               BlueprintName = "18-GIF"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::10-LookAndSay"
-               BuildableName = "10-LookAndSay"
-               BlueprintName = "10-LookAndSay"
-               ReferencedContainer = "container:AdventOfCode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::06-Lights"
-               BuildableName = "06-Lights"
-               BlueprintName = "06-Lights"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -336,6 +70,244 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::AdventLib"
+               BuildableName = "AdventLib.framework"
+               BlueprintName = "AdventLib"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::15-Cookie"
+               BuildableName = "15-Cookie"
+               BlueprintName = "15-Cookie"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day22Wizard"
+               BuildableName = "Day22Wizard"
+               BlueprintName = "Day22Wizard"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::07-Wires"
+               BuildableName = "07-Wires"
+               BlueprintName = "07-Wires"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day24Balance"
+               BuildableName = "Day24Balance"
+               BlueprintName = "Day24Balance"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::11-Passwords"
+               BuildableName = "11-Passwords"
+               BlueprintName = "11-Passwords"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::09-Routes"
+               BuildableName = "09-Routes"
+               BlueprintName = "09-Routes"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day21RPG"
+               BuildableName = "Day21RPG"
+               BlueprintName = "Day21RPG"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::14-Reindeer"
+               BuildableName = "14-Reindeer"
+               BlueprintName = "14-Reindeer"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::10-LookAndSay"
+               BuildableName = "10-LookAndSay"
+               BlueprintName = "10-LookAndSay"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::18-GIF"
+               BuildableName = "18-GIF"
+               BlueprintName = "18-GIF"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day01Floors"
+               BuildableName = "Day01Floors"
+               BlueprintName = "Day01Floors"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::Day19Molecules"
+               BuildableName = "Day19Molecules"
+               BlueprintName = "Day19Molecules"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::16-Sues"
+               BuildableName = "16-Sues"
+               BlueprintName = "16-Sues"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::05-Nice"
+               BuildableName = "05-Nice"
+               BlueprintName = "05-Nice"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::13-Seating"
+               BuildableName = "13-Seating"
+               BlueprintName = "13-Seating"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::02-Presents"
+               BuildableName = "02-Presents"
+               BlueprintName = "02-Presents"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AdventOfCode::Day20Elves"
                BuildableName = "Day20Elves"
                BlueprintName = "Day20Elves"
@@ -350,9 +322,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AdventOfCode::Day23Turing"
-               BuildableName = "Day23Turing"
-               BlueprintName = "Day23Turing"
+               BlueprintIdentifier = "AdventOfCode::06-Lights"
+               BuildableName = "06-Lights"
+               BlueprintName = "06-Lights"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::08-Matchsticks"
+               BuildableName = "08-Matchsticks"
+               BlueprintName = "08-Matchsticks"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::03-Visits"
+               BuildableName = "03-Visits"
+               BlueprintName = "03-Visits"
                ReferencedContainer = "container:AdventOfCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -364,6 +364,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AdventOfCode::AdventLibTests"
+               BuildableName = "AdventLibTests.xctest"
+               BlueprintName = "AdventLibTests"
+               ReferencedContainer = "container:AdventOfCode.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -381,9 +391,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AdventOfCode::Day01Floors"
-            BuildableName = "Day01Floors"
-            BlueprintName = "Day01Floors"
+            BlueprintIdentifier = "AdventOfCode::Day23Turing"
+            BuildableName = "Day23Turing"
+            BlueprintName = "Day23Turing"
             ReferencedContainer = "container:AdventOfCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -35,7 +35,7 @@ let targets: [Target] = targetNames.map { name -> Target in
     )
 }
 
-let allTargets = targets + [Target.target(name: "AdventLib")]
+let allTargets = targets + [Target.target(name: "AdventLib"), Target.testTarget(name: "AdventLibTests", dependencies: ["AdventLib"])]
 
 let package = Package(name: "AdventOfCode",
                       targets: allTargets)
