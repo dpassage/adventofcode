@@ -1,4 +1,5 @@
 import Foundation
+import AdventLib
 
 let testInput = """
 1
@@ -12,88 +13,6 @@ let testInput = """
 10
 11
 """.components(separatedBy: "\n").compactMap(Int.init).sorted(by: >)
-
-print(testInput)
-struct Sleigh {
-    var front: [Int] = []
-    var left: [Int] = []
-    var right: [Int] = []
-
-    var frontPackages: Int { return front.count }
-    var quantumEntanglement: Int { return front.reduce(1, *) }
-
-    var balanced: Bool {
-        let frontWeight = front.reduce(0, +)
-        let leftWeight = left.reduce(0, +)
-        let rightWeight = right.reduce(0, +)
-        return frontWeight == leftWeight && frontWeight == rightWeight
-    }
-
-    func allBelow(limit: Int) -> Bool {
-        let frontWeight = front.reduce(0, +)
-        let leftWeight = left.reduce(0, +)
-        let rightWeight = right.reduce(0, +)
-
-        return frontWeight <= limit && leftWeight <= limit && rightWeight <= limit
-    }
-}
-
-// given a partially loaded sleigh and list of remaining packages, return all valid fully
-// loaded sleighs.
-
-func load(sleigh: Sleigh, remainingPackages: [Int], limit: Int) -> Sleigh? {
-    guard !remainingPackages.isEmpty else { return sleigh }
-    var remainingPackages = remainingPackages
-    let nextPackage = remainingPackages.removeFirst()
-
-    var result = [Sleigh]()
-    // The package can go in three places: front, left, right
-    var addedToFront = sleigh
-    addedToFront.front.append(nextPackage)
-    if addedToFront.allBelow(limit: limit) {
-        if let recur = load(sleigh: addedToFront, remainingPackages: remainingPackages, limit: limit) {
-            result.append(recur)
-        }
-    }
-
-    var addedToLeft = sleigh
-    addedToLeft.left.append(nextPackage)
-    if addedToLeft.allBelow(limit: limit) {
-        if let recur = load(sleigh: addedToLeft, remainingPackages: remainingPackages, limit: limit) {
-            result.append(recur)
-        }
-    }
-    var addedToRight = sleigh
-    addedToRight.right.append(nextPackage)
-    if addedToRight.allBelow(limit: limit) {
-        if let recur = load(sleigh: addedToRight, remainingPackages: remainingPackages, limit: limit) {
-            result.append(recur)
-        }
-    }
-
-    return result.sorted { (lhs, rhs) -> Bool in
-        if lhs.frontPackages == rhs.frontPackages {
-            return lhs.quantumEntanglement < rhs.quantumEntanglement
-        }
-        return lhs.frontPackages < rhs.frontPackages
-    }.first
-}
-
-
-func generate(packages: [Int]) -> Sleigh? {
-    let limit = packages.reduce(0, +) / 3
-
-    var remainingPackages = packages
-    let nextPackage = remainingPackages.removeFirst()
-
-    let front = Sleigh(front: [nextPackage], left: [], right: [])
-
-    let fronts = load(sleigh: front, remainingPackages: remainingPackages, limit: limit)
-    return fronts
-}
-
-let testLoads = generate(packages: testInput)
-print(testLoads!.quantumEntanglement)
 
 let day24packages = """
 1
@@ -126,6 +45,33 @@ let day24packages = """
 113
 """.components(separatedBy: "\n").compactMap(Int.init).sorted(by: >)
 
-let day24loads = generate(packages: day24packages)
+extension Array where Element == Int {
+    func sum() -> Int {
+        return self.reduce(0, +)
+    }
 
-print(day24loads!.quantumEntanglement)
+    func product() -> Int {
+        return self.reduce(1, *)
+    }
+}
+
+// returns -1 if nothing possible
+func bestLoad(packages: [Int], buckets: Int) -> Int {
+    let targetLoadSize = packages.sum() / buckets
+    guard packages.sum() % buckets == 0 else { return -1 }
+
+    for i in 1..<packages.count {
+        let combos = packages.combinations(n: i)
+        let correctlySized = combos.filter { $0.sum() == targetLoadSize }
+        let lowestProduct = correctlySized.map { $0.product() }.sorted()
+        if let result = lowestProduct.first { return result }
+    }
+
+    return -1
+}
+
+print(bestLoad(packages: testInput, buckets: 3))
+print(bestLoad(packages: day24packages, buckets: 3))
+
+print(bestLoad(packages: testInput, buckets: 4))
+print(bestLoad(packages: day24packages, buckets: 4))
