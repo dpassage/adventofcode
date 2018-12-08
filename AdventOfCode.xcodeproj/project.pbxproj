@@ -7,205 +7,205 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_102 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* main.swift */; };
-		OBJ_104 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_111 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* main.swift */; };
-		OBJ_113 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_120 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* main.swift */; };
-		OBJ_122 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_129 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* main.swift */; };
-		OBJ_131 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* main.swift */; };
-		OBJ_140 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_147 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* main.swift */; };
-		OBJ_149 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* main.swift */; };
-		OBJ_158 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_165 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* main.swift */; };
-		OBJ_167 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_174 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* main.swift */; };
-		OBJ_176 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_183 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* main.swift */; };
-		OBJ_185 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_192 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* main.swift */; };
-		OBJ_194 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_201 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* main.swift */; };
-		OBJ_203 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_210 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* main.swift */; };
-		OBJ_212 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_219 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* main.swift */; };
-		OBJ_221 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_228 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* main.swift */; };
-		OBJ_230 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_237 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* main.swift */; };
-		OBJ_239 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_246 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* main.swift */; };
-		OBJ_248 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_255 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* main.swift */; };
-		OBJ_257 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_264 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* main.swift */; };
-		OBJ_266 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_273 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
-		OBJ_275 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_282 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* main.swift */; };
-		OBJ_284 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
-		OBJ_290 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Heap.swift */; };
-		OBJ_291 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Regex.swift */; };
-		OBJ_292 /* TextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* TextFile.swift */; };
-		OBJ_86 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* main.swift */; };
-		OBJ_94 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_105 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* main.swift */; };
+		OBJ_107 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_114 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* main.swift */; };
+		OBJ_116 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_123 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* main.swift */; };
+		OBJ_125 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_132 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
+		OBJ_134 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_141 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* main.swift */; };
+		OBJ_143 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_150 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* main.swift */; };
+		OBJ_152 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_159 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
+		OBJ_161 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_168 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* main.swift */; };
+		OBJ_170 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_177 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* main.swift */; };
+		OBJ_179 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_186 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* main.swift */; };
+		OBJ_188 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_195 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* main.swift */; };
+		OBJ_197 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_204 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* main.swift */; };
+		OBJ_206 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_213 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
+		OBJ_215 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_222 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* main.swift */; };
+		OBJ_224 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_230 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Heap.swift */; };
+		OBJ_231 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Regex.swift */; };
+		OBJ_232 /* TextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* TextFile.swift */; };
+		OBJ_239 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_245 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* main.swift */; };
+		OBJ_247 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_254 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* main.swift */; };
+		OBJ_256 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_263 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* main.swift */; };
+		OBJ_265 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_272 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* main.swift */; };
+		OBJ_274 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_281 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* main.swift */; };
+		OBJ_283 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_290 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* main.swift */; };
+		OBJ_292 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* main.swift */; };
+		OBJ_88 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
+		OBJ_96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* main.swift */; };
+		OBJ_98 /* AdventLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AdventOfCode::AdventLib::Product" /* AdventLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B64B28E205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404921BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B28F205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404A21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B290205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404B21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B291205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404C21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B292205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404D21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B293205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404E21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B294205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15404F21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B295205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405021BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B296205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405121BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B297205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405221BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B298205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405321BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B299205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405421BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29A205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405521BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29B205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405621BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29C205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405721BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29D205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405821BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29E205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405921BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B29F205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405A21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B2A0205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405B21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B2A1205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405C21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B2A2205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405D21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "AdventOfCode::AdventLib";
 			remoteInfo = AdventLib;
 		};
-		6B64B2A3205C9B15002EC76D /* PBXContainerItemProxy */ = {
+		6B15405E21BC3AA600BEB038 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -231,22 +231,22 @@
 		"AdventOfCode::16-Sues::Product" /* 16-Sues */ = {isa = PBXFileReference; lastKnownFileType = text; path = "16-Sues"; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::17-Eggnog::Product" /* 17-Eggnog */ = {isa = PBXFileReference; lastKnownFileType = text; path = "17-Eggnog"; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::18-GIF::Product" /* 18-GIF */ = {isa = PBXFileReference; lastKnownFileType = text; path = "18-GIF"; sourceTree = BUILT_PRODUCTS_DIR; };
-		"AdventOfCode::AdventLib::Product" /* AdventLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AdventLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AdventOfCode::AdventLib::Product" /* AdventLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdventLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day01Floors::Product" /* Day01Floors */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day01Floors; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day19Molecules::Product" /* Day19Molecules */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day19Molecules; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day20Elves::Product" /* Day20Elves */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day20Elves; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day21RPG::Product" /* Day21RPG */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day21RPG; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day22Wizard::Product" /* Day22Wizard */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day22Wizard; sourceTree = BUILT_PRODUCTS_DIR; };
 		"AdventOfCode::Day23Turing::Product" /* Day23Turing */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day23Turing; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_10 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
-		OBJ_11 /* TextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
+		OBJ_11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_17 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		OBJ_25 /* TextFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
 		OBJ_27 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_31 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -263,293 +263,295 @@
 		OBJ_53 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_103 /* Frameworks */ = {
+		OBJ_106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_104 /* AdventLib.framework in Frameworks */,
+				OBJ_107 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_112 /* Frameworks */ = {
+		OBJ_115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_113 /* AdventLib.framework in Frameworks */,
+				OBJ_116 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_121 /* Frameworks */ = {
+		OBJ_124 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_122 /* AdventLib.framework in Frameworks */,
+				OBJ_125 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_130 /* Frameworks */ = {
+		OBJ_133 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_131 /* AdventLib.framework in Frameworks */,
+				OBJ_134 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_139 /* Frameworks */ = {
+		OBJ_142 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_140 /* AdventLib.framework in Frameworks */,
+				OBJ_143 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_148 /* Frameworks */ = {
+		OBJ_151 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_149 /* AdventLib.framework in Frameworks */,
+				OBJ_152 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_157 /* Frameworks */ = {
+		OBJ_160 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_158 /* AdventLib.framework in Frameworks */,
+				OBJ_161 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_166 /* Frameworks */ = {
+		OBJ_169 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_167 /* AdventLib.framework in Frameworks */,
+				OBJ_170 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_175 /* Frameworks */ = {
+		OBJ_178 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_176 /* AdventLib.framework in Frameworks */,
+				OBJ_179 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_184 /* Frameworks */ = {
+		OBJ_187 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_185 /* AdventLib.framework in Frameworks */,
+				OBJ_188 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_193 /* Frameworks */ = {
+		OBJ_196 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_194 /* AdventLib.framework in Frameworks */,
+				OBJ_197 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_202 /* Frameworks */ = {
+		OBJ_205 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_203 /* AdventLib.framework in Frameworks */,
+				OBJ_206 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_211 /* Frameworks */ = {
+		OBJ_214 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_212 /* AdventLib.framework in Frameworks */,
+				OBJ_215 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_220 /* Frameworks */ = {
+		OBJ_223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_221 /* AdventLib.framework in Frameworks */,
+				OBJ_224 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_229 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_230 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_238 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_239 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_247 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_248 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_256 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_257 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_265 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_266 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_274 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_275 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_283 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_284 /* AdventLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_293 /* Frameworks */ = {
+		OBJ_233 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_93 /* Frameworks */ = {
+		OBJ_246 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_94 /* AdventLib.framework in Frameworks */,
+				OBJ_247 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_256 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_265 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_274 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_283 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_292 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_88 /* AdventLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_98 /* AdventLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_12 /* Day01Floors */ = {
+		OBJ_10 /* 17-Eggnog */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* main.swift */,
-			);
-			name = Day01Floors;
-			path = Sources/Day01Floors;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_14 /* 02-Presents */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_15 /* main.swift */,
-			);
-			name = "02-Presents";
-			path = "Sources/02-Presents";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_16 /* 18-GIF */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_17 /* main.swift */,
-			);
-			name = "18-GIF";
-			path = "Sources/18-GIF";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_18 /* Day21RPG */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_19 /* main.swift */,
-			);
-			name = Day21RPG;
-			path = Sources/Day21RPG;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_20 /* 08-Matchsticks */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_21 /* main.swift */,
-			);
-			name = "08-Matchsticks";
-			path = "Sources/08-Matchsticks";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_22 /* 06-Lights */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_23 /* main.swift */,
-			);
-			name = "06-Lights";
-			path = "Sources/06-Lights";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_24 /* 17-Eggnog */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_25 /* main.swift */,
+				OBJ_11 /* main.swift */,
 			);
 			name = "17-Eggnog";
 			path = "Sources/17-Eggnog";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_26 /* 07-Wires */ = {
+		OBJ_12 /* Day19Molecules */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_27 /* main.swift */,
+				OBJ_13 /* main.swift */,
 			);
-			name = "07-Wires";
-			path = "Sources/07-Wires";
+			name = Day19Molecules;
+			path = Sources/Day19Molecules;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_28 /* Day20Elves */ = {
+		OBJ_14 /* 10-LookAndSay */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_29 /* main.swift */,
-			);
-			name = Day20Elves;
-			path = Sources/Day20Elves;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_30 /* 10-LookAndSay */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_31 /* main.swift */,
+				OBJ_15 /* main.swift */,
 			);
 			name = "10-LookAndSay";
 			path = "Sources/10-LookAndSay";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_32 /* Day19Molecules */ = {
+		OBJ_16 /* 16-Sues */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* main.swift */,
+			);
+			name = "16-Sues";
+			path = "Sources/16-Sues";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* 13-Seating */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* main.swift */,
+			);
+			name = "13-Seating";
+			path = "Sources/13-Seating";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Day22Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* main.swift */,
+			);
+			name = Day22Wizard;
+			path = Sources/Day22Wizard;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* AdventLib */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* Heap.swift */,
+				OBJ_24 /* Regex.swift */,
+				OBJ_25 /* TextFile.swift */,
+			);
+			name = AdventLib;
+			path = Sources/AdventLib;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* 06-Lights */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* main.swift */,
+			);
+			name = "06-Lights";
+			path = "Sources/06-Lights";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* 08-Matchsticks */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* main.swift */,
+			);
+			name = "08-Matchsticks";
+			path = "Sources/08-Matchsticks";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* 02-Presents */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* main.swift */,
+			);
+			name = "02-Presents";
+			path = "Sources/02-Presents";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_32 /* 11-Passwords */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_33 /* main.swift */,
 			);
-			name = Day19Molecules;
-			path = Sources/Day19Molecules;
+			name = "11-Passwords";
+			path = "Sources/11-Passwords";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_34 /* 14-Reindeer */ = {
@@ -561,67 +563,67 @@
 			path = "Sources/14-Reindeer";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_36 /* 13-Seating */ = {
+		OBJ_36 /* 15-Cookie */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_37 /* main.swift */,
 			);
-			name = "13-Seating";
-			path = "Sources/13-Seating";
+			name = "15-Cookie";
+			path = "Sources/15-Cookie";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_38 /* Day22Wizard */ = {
+		OBJ_38 /* 18-GIF */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_39 /* main.swift */,
 			);
-			name = Day22Wizard;
-			path = Sources/Day22Wizard;
+			name = "18-GIF";
+			path = "Sources/18-GIF";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_40 /* 11-Passwords */ = {
+		OBJ_40 /* Day01Floors */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_41 /* main.swift */,
 			);
-			name = "11-Passwords";
-			path = "Sources/11-Passwords";
+			name = Day01Floors;
+			path = Sources/Day01Floors;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_42 /* 16-Sues */ = {
+		OBJ_42 /* Day20Elves */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_43 /* main.swift */,
 			);
-			name = "16-Sues";
-			path = "Sources/16-Sues";
+			name = Day20Elves;
+			path = Sources/Day20Elves;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_44 /* Day23Turing */ = {
+		OBJ_44 /* 09-Routes */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_45 /* main.swift */,
-			);
-			name = Day23Turing;
-			path = Sources/Day23Turing;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_46 /* 09-Routes */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_47 /* main.swift */,
 			);
 			name = "09-Routes";
 			path = "Sources/09-Routes";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_48 /* 04-Hashing */ = {
+		OBJ_46 /* Day21RPG */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_47 /* main.swift */,
+			);
+			name = Day21RPG;
+			path = Sources/Day21RPG;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_48 /* 03-Visits */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_49 /* main.swift */,
 			);
-			name = "04-Hashing";
-			path = "Sources/04-Hashing";
+			name = "03-Visits";
+			path = "Sources/03-Visits";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_5 /*  */ = {
@@ -644,22 +646,22 @@
 			path = "Sources/05-Nice";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_52 /* 15-Cookie */ = {
+		OBJ_52 /* Day23Turing */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_53 /* main.swift */,
 			);
-			name = "15-Cookie";
-			path = "Sources/15-Cookie";
+			name = Day23Turing;
+			path = Sources/Day23Turing;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_54 /* 03-Visits */ = {
+		OBJ_54 /* 04-Hashing */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_55 /* main.swift */,
 			);
-			name = "03-Visits";
-			path = "Sources/03-Visits";
+			name = "04-Hashing";
+			path = "Sources/04-Hashing";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_56 /* Tests */ = {
@@ -672,27 +674,27 @@
 		OBJ_57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"AdventOfCode::03-Visits::Product" /* 03-Visits */,
-				"AdventOfCode::15-Cookie::Product" /* 15-Cookie */,
-				"AdventOfCode::05-Nice::Product" /* 05-Nice */,
-				"AdventOfCode::04-Hashing::Product" /* 04-Hashing */,
-				"AdventOfCode::09-Routes::Product" /* 09-Routes */,
-				"AdventOfCode::Day23Turing::Product" /* Day23Turing */,
 				"AdventOfCode::16-Sues::Product" /* 16-Sues */,
-				"AdventOfCode::11-Passwords::Product" /* 11-Passwords */,
-				"AdventOfCode::Day22Wizard::Product" /* Day22Wizard */,
-				"AdventOfCode::13-Seating::Product" /* 13-Seating */,
-				"AdventOfCode::14-Reindeer::Product" /* 14-Reindeer */,
-				"AdventOfCode::Day19Molecules::Product" /* Day19Molecules */,
-				"AdventOfCode::10-LookAndSay::Product" /* 10-LookAndSay */,
+				"AdventOfCode::15-Cookie::Product" /* 15-Cookie */,
 				"AdventOfCode::Day20Elves::Product" /* Day20Elves */,
-				"AdventOfCode::07-Wires::Product" /* 07-Wires */,
-				"AdventOfCode::17-Eggnog::Product" /* 17-Eggnog */,
 				"AdventOfCode::06-Lights::Product" /* 06-Lights */,
 				"AdventOfCode::08-Matchsticks::Product" /* 08-Matchsticks */,
-				"AdventOfCode::Day21RPG::Product" /* Day21RPG */,
-				"AdventOfCode::18-GIF::Product" /* 18-GIF */,
+				"AdventOfCode::07-Wires::Product" /* 07-Wires */,
+				"AdventOfCode::Day22Wizard::Product" /* Day22Wizard */,
+				"AdventOfCode::14-Reindeer::Product" /* 14-Reindeer */,
+				"AdventOfCode::Day23Turing::Product" /* Day23Turing */,
+				"AdventOfCode::11-Passwords::Product" /* 11-Passwords */,
 				"AdventOfCode::02-Presents::Product" /* 02-Presents */,
+				"AdventOfCode::13-Seating::Product" /* 13-Seating */,
+				"AdventOfCode::18-GIF::Product" /* 18-GIF */,
+				"AdventOfCode::Day21RPG::Product" /* Day21RPG */,
+				"AdventOfCode::04-Hashing::Product" /* 04-Hashing */,
+				"AdventOfCode::09-Routes::Product" /* 09-Routes */,
+				"AdventOfCode::10-LookAndSay::Product" /* 10-LookAndSay */,
+				"AdventOfCode::05-Nice::Product" /* 05-Nice */,
+				"AdventOfCode::Day19Molecules::Product" /* Day19Molecules */,
+				"AdventOfCode::17-Eggnog::Product" /* 17-Eggnog */,
+				"AdventOfCode::03-Visits::Product" /* 03-Visits */,
 				"AdventOfCode::Day01Floors::Product" /* Day01Floors */,
 				"AdventOfCode::AdventLib::Product" /* AdventLib.framework */,
 			);
@@ -702,42 +704,40 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* AdventLib */,
-				OBJ_12 /* Day01Floors */,
-				OBJ_14 /* 02-Presents */,
-				OBJ_16 /* 18-GIF */,
-				OBJ_18 /* Day21RPG */,
-				OBJ_20 /* 08-Matchsticks */,
-				OBJ_22 /* 06-Lights */,
-				OBJ_24 /* 17-Eggnog */,
-				OBJ_26 /* 07-Wires */,
-				OBJ_28 /* Day20Elves */,
-				OBJ_30 /* 10-LookAndSay */,
-				OBJ_32 /* Day19Molecules */,
+				OBJ_8 /* 07-Wires */,
+				OBJ_10 /* 17-Eggnog */,
+				OBJ_12 /* Day19Molecules */,
+				OBJ_14 /* 10-LookAndSay */,
+				OBJ_16 /* 16-Sues */,
+				OBJ_18 /* 13-Seating */,
+				OBJ_20 /* Day22Wizard */,
+				OBJ_22 /* AdventLib */,
+				OBJ_26 /* 06-Lights */,
+				OBJ_28 /* 08-Matchsticks */,
+				OBJ_30 /* 02-Presents */,
+				OBJ_32 /* 11-Passwords */,
 				OBJ_34 /* 14-Reindeer */,
-				OBJ_36 /* 13-Seating */,
-				OBJ_38 /* Day22Wizard */,
-				OBJ_40 /* 11-Passwords */,
-				OBJ_42 /* 16-Sues */,
-				OBJ_44 /* Day23Turing */,
-				OBJ_46 /* 09-Routes */,
-				OBJ_48 /* 04-Hashing */,
+				OBJ_36 /* 15-Cookie */,
+				OBJ_38 /* 18-GIF */,
+				OBJ_40 /* Day01Floors */,
+				OBJ_42 /* Day20Elves */,
+				OBJ_44 /* 09-Routes */,
+				OBJ_46 /* Day21RPG */,
+				OBJ_48 /* 03-Visits */,
 				OBJ_50 /* 05-Nice */,
-				OBJ_52 /* 15-Cookie */,
-				OBJ_54 /* 03-Visits */,
+				OBJ_52 /* Day23Turing */,
+				OBJ_54 /* 04-Hashing */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_8 /* AdventLib */ = {
+		OBJ_8 /* 07-Wires */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Heap.swift */,
-				OBJ_10 /* Regex.swift */,
-				OBJ_11 /* TextFile.swift */,
+				OBJ_9 /* main.swift */,
 			);
-			name = AdventLib;
-			path = Sources/AdventLib;
+			name = "07-Wires";
+			path = "Sources/07-Wires";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -745,15 +745,15 @@
 /* Begin PBXNativeTarget section */
 		"AdventOfCode::02-Presents" /* 02-Presents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_269 /* Build configuration list for PBXNativeTarget "02-Presents" */;
+			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "02-Presents" */;
 			buildPhases = (
-				OBJ_272 /* Sources */,
-				OBJ_274 /* Frameworks */,
+				OBJ_85 /* Sources */,
+				OBJ_87 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_276 /* PBXTargetDependency */,
+				OBJ_89 /* PBXTargetDependency */,
 			);
 			name = "02-Presents";
 			productName = _2_Presents;
@@ -762,15 +762,15 @@
 		};
 		"AdventOfCode::03-Visits" /* 03-Visits */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_88 /* Build configuration list for PBXNativeTarget "03-Visits" */;
+			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "03-Visits" */;
 			buildPhases = (
-				OBJ_91 /* Sources */,
-				OBJ_93 /* Frameworks */,
+				OBJ_95 /* Sources */,
+				OBJ_97 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_95 /* PBXTargetDependency */,
+				OBJ_99 /* PBXTargetDependency */,
 			);
 			name = "03-Visits";
 			productName = _3_Visits;
@@ -779,15 +779,15 @@
 		};
 		"AdventOfCode::04-Hashing" /* 04-Hashing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_116 /* Build configuration list for PBXNativeTarget "04-Hashing" */;
+			buildConfigurationList = OBJ_101 /* Build configuration list for PBXNativeTarget "04-Hashing" */;
 			buildPhases = (
-				OBJ_119 /* Sources */,
-				OBJ_121 /* Frameworks */,
+				OBJ_104 /* Sources */,
+				OBJ_106 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_123 /* PBXTargetDependency */,
+				OBJ_108 /* PBXTargetDependency */,
 			);
 			name = "04-Hashing";
 			productName = _4_Hashing;
@@ -796,15 +796,15 @@
 		};
 		"AdventOfCode::05-Nice" /* 05-Nice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_107 /* Build configuration list for PBXNativeTarget "05-Nice" */;
+			buildConfigurationList = OBJ_110 /* Build configuration list for PBXNativeTarget "05-Nice" */;
 			buildPhases = (
-				OBJ_110 /* Sources */,
-				OBJ_112 /* Frameworks */,
+				OBJ_113 /* Sources */,
+				OBJ_115 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_114 /* PBXTargetDependency */,
+				OBJ_117 /* PBXTargetDependency */,
 			);
 			name = "05-Nice";
 			productName = _5_Nice;
@@ -813,15 +813,15 @@
 		};
 		"AdventOfCode::06-Lights" /* 06-Lights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_233 /* Build configuration list for PBXNativeTarget "06-Lights" */;
+			buildConfigurationList = OBJ_119 /* Build configuration list for PBXNativeTarget "06-Lights" */;
 			buildPhases = (
-				OBJ_236 /* Sources */,
-				OBJ_238 /* Frameworks */,
+				OBJ_122 /* Sources */,
+				OBJ_124 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_240 /* PBXTargetDependency */,
+				OBJ_126 /* PBXTargetDependency */,
 			);
 			name = "06-Lights";
 			productName = _6_Lights;
@@ -830,15 +830,15 @@
 		};
 		"AdventOfCode::07-Wires" /* 07-Wires */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_215 /* Build configuration list for PBXNativeTarget "07-Wires" */;
+			buildConfigurationList = OBJ_128 /* Build configuration list for PBXNativeTarget "07-Wires" */;
 			buildPhases = (
-				OBJ_218 /* Sources */,
-				OBJ_220 /* Frameworks */,
+				OBJ_131 /* Sources */,
+				OBJ_133 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_222 /* PBXTargetDependency */,
+				OBJ_135 /* PBXTargetDependency */,
 			);
 			name = "07-Wires";
 			productName = _7_Wires;
@@ -847,15 +847,15 @@
 		};
 		"AdventOfCode::08-Matchsticks" /* 08-Matchsticks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_242 /* Build configuration list for PBXNativeTarget "08-Matchsticks" */;
+			buildConfigurationList = OBJ_137 /* Build configuration list for PBXNativeTarget "08-Matchsticks" */;
 			buildPhases = (
-				OBJ_245 /* Sources */,
-				OBJ_247 /* Frameworks */,
+				OBJ_140 /* Sources */,
+				OBJ_142 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_249 /* PBXTargetDependency */,
+				OBJ_144 /* PBXTargetDependency */,
 			);
 			name = "08-Matchsticks";
 			productName = _8_Matchsticks;
@@ -864,15 +864,15 @@
 		};
 		"AdventOfCode::09-Routes" /* 09-Routes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_125 /* Build configuration list for PBXNativeTarget "09-Routes" */;
+			buildConfigurationList = OBJ_146 /* Build configuration list for PBXNativeTarget "09-Routes" */;
 			buildPhases = (
-				OBJ_128 /* Sources */,
-				OBJ_130 /* Frameworks */,
+				OBJ_149 /* Sources */,
+				OBJ_151 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_132 /* PBXTargetDependency */,
+				OBJ_153 /* PBXTargetDependency */,
 			);
 			name = "09-Routes";
 			productName = _9_Routes;
@@ -881,15 +881,15 @@
 		};
 		"AdventOfCode::10-LookAndSay" /* 10-LookAndSay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_197 /* Build configuration list for PBXNativeTarget "10-LookAndSay" */;
+			buildConfigurationList = OBJ_155 /* Build configuration list for PBXNativeTarget "10-LookAndSay" */;
 			buildPhases = (
-				OBJ_200 /* Sources */,
-				OBJ_202 /* Frameworks */,
+				OBJ_158 /* Sources */,
+				OBJ_160 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_204 /* PBXTargetDependency */,
+				OBJ_162 /* PBXTargetDependency */,
 			);
 			name = "10-LookAndSay";
 			productName = _0_LookAndSay;
@@ -898,15 +898,15 @@
 		};
 		"AdventOfCode::11-Passwords" /* 11-Passwords */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_152 /* Build configuration list for PBXNativeTarget "11-Passwords" */;
+			buildConfigurationList = OBJ_164 /* Build configuration list for PBXNativeTarget "11-Passwords" */;
 			buildPhases = (
-				OBJ_155 /* Sources */,
-				OBJ_157 /* Frameworks */,
+				OBJ_167 /* Sources */,
+				OBJ_169 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_159 /* PBXTargetDependency */,
+				OBJ_171 /* PBXTargetDependency */,
 			);
 			name = "11-Passwords";
 			productName = _1_Passwords;
@@ -915,15 +915,15 @@
 		};
 		"AdventOfCode::13-Seating" /* 13-Seating */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_170 /* Build configuration list for PBXNativeTarget "13-Seating" */;
+			buildConfigurationList = OBJ_173 /* Build configuration list for PBXNativeTarget "13-Seating" */;
 			buildPhases = (
-				OBJ_173 /* Sources */,
-				OBJ_175 /* Frameworks */,
+				OBJ_176 /* Sources */,
+				OBJ_178 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_177 /* PBXTargetDependency */,
+				OBJ_180 /* PBXTargetDependency */,
 			);
 			name = "13-Seating";
 			productName = _3_Seating;
@@ -932,15 +932,15 @@
 		};
 		"AdventOfCode::14-Reindeer" /* 14-Reindeer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_179 /* Build configuration list for PBXNativeTarget "14-Reindeer" */;
+			buildConfigurationList = OBJ_182 /* Build configuration list for PBXNativeTarget "14-Reindeer" */;
 			buildPhases = (
-				OBJ_182 /* Sources */,
-				OBJ_184 /* Frameworks */,
+				OBJ_185 /* Sources */,
+				OBJ_187 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_186 /* PBXTargetDependency */,
+				OBJ_189 /* PBXTargetDependency */,
 			);
 			name = "14-Reindeer";
 			productName = _4_Reindeer;
@@ -949,15 +949,15 @@
 		};
 		"AdventOfCode::15-Cookie" /* 15-Cookie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "15-Cookie" */;
+			buildConfigurationList = OBJ_191 /* Build configuration list for PBXNativeTarget "15-Cookie" */;
 			buildPhases = (
-				OBJ_101 /* Sources */,
-				OBJ_103 /* Frameworks */,
+				OBJ_194 /* Sources */,
+				OBJ_196 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_105 /* PBXTargetDependency */,
+				OBJ_198 /* PBXTargetDependency */,
 			);
 			name = "15-Cookie";
 			productName = _5_Cookie;
@@ -966,15 +966,15 @@
 		};
 		"AdventOfCode::16-Sues" /* 16-Sues */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_143 /* Build configuration list for PBXNativeTarget "16-Sues" */;
+			buildConfigurationList = OBJ_200 /* Build configuration list for PBXNativeTarget "16-Sues" */;
 			buildPhases = (
-				OBJ_146 /* Sources */,
-				OBJ_148 /* Frameworks */,
+				OBJ_203 /* Sources */,
+				OBJ_205 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_150 /* PBXTargetDependency */,
+				OBJ_207 /* PBXTargetDependency */,
 			);
 			name = "16-Sues";
 			productName = _6_Sues;
@@ -983,15 +983,15 @@
 		};
 		"AdventOfCode::17-Eggnog" /* 17-Eggnog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_224 /* Build configuration list for PBXNativeTarget "17-Eggnog" */;
+			buildConfigurationList = OBJ_209 /* Build configuration list for PBXNativeTarget "17-Eggnog" */;
 			buildPhases = (
-				OBJ_227 /* Sources */,
-				OBJ_229 /* Frameworks */,
+				OBJ_212 /* Sources */,
+				OBJ_214 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_231 /* PBXTargetDependency */,
+				OBJ_216 /* PBXTargetDependency */,
 			);
 			name = "17-Eggnog";
 			productName = _7_Eggnog;
@@ -1000,15 +1000,15 @@
 		};
 		"AdventOfCode::18-GIF" /* 18-GIF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_260 /* Build configuration list for PBXNativeTarget "18-GIF" */;
+			buildConfigurationList = OBJ_218 /* Build configuration list for PBXNativeTarget "18-GIF" */;
 			buildPhases = (
-				OBJ_263 /* Sources */,
-				OBJ_265 /* Frameworks */,
+				OBJ_221 /* Sources */,
+				OBJ_223 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_267 /* PBXTargetDependency */,
+				OBJ_225 /* PBXTargetDependency */,
 			);
 			name = "18-GIF";
 			productName = _8_GIF;
@@ -1017,10 +1017,10 @@
 		};
 		"AdventOfCode::AdventLib" /* AdventLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_286 /* Build configuration list for PBXNativeTarget "AdventLib" */;
+			buildConfigurationList = OBJ_226 /* Build configuration list for PBXNativeTarget "AdventLib" */;
 			buildPhases = (
-				OBJ_289 /* Sources */,
-				OBJ_293 /* Frameworks */,
+				OBJ_229 /* Sources */,
+				OBJ_233 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1033,15 +1033,15 @@
 		};
 		"AdventOfCode::Day01Floors" /* Day01Floors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_278 /* Build configuration list for PBXNativeTarget "Day01Floors" */;
+			buildConfigurationList = OBJ_241 /* Build configuration list for PBXNativeTarget "Day01Floors" */;
 			buildPhases = (
-				OBJ_281 /* Sources */,
-				OBJ_283 /* Frameworks */,
+				OBJ_244 /* Sources */,
+				OBJ_246 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_285 /* PBXTargetDependency */,
+				OBJ_248 /* PBXTargetDependency */,
 			);
 			name = Day01Floors;
 			productName = Day01Floors;
@@ -1050,15 +1050,15 @@
 		};
 		"AdventOfCode::Day19Molecules" /* Day19Molecules */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_188 /* Build configuration list for PBXNativeTarget "Day19Molecules" */;
+			buildConfigurationList = OBJ_250 /* Build configuration list for PBXNativeTarget "Day19Molecules" */;
 			buildPhases = (
-				OBJ_191 /* Sources */,
-				OBJ_193 /* Frameworks */,
+				OBJ_253 /* Sources */,
+				OBJ_255 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_195 /* PBXTargetDependency */,
+				OBJ_257 /* PBXTargetDependency */,
 			);
 			name = Day19Molecules;
 			productName = Day19Molecules;
@@ -1067,15 +1067,15 @@
 		};
 		"AdventOfCode::Day20Elves" /* Day20Elves */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_206 /* Build configuration list for PBXNativeTarget "Day20Elves" */;
+			buildConfigurationList = OBJ_259 /* Build configuration list for PBXNativeTarget "Day20Elves" */;
 			buildPhases = (
-				OBJ_209 /* Sources */,
-				OBJ_211 /* Frameworks */,
+				OBJ_262 /* Sources */,
+				OBJ_264 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_213 /* PBXTargetDependency */,
+				OBJ_266 /* PBXTargetDependency */,
 			);
 			name = Day20Elves;
 			productName = Day20Elves;
@@ -1084,15 +1084,15 @@
 		};
 		"AdventOfCode::Day21RPG" /* Day21RPG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_251 /* Build configuration list for PBXNativeTarget "Day21RPG" */;
+			buildConfigurationList = OBJ_268 /* Build configuration list for PBXNativeTarget "Day21RPG" */;
 			buildPhases = (
-				OBJ_254 /* Sources */,
-				OBJ_256 /* Frameworks */,
+				OBJ_271 /* Sources */,
+				OBJ_273 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_258 /* PBXTargetDependency */,
+				OBJ_275 /* PBXTargetDependency */,
 			);
 			name = Day21RPG;
 			productName = Day21RPG;
@@ -1101,15 +1101,15 @@
 		};
 		"AdventOfCode::Day22Wizard" /* Day22Wizard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_161 /* Build configuration list for PBXNativeTarget "Day22Wizard" */;
+			buildConfigurationList = OBJ_277 /* Build configuration list for PBXNativeTarget "Day22Wizard" */;
 			buildPhases = (
-				OBJ_164 /* Sources */,
-				OBJ_166 /* Frameworks */,
+				OBJ_280 /* Sources */,
+				OBJ_282 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_168 /* PBXTargetDependency */,
+				OBJ_284 /* PBXTargetDependency */,
 			);
 			name = Day22Wizard;
 			productName = Day22Wizard;
@@ -1118,15 +1118,15 @@
 		};
 		"AdventOfCode::Day23Turing" /* Day23Turing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_134 /* Build configuration list for PBXNativeTarget "Day23Turing" */;
+			buildConfigurationList = OBJ_286 /* Build configuration list for PBXNativeTarget "Day23Turing" */;
 			buildPhases = (
-				OBJ_137 /* Sources */,
-				OBJ_139 /* Frameworks */,
+				OBJ_289 /* Sources */,
+				OBJ_291 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_141 /* PBXTargetDependency */,
+				OBJ_293 /* PBXTargetDependency */,
 			);
 			name = Day23Turing;
 			productName = Day23Turing;
@@ -1135,9 +1135,9 @@
 		};
 		"AdventOfCode::SwiftPMPackageDescription" /* AdventOfCodePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_82 /* Build configuration list for PBXNativeTarget "AdventOfCodePackageDescription" */;
+			buildConfigurationList = OBJ_235 /* Build configuration list for PBXNativeTarget "AdventOfCodePackageDescription" */;
 			buildPhases = (
-				OBJ_85 /* Sources */,
+				OBJ_238 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1153,7 +1153,7 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 9999;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "AdventOfCode" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1167,200 +1167,202 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"AdventOfCode::SwiftPMPackageDescription" /* AdventOfCodePackageDescription */,
+				"AdventOfCode::02-Presents" /* 02-Presents */,
 				"AdventOfCode::03-Visits" /* 03-Visits */,
-				"AdventOfCode::15-Cookie" /* 15-Cookie */,
-				"AdventOfCode::05-Nice" /* 05-Nice */,
 				"AdventOfCode::04-Hashing" /* 04-Hashing */,
+				"AdventOfCode::05-Nice" /* 05-Nice */,
+				"AdventOfCode::06-Lights" /* 06-Lights */,
+				"AdventOfCode::07-Wires" /* 07-Wires */,
+				"AdventOfCode::08-Matchsticks" /* 08-Matchsticks */,
 				"AdventOfCode::09-Routes" /* 09-Routes */,
-				"AdventOfCode::Day23Turing" /* Day23Turing */,
-				"AdventOfCode::16-Sues" /* 16-Sues */,
+				"AdventOfCode::10-LookAndSay" /* 10-LookAndSay */,
 				"AdventOfCode::11-Passwords" /* 11-Passwords */,
-				"AdventOfCode::Day22Wizard" /* Day22Wizard */,
 				"AdventOfCode::13-Seating" /* 13-Seating */,
 				"AdventOfCode::14-Reindeer" /* 14-Reindeer */,
-				"AdventOfCode::Day19Molecules" /* Day19Molecules */,
-				"AdventOfCode::10-LookAndSay" /* 10-LookAndSay */,
-				"AdventOfCode::Day20Elves" /* Day20Elves */,
-				"AdventOfCode::07-Wires" /* 07-Wires */,
+				"AdventOfCode::15-Cookie" /* 15-Cookie */,
+				"AdventOfCode::16-Sues" /* 16-Sues */,
 				"AdventOfCode::17-Eggnog" /* 17-Eggnog */,
-				"AdventOfCode::06-Lights" /* 06-Lights */,
-				"AdventOfCode::08-Matchsticks" /* 08-Matchsticks */,
-				"AdventOfCode::Day21RPG" /* Day21RPG */,
 				"AdventOfCode::18-GIF" /* 18-GIF */,
-				"AdventOfCode::02-Presents" /* 02-Presents */,
-				"AdventOfCode::Day01Floors" /* Day01Floors */,
 				"AdventOfCode::AdventLib" /* AdventLib */,
+				"AdventOfCode::SwiftPMPackageDescription" /* AdventOfCodePackageDescription */,
+				"AdventOfCode::Day01Floors" /* Day01Floors */,
+				"AdventOfCode::Day19Molecules" /* Day19Molecules */,
+				"AdventOfCode::Day20Elves" /* Day20Elves */,
+				"AdventOfCode::Day21RPG" /* Day21RPG */,
+				"AdventOfCode::Day22Wizard" /* Day22Wizard */,
+				"AdventOfCode::Day23Turing" /* Day23Turing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_101 /* Sources */ = {
+		OBJ_104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_102 /* main.swift in Sources */,
+				OBJ_105 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_110 /* Sources */ = {
+		OBJ_113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_111 /* main.swift in Sources */,
+				OBJ_114 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_119 /* Sources */ = {
+		OBJ_122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_120 /* main.swift in Sources */,
+				OBJ_123 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_128 /* Sources */ = {
+		OBJ_131 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_129 /* main.swift in Sources */,
+				OBJ_132 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_137 /* Sources */ = {
+		OBJ_140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_138 /* main.swift in Sources */,
+				OBJ_141 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_146 /* Sources */ = {
+		OBJ_149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_147 /* main.swift in Sources */,
+				OBJ_150 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_155 /* Sources */ = {
+		OBJ_158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_156 /* main.swift in Sources */,
+				OBJ_159 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_164 /* Sources */ = {
+		OBJ_167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_165 /* main.swift in Sources */,
+				OBJ_168 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_173 /* Sources */ = {
+		OBJ_176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_174 /* main.swift in Sources */,
+				OBJ_177 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_182 /* Sources */ = {
+		OBJ_185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_183 /* main.swift in Sources */,
+				OBJ_186 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_191 /* Sources */ = {
+		OBJ_194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_192 /* main.swift in Sources */,
+				OBJ_195 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_200 /* Sources */ = {
+		OBJ_203 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_201 /* main.swift in Sources */,
+				OBJ_204 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_209 /* Sources */ = {
+		OBJ_212 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_210 /* main.swift in Sources */,
+				OBJ_213 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_218 /* Sources */ = {
+		OBJ_221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_219 /* main.swift in Sources */,
+				OBJ_222 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_227 /* Sources */ = {
+		OBJ_229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_228 /* main.swift in Sources */,
+				OBJ_230 /* Heap.swift in Sources */,
+				OBJ_231 /* Regex.swift in Sources */,
+				OBJ_232 /* TextFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_236 /* Sources */ = {
+		OBJ_238 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_237 /* main.swift in Sources */,
+				OBJ_239 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_245 /* Sources */ = {
+		OBJ_244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_246 /* main.swift in Sources */,
+				OBJ_245 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_254 /* Sources */ = {
+		OBJ_253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_255 /* main.swift in Sources */,
+				OBJ_254 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_263 /* Sources */ = {
+		OBJ_262 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_264 /* main.swift in Sources */,
+				OBJ_263 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_272 /* Sources */ = {
+		OBJ_271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_273 /* main.swift in Sources */,
+				OBJ_272 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_281 /* Sources */ = {
+		OBJ_280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_282 /* main.swift in Sources */,
+				OBJ_281 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1368,9 +1370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_290 /* Heap.swift in Sources */,
-				OBJ_291 /* Regex.swift in Sources */,
-				OBJ_292 /* TextFile.swift in Sources */,
+				OBJ_290 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1378,135 +1378,555 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_86 /* Package.swift in Sources */,
+				OBJ_86 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_91 /* Sources */ = {
+		OBJ_95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_92 /* main.swift in Sources */,
+				OBJ_96 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_105 /* PBXTargetDependency */ = {
+		OBJ_108 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B28F205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405521BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_114 /* PBXTargetDependency */ = {
+		OBJ_117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B290205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405021BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_123 /* PBXTargetDependency */ = {
+		OBJ_126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B291205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404D21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_132 /* PBXTargetDependency */ = {
+		OBJ_135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B292205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405721BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_141 /* PBXTargetDependency */ = {
+		OBJ_144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B293205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404C21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_150 /* PBXTargetDependency */ = {
+		OBJ_153 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B294205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405421BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_159 /* PBXTargetDependency */ = {
+		OBJ_162 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B295205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405D21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_168 /* PBXTargetDependency */ = {
+		OBJ_171 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B296205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405921BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_177 /* PBXTargetDependency */ = {
+		OBJ_180 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B297205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405B21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_186 /* PBXTargetDependency */ = {
+		OBJ_189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B298205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405821BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_195 /* PBXTargetDependency */ = {
+		OBJ_198 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B299205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404B21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_204 /* PBXTargetDependency */ = {
+		OBJ_207 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29A205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405121BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_213 /* PBXTargetDependency */ = {
+		OBJ_216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29B205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405E21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_222 /* PBXTargetDependency */ = {
+		OBJ_225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29C205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405221BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_231 /* PBXTargetDependency */ = {
+		OBJ_248 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29D205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404F21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_240 /* PBXTargetDependency */ = {
+		OBJ_257 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29E205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404921BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_249 /* PBXTargetDependency */ = {
+		OBJ_266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B29F205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405621BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_258 /* PBXTargetDependency */ = {
+		OBJ_275 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B2A0205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405C21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_267 /* PBXTargetDependency */ = {
+		OBJ_284 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B2A1205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404A21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_276 /* PBXTargetDependency */ = {
+		OBJ_293 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B2A2205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405321BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_285 /* PBXTargetDependency */ = {
+		OBJ_89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B2A3205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15405A21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
-		OBJ_95 /* PBXTargetDependency */ = {
+		OBJ_99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "AdventOfCode::AdventLib" /* AdventLib */;
-			targetProxy = 6B64B28E205C9B15002EC76D /* PBXContainerItemProxy */;
+			targetProxy = 6B15404E21BC3AA600BEB038 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_100 /* Release */ = {
+		OBJ_102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Hashing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "04-Hashing";
+			};
+			name = Debug;
+		};
+		OBJ_103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Hashing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "04-Hashing";
+			};
+			name = Release;
+		};
+		OBJ_111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Nice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "05-Nice";
+			};
+			name = Debug;
+		};
+		OBJ_112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Nice_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "05-Nice";
+			};
+			name = Release;
+		};
+		OBJ_120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Lights_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "06-Lights";
+			};
+			name = Debug;
+		};
+		OBJ_121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Lights_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "06-Lights";
+			};
+			name = Release;
+		};
+		OBJ_129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Wires_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "07-Wires";
+			};
+			name = Debug;
+		};
+		OBJ_130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Wires_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "07-Wires";
+			};
+			name = Release;
+		};
+		OBJ_138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "08-Matchsticks";
+			};
+			name = Debug;
+		};
+		OBJ_139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "08-Matchsticks";
+			};
+			name = Release;
+		};
+		OBJ_147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_9_Routes_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "09-Routes";
+			};
+			name = Debug;
+		};
+		OBJ_148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_9_Routes_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "09-Routes";
+			};
+			name = Release;
+		};
+		OBJ_156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "10-LookAndSay";
+			};
+			name = Debug;
+		};
+		OBJ_157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "10-LookAndSay";
+			};
+			name = Release;
+		};
+		OBJ_165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_1_Passwords_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "11-Passwords";
+			};
+			name = Debug;
+		};
+		OBJ_166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_1_Passwords_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "11-Passwords";
+			};
+			name = Release;
+		};
+		OBJ_174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Seating_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "13-Seating";
+			};
+			name = Debug;
+		};
+		OBJ_175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Seating_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "13-Seating";
+			};
+			name = Release;
+		};
+		OBJ_183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Reindeer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "14-Reindeer";
+			};
+			name = Debug;
+		};
+		OBJ_184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Reindeer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "14-Reindeer";
+			};
+			name = Release;
+		};
+		OBJ_192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1515,169 +1935,40 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Cookie_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "15-Cookie";
+			};
+			name = Debug;
+		};
+		OBJ_193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Cookie_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "15-Cookie";
 			};
 			name = Release;
 		};
-		OBJ_108 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Nice_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "05-Nice";
-			};
-			name = Debug;
-		};
-		OBJ_109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Nice_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "05-Nice";
-			};
-			name = Release;
-		};
-		OBJ_117 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Hashing_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "04-Hashing";
-			};
-			name = Debug;
-		};
-		OBJ_118 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Hashing_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "04-Hashing";
-			};
-			name = Release;
-		};
-		OBJ_126 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_9_Routes_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "09-Routes";
-			};
-			name = Debug;
-		};
-		OBJ_127 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_9_Routes_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "09-Routes";
-			};
-			name = Release;
-		};
-		OBJ_135 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day23Turing_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day23Turing;
-			};
-			name = Debug;
-		};
-		OBJ_136 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day23Turing_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day23Turing;
-			};
-			name = Release;
-		};
-		OBJ_144 /* Debug */ = {
+		OBJ_201 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1686,17 +1977,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Sues_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "16-Sues";
 			};
 			name = Debug;
 		};
-		OBJ_145 /* Release */ = {
+		OBJ_202 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1705,321 +1998,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Sues_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "16-Sues";
 			};
 			name = Release;
 		};
-		OBJ_153 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_1_Passwords_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "11-Passwords";
-			};
-			name = Debug;
-		};
-		OBJ_154 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_1_Passwords_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "11-Passwords";
-			};
-			name = Release;
-		};
-		OBJ_162 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day22Wizard_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day22Wizard;
-			};
-			name = Debug;
-		};
-		OBJ_163 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day22Wizard_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day22Wizard;
-			};
-			name = Release;
-		};
-		OBJ_171 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Seating_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "13-Seating";
-			};
-			name = Debug;
-		};
-		OBJ_172 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Seating_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "13-Seating";
-			};
-			name = Release;
-		};
-		OBJ_180 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Reindeer_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "14-Reindeer";
-			};
-			name = Debug;
-		};
-		OBJ_181 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_4_Reindeer_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "14-Reindeer";
-			};
-			name = Release;
-		};
-		OBJ_189 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day19Molecules_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day19Molecules;
-			};
-			name = Debug;
-		};
-		OBJ_190 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day19Molecules_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day19Molecules;
-			};
-			name = Release;
-		};
-		OBJ_198 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "10-LookAndSay";
-			};
-			name = Debug;
-		};
-		OBJ_199 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_0_LookAndSay_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "10-LookAndSay";
-			};
-			name = Release;
-		};
-		OBJ_207 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day20Elves_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day20Elves;
-			};
-			name = Debug;
-		};
-		OBJ_208 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day20Elves_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day20Elves;
-			};
-			name = Release;
-		};
-		OBJ_216 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Wires_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "07-Wires";
-			};
-			name = Debug;
-		};
-		OBJ_217 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Wires_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "07-Wires";
-			};
-			name = Release;
-		};
-		OBJ_225 /* Debug */ = {
+		OBJ_210 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2028,17 +2019,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Eggnog_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "17-Eggnog";
 			};
 			name = Debug;
 		};
-		OBJ_226 /* Release */ = {
+		OBJ_211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2047,131 +2040,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_7_Eggnog_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "17-Eggnog";
 			};
 			name = Release;
 		};
-		OBJ_234 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Lights_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "06-Lights";
-			};
-			name = Debug;
-		};
-		OBJ_235 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_6_Lights_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "06-Lights";
-			};
-			name = Release;
-		};
-		OBJ_243 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "08-Matchsticks";
-			};
-			name = Debug;
-		};
-		OBJ_244 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_Matchsticks_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "08-Matchsticks";
-			};
-			name = Release;
-		};
-		OBJ_252 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day21RPG_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day21RPG;
-			};
-			name = Debug;
-		};
-		OBJ_253 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day21RPG_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Day21RPG;
-			};
-			name = Release;
-		};
-		OBJ_261 /* Debug */ = {
+		OBJ_219 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2180,17 +2061,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_GIF_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "18-GIF";
 			};
 			name = Debug;
 		};
-		OBJ_262 /* Release */ = {
+		OBJ_220 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2199,55 +2082,85 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_8_GIF_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "18-GIF";
 			};
 			name = Release;
 		};
-		OBJ_270 /* Debug */ = {
+		OBJ_227 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_2_Presents_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/AdventLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "02-Presents";
+				PRODUCT_BUNDLE_IDENTIFIER = AdventLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = AdventLib;
 			};
 			name = Debug;
 		};
-		OBJ_271 /* Release */ = {
+		OBJ_228 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_2_Presents_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/AdventLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "02-Presents";
+				PRODUCT_BUNDLE_IDENTIFIER = AdventLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = AdventLib;
 			};
 			name = Release;
 		};
-		OBJ_279 /* Debug */ = {
+		OBJ_236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_242 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2256,17 +2169,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day01Floors_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Day01Floors;
 			};
 			name = Debug;
 		};
-		OBJ_280 /* Release */ = {
+		OBJ_243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2275,57 +2190,225 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day01Floors_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = Day01Floors;
+			};
+			name = Release;
+		};
+		OBJ_251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day19Molecules_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day19Molecules;
+			};
+			name = Debug;
+		};
+		OBJ_252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day19Molecules_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day19Molecules;
+			};
+			name = Release;
+		};
+		OBJ_260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day20Elves_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day20Elves;
+			};
+			name = Debug;
+		};
+		OBJ_261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day20Elves_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day20Elves;
+			};
+			name = Release;
+		};
+		OBJ_269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day21RPG_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day21RPG;
+			};
+			name = Debug;
+		};
+		OBJ_270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day21RPG_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day21RPG;
+			};
+			name = Release;
+		};
+		OBJ_278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day22Wizard_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day22Wizard;
+			};
+			name = Debug;
+		};
+		OBJ_279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day22Wizard_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day22Wizard;
 			};
 			name = Release;
 		};
 		OBJ_287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/AdventLib_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day23Turing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AdventLib;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = AdventLib;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day23Turing;
 			};
 			name = Debug;
 		};
 		OBJ_288 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/AdventLib_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/Day23Turing_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = AdventLib;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = AdventLib;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Day23Turing;
 			};
 			name = Release;
 		};
@@ -2333,19 +2416,49 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
@@ -2355,11 +2468,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2374,22 +2512,46 @@
 		OBJ_83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_2_Presents_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "02-Presents";
 			};
 			name = Debug;
 		};
 		OBJ_84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AdventOfCode.xcodeproj/_2_Presents_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = "02-Presents";
 			};
 			name = Release;
 		};
-		OBJ_89 /* Debug */ = {
+		OBJ_93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2398,17 +2560,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Visits_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "03-Visits";
 			};
 			name = Debug;
 		};
-		OBJ_90 /* Release */ = {
+		OBJ_94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2417,136 +2581,119 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AdventOfCode.xcodeproj/_3_Visits_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGET_NAME = "03-Visits";
 			};
 			name = Release;
-		};
-		OBJ_99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = AdventOfCode.xcodeproj/_5_Cookie_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = "15-Cookie";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_107 /* Build configuration list for PBXNativeTarget "05-Nice" */ = {
+		OBJ_101 /* Build configuration list for PBXNativeTarget "04-Hashing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_108 /* Debug */,
-				OBJ_109 /* Release */,
+				OBJ_102 /* Debug */,
+				OBJ_103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_116 /* Build configuration list for PBXNativeTarget "04-Hashing" */ = {
+		OBJ_110 /* Build configuration list for PBXNativeTarget "05-Nice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_117 /* Debug */,
-				OBJ_118 /* Release */,
+				OBJ_111 /* Debug */,
+				OBJ_112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_125 /* Build configuration list for PBXNativeTarget "09-Routes" */ = {
+		OBJ_119 /* Build configuration list for PBXNativeTarget "06-Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_126 /* Debug */,
-				OBJ_127 /* Release */,
+				OBJ_120 /* Debug */,
+				OBJ_121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_134 /* Build configuration list for PBXNativeTarget "Day23Turing" */ = {
+		OBJ_128 /* Build configuration list for PBXNativeTarget "07-Wires" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_135 /* Debug */,
-				OBJ_136 /* Release */,
+				OBJ_129 /* Debug */,
+				OBJ_130 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_143 /* Build configuration list for PBXNativeTarget "16-Sues" */ = {
+		OBJ_137 /* Build configuration list for PBXNativeTarget "08-Matchsticks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_144 /* Debug */,
-				OBJ_145 /* Release */,
+				OBJ_138 /* Debug */,
+				OBJ_139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_152 /* Build configuration list for PBXNativeTarget "11-Passwords" */ = {
+		OBJ_146 /* Build configuration list for PBXNativeTarget "09-Routes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_153 /* Debug */,
-				OBJ_154 /* Release */,
+				OBJ_147 /* Debug */,
+				OBJ_148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_161 /* Build configuration list for PBXNativeTarget "Day22Wizard" */ = {
+		OBJ_155 /* Build configuration list for PBXNativeTarget "10-LookAndSay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_162 /* Debug */,
-				OBJ_163 /* Release */,
+				OBJ_156 /* Debug */,
+				OBJ_157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_170 /* Build configuration list for PBXNativeTarget "13-Seating" */ = {
+		OBJ_164 /* Build configuration list for PBXNativeTarget "11-Passwords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_171 /* Debug */,
-				OBJ_172 /* Release */,
+				OBJ_165 /* Debug */,
+				OBJ_166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_179 /* Build configuration list for PBXNativeTarget "14-Reindeer" */ = {
+		OBJ_173 /* Build configuration list for PBXNativeTarget "13-Seating" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_180 /* Debug */,
-				OBJ_181 /* Release */,
+				OBJ_174 /* Debug */,
+				OBJ_175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_188 /* Build configuration list for PBXNativeTarget "Day19Molecules" */ = {
+		OBJ_182 /* Build configuration list for PBXNativeTarget "14-Reindeer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_189 /* Debug */,
-				OBJ_190 /* Release */,
+				OBJ_183 /* Debug */,
+				OBJ_184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_197 /* Build configuration list for PBXNativeTarget "10-LookAndSay" */ = {
+		OBJ_191 /* Build configuration list for PBXNativeTarget "15-Cookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_198 /* Debug */,
-				OBJ_199 /* Release */,
+				OBJ_192 /* Debug */,
+				OBJ_193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		OBJ_2 /* Build configuration list for PBXProject "AdventOfCode" */ = {
 			isa = XCConfigurationList;
@@ -2555,124 +2702,124 @@
 				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_206 /* Build configuration list for PBXNativeTarget "Day20Elves" */ = {
+		OBJ_200 /* Build configuration list for PBXNativeTarget "16-Sues" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_207 /* Debug */,
-				OBJ_208 /* Release */,
+				OBJ_201 /* Debug */,
+				OBJ_202 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_215 /* Build configuration list for PBXNativeTarget "07-Wires" */ = {
+		OBJ_209 /* Build configuration list for PBXNativeTarget "17-Eggnog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_216 /* Debug */,
-				OBJ_217 /* Release */,
+				OBJ_210 /* Debug */,
+				OBJ_211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_224 /* Build configuration list for PBXNativeTarget "17-Eggnog" */ = {
+		OBJ_218 /* Build configuration list for PBXNativeTarget "18-GIF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_225 /* Debug */,
-				OBJ_226 /* Release */,
+				OBJ_219 /* Debug */,
+				OBJ_220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_233 /* Build configuration list for PBXNativeTarget "06-Lights" */ = {
+		OBJ_226 /* Build configuration list for PBXNativeTarget "AdventLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_234 /* Debug */,
-				OBJ_235 /* Release */,
+				OBJ_227 /* Debug */,
+				OBJ_228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_242 /* Build configuration list for PBXNativeTarget "08-Matchsticks" */ = {
+		OBJ_235 /* Build configuration list for PBXNativeTarget "AdventOfCodePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_243 /* Debug */,
-				OBJ_244 /* Release */,
+				OBJ_236 /* Debug */,
+				OBJ_237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_251 /* Build configuration list for PBXNativeTarget "Day21RPG" */ = {
+		OBJ_241 /* Build configuration list for PBXNativeTarget "Day01Floors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_252 /* Debug */,
-				OBJ_253 /* Release */,
+				OBJ_242 /* Debug */,
+				OBJ_243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_260 /* Build configuration list for PBXNativeTarget "18-GIF" */ = {
+		OBJ_250 /* Build configuration list for PBXNativeTarget "Day19Molecules" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_261 /* Debug */,
-				OBJ_262 /* Release */,
+				OBJ_251 /* Debug */,
+				OBJ_252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_269 /* Build configuration list for PBXNativeTarget "02-Presents" */ = {
+		OBJ_259 /* Build configuration list for PBXNativeTarget "Day20Elves" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_270 /* Debug */,
-				OBJ_271 /* Release */,
+				OBJ_260 /* Debug */,
+				OBJ_261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_278 /* Build configuration list for PBXNativeTarget "Day01Floors" */ = {
+		OBJ_268 /* Build configuration list for PBXNativeTarget "Day21RPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_279 /* Debug */,
-				OBJ_280 /* Release */,
+				OBJ_269 /* Debug */,
+				OBJ_270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_286 /* Build configuration list for PBXNativeTarget "AdventLib" */ = {
+		OBJ_277 /* Build configuration list for PBXNativeTarget "Day22Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_278 /* Debug */,
+				OBJ_279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_286 /* Build configuration list for PBXNativeTarget "Day23Turing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_287 /* Debug */,
 				OBJ_288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_82 /* Build configuration list for PBXNativeTarget "AdventOfCodePackageDescription" */ = {
+		OBJ_82 /* Build configuration list for PBXNativeTarget "02-Presents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_83 /* Debug */,
 				OBJ_84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		OBJ_88 /* Build configuration list for PBXNativeTarget "03-Visits" */ = {
+		OBJ_92 /* Build configuration list for PBXNativeTarget "03-Visits" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_89 /* Debug */,
-				OBJ_90 /* Release */,
+				OBJ_93 /* Debug */,
+				OBJ_94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_98 /* Build configuration list for PBXNativeTarget "15-Cookie" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_99 /* Debug */,
-				OBJ_100 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

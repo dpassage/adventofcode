@@ -67,7 +67,7 @@ class Machine {
     init(program: String) {
         instructions = program.split(separator: "\n")
                             .map(String.init)
-                            .flatMap(Instr.init)
+                            .compactMap(Instr.init)
     }
 
     func reset() {
